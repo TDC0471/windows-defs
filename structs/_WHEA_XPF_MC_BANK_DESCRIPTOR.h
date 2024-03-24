@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_XPF_MC_BANK_FLAGS.h>
+
 //0x1c bytes (sizeof)
 struct _WHEA_XPF_MC_BANK_DESCRIPTOR
 {

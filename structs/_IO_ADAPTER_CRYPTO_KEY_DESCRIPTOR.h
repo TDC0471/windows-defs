@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x48 bytes (sizeof)
 struct _IO_ADAPTER_CRYPTO_KEY_DESCRIPTOR
 {

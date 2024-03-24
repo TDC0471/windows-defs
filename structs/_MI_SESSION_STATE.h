@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMSESSION.h>
+#include <_MI_HUGE_SYSTEM_VIEW_HEAD.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EPROCESS.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MMWSL_INSTANCE.h>
+#include <_RTL_AVL_TREE.h>
+#include <_KEVENT.h>
+
 //0x10a8 bytes (sizeof)
 struct _MI_SESSION_STATE
 {

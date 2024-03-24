@@ -1,6 +1,30 @@
 #pragma once
 /* ------------------ */
 
+#include <_INTERFACE_TYPE.h>
+#include <_BUS_DATA_TYPE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_BUS_HANDLER.h>
+#include <_SUPPORTED_RANGES.h>
+#include <_BUS_HANDLER.h>
+#include <_BUS_HANDLER.h>
+#include <_BUS_HANDLER.h>
+#include <_BUS_HANDLER.h>
+#include <_BUS_HANDLER.h>
+#include <_BUS_HANDLER.h>
+#include <_IO_RESOURCE_REQUIREMENTS_LIST.h>
+#include <_BUS_HANDLER.h>
+#include <_BUS_HANDLER.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_DRIVER_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_BUS_HANDLER.h>
+#include <_BUS_HANDLER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0xb0 bytes (sizeof)
 struct _BUS_HANDLER
 {

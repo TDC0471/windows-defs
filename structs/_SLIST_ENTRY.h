@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SLIST_ENTRY.h>
+
 //0x10 bytes (sizeof)
 struct _SLIST_ENTRY
 {

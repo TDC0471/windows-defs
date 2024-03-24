@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _DBGKD_WRITE_MEMORY64
 {

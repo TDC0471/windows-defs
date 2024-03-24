@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_HEAP_DESCRIPTOR_KEY.h>
+
 //0x20 bytes (sizeof)
 struct _HEAP_PAGE_RANGE_DESCRIPTOR
 {

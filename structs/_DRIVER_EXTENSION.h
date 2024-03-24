@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_DRIVER_OBJECT.h>
+#include <_DRIVER_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_UNICODE_STRING.h>
+
 //0x28 bytes (sizeof)
 struct _DRIVER_EXTENSION
 {

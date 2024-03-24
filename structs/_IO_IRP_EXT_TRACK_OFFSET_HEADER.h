@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_IO_IRP_EXT_TRACK_OFFSET_HEADER.h>
+#include <_IO_IRP_EXT_TRACK_OFFSET_HEADER.h>
+
 //0x10 bytes (sizeof)
 struct _IO_IRP_EXT_TRACK_OFFSET_HEADER
 {

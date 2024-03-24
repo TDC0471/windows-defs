@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 union _MM_PAGE_ACCESS_INFO_FLAGS
 {

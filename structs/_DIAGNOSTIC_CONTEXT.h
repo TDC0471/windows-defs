@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_REQUESTER_TYPE.h>
+#include <_EPROCESS.h>
+#include <_DEVICE_OBJECT.h>
+
 //0x20 bytes (sizeof)
 struct _DIAGNOSTIC_CONTEXT
 {

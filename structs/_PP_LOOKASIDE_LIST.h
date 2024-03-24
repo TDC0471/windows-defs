@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_GENERAL_LOOKASIDE.h>
+#include <_GENERAL_LOOKASIDE.h>
+
 //0x10 bytes (sizeof)
 struct _PP_LOOKASIDE_LIST
 {

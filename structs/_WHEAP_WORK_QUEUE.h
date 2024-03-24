@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KDPC.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_WHEAP_WORK_QUEUE.h>
+#include <_LIST_ENTRY.h>
+
 //0x88 bytes (sizeof)
 struct _WHEAP_WORK_QUEUE
 {

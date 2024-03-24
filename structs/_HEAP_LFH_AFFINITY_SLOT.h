@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_LFH_SUBSEGMENT_OWNER.h>
+#include <_HEAP_LFH_FAST_REF.h>
+
 //0x40 bytes (sizeof)
 struct _HEAP_LFH_AFFINITY_SLOT
 {

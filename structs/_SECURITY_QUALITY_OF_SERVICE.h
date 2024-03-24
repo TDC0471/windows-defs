@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECURITY_IMPERSONATION_LEVEL.h>
+
 //0xc bytes (sizeof)
 struct _SECURITY_QUALITY_OF_SERVICE
 {

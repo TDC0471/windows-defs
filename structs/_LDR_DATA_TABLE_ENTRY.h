@@ -1,6 +1,21 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_LIST_ENTRY.h>
+#include <_ACTIVATION_CONTEXT.h>
+#include <_LDR_DDAG_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_LDRP_LOAD_CONTEXT.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_LARGE_INTEGER.h>
+#include <_LDR_DLL_LOAD_REASON.h>
+
 //0x120 bytes (sizeof)
 struct _LDR_DATA_TABLE_ENTRY
 {

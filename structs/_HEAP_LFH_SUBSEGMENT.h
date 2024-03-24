@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_HEAP_LFH_SUBSEGMENT_OWNER.h>
+#include <_HEAP_LFH_SUBSEGMENT_DELAY_FREE.h>
+#include <_HEAP_LFH_SUBSEGMENT_ENCODED_OFFSETS.h>
+
 //0x38 bytes (sizeof)
 struct _HEAP_LFH_SUBSEGMENT
 {

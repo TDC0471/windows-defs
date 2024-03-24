@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_SUPPORTED_RANGE.h>
+#include <_SUPPORTED_RANGE.h>
+#include <_SUPPORTED_RANGE.h>
+#include <_SUPPORTED_RANGE.h>
+
 //0xc0 bytes (sizeof)
 struct _SUPPORTED_RANGES
 {

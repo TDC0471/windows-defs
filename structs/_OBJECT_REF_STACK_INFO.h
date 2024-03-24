@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc bytes (sizeof)
 struct _OBJECT_REF_STACK_INFO
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+#include <_POP_DEVICE_POWER_PROFILE.h>
+
 //0x40 bytes (sizeof)
 struct _POP_POWER_PLANE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BITMAP.h>
+
 //0x28 bytes (sizeof)
 struct _JOB_RATE_CONTROL_HEADER
 {

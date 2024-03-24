@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_ERROR_RECORD_HEADER.h>
+#include <_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR.h>
+
 //0xc8 bytes (sizeof)
 struct _WHEA_ERROR_RECORD
 {

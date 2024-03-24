@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WORK_QUEUE_ITEM.h>
+#include <_POP_FX_WORK_ORDER_WATCHDOG_INFO.h>
+
 //0x38 bytes (sizeof)
 struct _POP_FX_WORK_ORDER
 {

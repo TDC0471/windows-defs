@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _PO_DIAG_STACK_RECORD
 {

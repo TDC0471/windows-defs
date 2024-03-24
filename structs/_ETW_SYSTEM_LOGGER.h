@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x2 bytes (sizeof)
 struct _ETW_SYSTEM_LOGGER
 {

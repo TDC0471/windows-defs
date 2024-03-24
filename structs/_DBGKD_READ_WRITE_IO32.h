@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc bytes (sizeof)
 struct _DBGKD_READ_WRITE_IO32
 {

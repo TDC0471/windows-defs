@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_EXT_IOMMU_DEVICE_ID.h>
+#include <_IOMMU_SVM_CAPABILITIES.h>
+#include <_KTB_FLUSH_VA.h>
+#include <_KTB_FLUSH_VA.h>
+
 //0x98 bytes (sizeof)
 struct _HAL_IOMMU_DISPATCH
 {

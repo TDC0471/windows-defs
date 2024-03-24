@@ -1,6 +1,34 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_VACB.h>
+#include <_VACB.h>
+#include <_EX_FAST_REF.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_MBCB.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_CACHE_MANAGER_CALLBACKS.h>
+#include <_LIST_ENTRY.h>
+#include <_LOGGED_STREAM_CALLBACK_V1.h>
+#include <_LOGGED_STREAM_CALLBACK_V2.h>
+#include <_LARGE_INTEGER.h>
+#include <_CACHE_UNINITIALIZE_EVENT.h>
+#include <_FAST_MUTEX.h>
+#include <_LARGE_INTEGER.h>
+#include <_KEVENT.h>
+#include <_LARGE_INTEGER.h>
+#include <_PRIVATE_CACHE_MAP.h>
+#include <_VOLUME_CACHE_MAP.h>
+#include <_CC_PARTITION.h>
+
 //0x228 bytes (sizeof)
 struct _SHARED_CACHE_MAP
 {

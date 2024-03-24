@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _PO_FX_PERF_STATE
 {

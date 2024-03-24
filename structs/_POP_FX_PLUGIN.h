@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KQUEUE.h>
+#include <PEPHANDLE__.h>
+#include <_POP_FX_WORK_POOL.h>
+
 //0x1a8 bytes (sizeof)
 struct _POP_FX_PLUGIN
 {

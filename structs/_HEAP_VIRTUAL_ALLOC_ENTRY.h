@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_HEAP_ENTRY_EXTRA.h>
+#include <_HEAP_ENTRY.h>
+
 //0x40 bytes (sizeof)
 struct _HEAP_VIRTUAL_ALLOC_ENTRY
 {

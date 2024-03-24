@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_FULL_RESOURCE_DESCRIPTOR.h>
+
 //0x28 bytes (sizeof)
 struct _CM_RESOURCE_LIST
 {

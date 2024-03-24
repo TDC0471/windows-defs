@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IRP.h>
+#include <_FILE_OBJECT.h>
+#include <_EPROCESS.h>
+#include <_ETHREAD.h>
+#include <_LIST_ENTRY.h>
+
 //0x48 bytes (sizeof)
 struct _RH_OP_CONTEXT
 {

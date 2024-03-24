@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_SEP_LOGON_SESSION_REFERENCES.h>
+#include <_SEP_LOGON_SESSION_REFERENCES.h>
+#include <_UNICODE_STRING.h>
+#include <_CI_NGEN_PATHS.h>
+
 //0x30 bytes (sizeof)
 struct _SEP_SILOSTATE
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc bytes (sizeof)
 struct _PERFINFO_PPM_STATE_SELECTION
 {

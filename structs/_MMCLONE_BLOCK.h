@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPTE.h>
+#include <_MI_CLONE_BLOCK_FLAGS.h>
+
 //0x20 bytes (sizeof)
 struct _MMCLONE_BLOCK
 {

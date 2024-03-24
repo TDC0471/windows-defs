@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_RB_TREE.h>
+#include <_HEAP_VAMGR_VASPACE.h>
+
 //0x30 bytes (sizeof)
 struct _HEAP_VAMGR_ALLOCATOR
 {

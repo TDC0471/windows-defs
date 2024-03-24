@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x18 bytes (sizeof)
 struct _RTL_HP_SEG_ALLOC_POLICY
 {

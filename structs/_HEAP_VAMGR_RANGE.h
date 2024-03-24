@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_SINGLE_LIST_ENTRY.h>
+
 //0x20 bytes (sizeof)
 struct _HEAP_VAMGR_RANGE
 {

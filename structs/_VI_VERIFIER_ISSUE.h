@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x20 bytes (sizeof)
 struct _VI_VERIFIER_ISSUE
 {

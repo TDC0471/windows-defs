@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECURITY_DESCRIPTOR_RELATIVE.h>
+
 //0x28 bytes (sizeof)
 struct _CM_KEY_SECURITY
 {

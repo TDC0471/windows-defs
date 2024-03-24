@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x38 bytes (sizeof)
 struct _HEAP_LFH_SUBSEGMENT_OWNER
 {

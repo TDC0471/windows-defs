@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_MEMORY_ERROR_SECTION_VALIDBITS.h>
+#include <_WHEA_ERROR_STATUS.h>
+
 //0x50 bytes (sizeof)
 struct _WHEA_MEMORY_ERROR_SECTION
 {

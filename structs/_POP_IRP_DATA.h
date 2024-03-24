@@ -1,6 +1,23 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IRP.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_KTIMER.h>
+#include <_KDPC.h>
+#include <_POWER_STATE_TYPE.h>
+#include <_POWER_STATE.h>
+#include <_POP_FX_DEVICE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_POWER_STATE.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_PO_DEVICE_NOTIFY.h>
+#include <_POP_PEP_NOTIFY_DEVICE_DSTATE_REASON.h>
+
 //0x100 bytes (sizeof)
 struct _POP_IRP_DATA
 {

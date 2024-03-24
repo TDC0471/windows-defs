@@ -1,13 +1,13 @@
 #pragma once
 /* ------------------ */
 
-#include "_MMPTE_HARDWARE.h"
-#include "_MMPTE_PROTOTYPE.h"
-#include "_MMPTE_SOFTWARE.h"
-#include "_MMPTE_TIMESTAMP.h"
-#include "_MMPTE_TRANSITION.h"
-#include "_MMPTE_SUBSECTION.h"
-#include "_MMPTE_LIST.h"
+#include <_MMPTE_HARDWARE.h>
+#include <_MMPTE_PROTOTYPE.h>
+#include <_MMPTE_SOFTWARE.h>
+#include <_MMPTE_TIMESTAMP.h>
+#include <_MMPTE_TRANSITION.h>
+#include <_MMPTE_SUBSECTION.h>
+#include <_MMPTE_LIST.h>
 
 //0x8 bytes (sizeof)
 struct _MMPTE

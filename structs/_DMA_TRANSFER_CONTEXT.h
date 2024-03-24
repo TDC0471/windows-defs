@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DMA_TRANSFER_CONTEXT_V1.h>
+
 //0x60 bytes (sizeof)
 struct _DMA_TRANSFER_CONTEXT
 {

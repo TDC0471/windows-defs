@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_NODE_NUMBER_ZERO_BASED.h>
+#include <_MI_SYSTEM_NODE_INFORMATION.h>
+#include <_HAL_NODE_RANGE.h>
+#include <_HAL_NODE_RANGE.h>
+#include <_HAL_CHANNEL_MEMORY_RANGES.h>
+#include <_LARGE_INTEGER.h>
+#include <_MI_PFN_CACHE_ATTRIBUTE.h>
+#include <_MI_ZERO_COST_COUNTS.h>
+
 //0x1c0 bytes (sizeof)
 struct _MI_HARDWARE_STATE
 {

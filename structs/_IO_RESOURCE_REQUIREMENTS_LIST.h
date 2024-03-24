@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_INTERFACE_TYPE.h>
+#include <_IO_RESOURCE_LIST.h>
+
 //0x48 bytes (sizeof)
 struct _IO_RESOURCE_REQUIREMENTS_LIST
 {

@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_DRIVER_VA.h>
+#include <_MMPTE.h>
+#include <_RTL_BITMAP.h>
+
 //0x28 bytes (sizeof)
 struct _MI_DRIVER_VA
 {

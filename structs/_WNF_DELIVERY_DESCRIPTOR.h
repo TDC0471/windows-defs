@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_STATE_NAME.h>
+#include <_WNF_TYPE_ID.h>
+
 //0x30 bytes (sizeof)
 struct _WNF_DELIVERY_DESCRIPTOR
 {

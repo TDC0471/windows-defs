@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EPROCESS.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_RTL_BITMAP.h>
+#include <_ETW_SILODRIVERSTATE.h>
+
 //0xa0 bytes (sizeof)
 struct _ETW_REALTIME_CONSUMER
 {

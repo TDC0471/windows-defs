@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_MCI_STATUS_BITS_COMMON.h>
+#include <_MCI_STATUS_AMD_BITS.h>
+#include <_MCI_STATUS_INTEL_BITS.h>
+
 //0x8 bytes (sizeof)
 union _MCI_STATUS
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x20 bytes (sizeof)
 struct _NON_PAGED_DEBUG_INFO
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LUID_AND_ATTRIBUTES.h>
+
 //0x2c bytes (sizeof)
 struct _INITIAL_PRIVILEGE_SET
 {

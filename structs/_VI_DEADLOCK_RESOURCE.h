@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_VI_DEADLOCK_RESOURCE_TYPE.h>
+#include <_VI_DEADLOCK_THREAD.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0xf8 bytes (sizeof)
 struct _VI_DEADLOCK_RESOURCE
 {

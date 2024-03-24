@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_RB_TREE.h>
+#include <_MI_SLAB_ALLOCATOR_ENTRY.h>
+#include <_MI_SLAB_ALLOCATOR_TYPE.h>
+#include <_MI_SLAB_ALLOCATOR_PROTECTION.h>
+#include <_MMPFNLIST.h>
+
 //0x78 bytes (sizeof)
 struct _MI_SLAB_ALLOCATOR_CONTEXT
 {

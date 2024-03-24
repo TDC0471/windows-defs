@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_PEP_WORK_TYPE.h>
+#include <_PEP_WORK_ACTIVE_COMPLETE.h>
+#include <_PEP_WORK_IDLE_STATE.h>
+#include <_PEP_WORK_DEVICE_POWER.h>
+#include <_PEP_WORK_POWER_CONTROL.h>
+#include <_PEP_WORK_DEVICE_IDLE.h>
+#include <_PEP_WORK_COMPLETE_IDLE_STATE.h>
+#include <_PEP_WORK_COMPLETE_PERF_STATE.h>
+#include <_PEP_WORK_ACPI_NOTIFY.h>
+#include <_PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE.h>
+
 //0x40 bytes (sizeof)
 struct _PEP_WORK_INFORMATION
 {

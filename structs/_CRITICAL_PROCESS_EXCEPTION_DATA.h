@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_UNICODE_STRING.h>
+
 //0x30 bytes (sizeof)
 struct _CRITICAL_PROCESS_EXCEPTION_DATA
 {

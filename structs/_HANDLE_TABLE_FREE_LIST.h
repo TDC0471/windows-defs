@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_HANDLE_TABLE_ENTRY.h>
+#include <_HANDLE_TABLE_ENTRY.h>
+
 //0x40 bytes (sizeof)
 struct _HANDLE_TABLE_FREE_LIST
 {

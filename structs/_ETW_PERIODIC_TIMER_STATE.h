@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _ETW_PERIODIC_TIMER_STATE
 {
@@ -8,5 +9,5 @@ enum _ETW_PERIODIC_TIMER_STATE
     EtwpPeriodicTimerSet = 1
 };
 /* Used in */
-// _WMI_LOGGER_CONTEXT
+// PERIODIC_CAPTURE_STATE_CONTEXT
 

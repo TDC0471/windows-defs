@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _BOOT_ENTROPY_SOURCE_RESULT_CODE
 {

@@ -1,6 +1,31 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_KMUTANT.h>
+#include <_KTRANSACTION.h>
+#include <_KTMOBJECT_NAMESPACE_LINK.h>
+#include <_KTMOBJECT_NAMESPACE_LINK.h>
+#include <_GUID.h>
+#include <_KTRANSACTION_STATE.h>
+#include <_LIST_ENTRY.h>
+#include <_KENLISTMENT.h>
+#include <_CLS_LSN.h>
+#include <_LIST_ENTRY.h>
+#include <_KTRANSACTION.h>
+#include <_LARGE_INTEGER.h>
+#include <_UNICODE_STRING.h>
+#include <_KTHREAD.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_KDPC.h>
+#include <_KTIMER.h>
+#include <_LIST_ENTRY.h>
+#include <_KTRANSACTION_OUTCOME.h>
+#include <_KTM.h>
+#include <_KTRANSACTION_HISTORY.h>
+#include <_KMUTANT.h>
+#include <_KEVENT.h>
+
 //0x2d8 bytes (sizeof)
 struct _KTRANSACTION
 {

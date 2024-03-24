@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KDPC.h>
+#include <_KTIMER.h>
+
 //0x88 bytes (sizeof)
 struct _LAZY_WRITER
 {

@@ -1,6 +1,18 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_ADAPTER_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_GUID.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_DUMP_EVENTS.h>
+
 //0x108 bytes (sizeof)
 struct _DUMP_INITIALIZATION_CONTEXT
 {

@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_KTIMER.h>
+#include <_KAPC.h>
+#include <_KDPC.h>
+#include <_LIST_ENTRY.h>
+#include <_DIAGNOSTIC_CONTEXT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x138 bytes (sizeof)
 struct _ETIMER
 {

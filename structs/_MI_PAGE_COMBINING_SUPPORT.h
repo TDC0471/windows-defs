@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_PARTITION.h>
+#include <_LIST_ENTRY.h>
+#include <_MI_COMBINE_WORKITEM.h>
+#include <_LIST_ENTRY.h>
+#include <_MI_COMBINE_PAGE_LISTHEAD.h>
+#include <_MI_PAGE_COMBINE_STATISTICS.h>
+
 //0x190 bytes (sizeof)
 struct _MI_PAGE_COMBINING_SUPPORT
 {

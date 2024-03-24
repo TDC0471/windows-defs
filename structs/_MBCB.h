@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_BITMAP_RANGE.h>
+#include <_BITMAP_RANGE.h>
+#include <_BITMAP_RANGE.h>
+
 //0xc0 bytes (sizeof)
 struct _MBCB
 {

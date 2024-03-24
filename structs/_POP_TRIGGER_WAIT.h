@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_LIST_ENTRY.h>
+#include <_POP_ACTION_TRIGGER.h>
+
 //0x38 bytes (sizeof)
 struct _POP_TRIGGER_WAIT
 {

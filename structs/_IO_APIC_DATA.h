@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_IO_APIC_REGISTERS.h>
+
 //0x30 bytes (sizeof)
 struct _IO_APIC_DATA
 {

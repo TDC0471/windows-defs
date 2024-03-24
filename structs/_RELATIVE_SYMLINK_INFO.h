@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RELATIVE_SYMLINK_INFO.h>
+#include <_UNICODE_STRING.h>
+
 //0x20 bytes (sizeof)
 struct _RELATIVE_SYMLINK_INFO
 {

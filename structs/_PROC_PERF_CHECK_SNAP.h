@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x60 bytes (sizeof)
 struct _PROC_PERF_CHECK_SNAP
 {

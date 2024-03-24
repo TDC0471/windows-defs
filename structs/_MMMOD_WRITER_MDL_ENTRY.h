@@ -1,6 +1,21 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_IRP.h>
+#include <_MODWRITER_FLAGS.h>
+#include <_KAPC.h>
+#include <_MMPAGING_FILE.h>
+#include <_FILE_OBJECT.h>
+#include <_CONTROL_AREA.h>
+#include <_ERESOURCE.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_MI_PARTITION.h>
+#include <_MDL.h>
+#include <_MDL.h>
+
 //0x108 bytes (sizeof)
 struct _MMMOD_WRITER_MDL_ENTRY
 {

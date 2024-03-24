@@ -1,6 +1,30 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_SLIST_HEADER.h>
+#include <_MMPFNLIST.h>
+#include <_KEVENT.h>
+#include <_MI_DECAY_TIMER_LINK.h>
+#include <_MI_LDW_WORK_CONTEXT.h>
+#include <_RTL_AVL_TREE.h>
+#include <_MI_AVAILABLE_PAGE_WAIT_STATES.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_MI_FREE_LARGE_PAGE_LIST.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_KEVENT.h>
+#include <_MI_SLAB_ALLOCATOR_CONTEXT.h>
+#include <_RTL_BITMAP_EX.h>
+
 //0xfc0 bytes (sizeof)
 struct _MI_PARTITION_PAGE_LISTS
 {

@@ -1,6 +1,20 @@
 #pragma once
 /* ------------------ */
 
+#include <_NT_TIB.h>
+#include <_CLIENT_ID.h>
+#include <_PEB.h>
+#include <_ACTIVATION_CONTEXT_STACK.h>
+#include <_ACTIVATION_CONTEXT_STACK.h>
+#include <_GDI_TEB_BATCH.h>
+#include <_CLIENT_ID.h>
+#include <_UNICODE_STRING.h>
+#include <_LIST_ENTRY.h>
+#include <_GUID.h>
+#include <_PROCESSOR_NUMBER.h>
+#include <_TEB_ACTIVE_FRAME.h>
+#include <_GUID.h>
+
 //0x1838 bytes (sizeof)
 struct _TEB
 {

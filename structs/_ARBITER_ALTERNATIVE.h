@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+
 //0x40 bytes (sizeof)
 struct _ARBITER_ALTERNATIVE
 {

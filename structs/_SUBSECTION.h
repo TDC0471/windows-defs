@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_CONTROL_AREA.h>
+#include <_MMPTE.h>
+#include <_SUBSECTION.h>
+#include <_RTL_AVL_TREE.h>
+#include <_MI_CONTROL_AREA_WAIT_BLOCK.h>
+#include <_MI_PER_SESSION_PROTOS.h>
+#include <_MMSUBSECTION_FLAGS.h>
+#include <_MI_SUBSECTION_ENTRY1.h>
+
 //0x38 bytes (sizeof)
 struct _SUBSECTION
 {

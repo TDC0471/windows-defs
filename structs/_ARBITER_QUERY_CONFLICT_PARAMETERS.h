@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+#include <_ARBITER_CONFLICT_INFO.h>
+
 //0x20 bytes (sizeof)
 struct _ARBITER_QUERY_CONFLICT_PARAMETERS
 {

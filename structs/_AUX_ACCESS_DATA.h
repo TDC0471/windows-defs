@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_PRIVILEGE_SET.h>
+#include <_GENERIC_MAPPING.h>
+#include <_GUID.h>
+#include <_ACCESS_REASONS.h>
+
 //0xe0 bytes (sizeof)
 struct _AUX_ACCESS_DATA
 {

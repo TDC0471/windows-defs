@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_EPROCESS.h>
+#include <_HANDLE_TABLE_ENTRY_INFO.h>
+
 //0x28 bytes (sizeof)
 struct _OB_DUPLICATE_OBJECT_STATE
 {

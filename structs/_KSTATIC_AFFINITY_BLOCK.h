@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_KAFFINITY_EX.h>
+#include <_KAFFINITY_EX.h>
+#include <_KAFFINITY_EX.h>
+#include <_KAFFINITY_EX.h>
+#include <_KAFFINITY_EX.h>
+#include <_KAFFINITY_EX.h>
+
 //0x2a0 bytes (sizeof)
 struct _KSTATIC_AFFINITY_BLOCK
 {

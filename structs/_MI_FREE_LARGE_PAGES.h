@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_FREE_LARGE_PAGE_LIST.h>
+
 //0x430 bytes (sizeof)
 struct _MI_FREE_LARGE_PAGES
 {

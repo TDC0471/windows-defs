@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_CACHED_KSTACK_LIST.h>
+#include <_MI_DYNAMIC_BITMAP.h>
+#include <_MMPFN.h>
+
 //0xb0 bytes (sizeof)
 struct _MI_SYSTEM_NODE_INFORMATION
 {

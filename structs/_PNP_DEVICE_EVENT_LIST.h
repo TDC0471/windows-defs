@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_KMUTANT.h>
+#include <_FAST_MUTEX.h>
+#include <_LIST_ENTRY.h>
+
 //0x88 bytes (sizeof)
 struct _PNP_DEVICE_EVENT_LIST
 {

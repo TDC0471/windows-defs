@@ -1,6 +1,24 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_FILE_OBJECT.h>
+#include <_SHARED_CACHE_MAP.h>
+#include <_KEVENT.h>
+#include <_SHARED_CACHE_MAP.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_KEVENT.h>
+#include <_SHARED_CACHE_MAP.h>
+#include <_LARGE_INTEGER.h>
+#include <_FILE_OBJECT.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_MDL.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_CC_ASYNC_READ_CONTEXT.h>
+#include <_EPROCESS.h>
+#include <_ETHREAD.h>
+#include <_CC_PARTITION.h>
+
 //0x88 bytes (sizeof)
 struct _WORK_QUEUE_ENTRY
 {

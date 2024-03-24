@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_PPM_VETO_ACCOUNTING.h>
+#include <_KAFFINITY_EX.h>
+#include <_UNICODE_STRING.h>
+#include <_PPM_SELECTION_DEPENDENCY.h>
+#include <_PPM_COORDINATED_SYNCHRONIZATION.h>
+
 //0x180 bytes (sizeof)
 struct _PPM_PLATFORM_STATE
 {

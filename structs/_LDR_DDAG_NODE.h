@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LDR_SERVICE_TAG_RECORD.h>
+#include <_LDRP_CSLIST.h>
+#include <_LDRP_CSLIST.h>
+#include <_LDR_DDAG_STATE.h>
+#include <_SINGLE_LIST_ENTRY.h>
+
 //0x50 bytes (sizeof)
 struct _LDR_DDAG_NODE
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x48 bytes (sizeof)
 struct _FAST_OWNER_ENTRY
 {

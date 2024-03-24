@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_WHEA_ERROR_SOURCE_CONFIGURATION_DD.h>
+#include <_GUID.h>
+#include <_GUID.h>
+
 //0x74 bytes (sizeof)
 struct _WHEA_DEVICE_DRIVER_DESCRIPTOR
 {

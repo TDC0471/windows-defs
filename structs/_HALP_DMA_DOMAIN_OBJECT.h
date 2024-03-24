@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_EXT_IOMMU_TRANSLATION_TYPE.h>
+#include <_ADAPTER_OBJECT.h>
+#include <_RTL_RB_TREE.h>
+#include <_LIST_ENTRY.h>
+
 //0x88 bytes (sizeof)
 struct _HALP_DMA_DOMAIN_OBJECT
 {

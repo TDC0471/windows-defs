@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc bytes (sizeof)
 struct _DMA_TRANSFER_INFO_V1
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_INTERRUPT_TARGET_TYPE.h>
+
 //0x18 bytes (sizeof)
 struct _INTERRUPT_TARGET
 {

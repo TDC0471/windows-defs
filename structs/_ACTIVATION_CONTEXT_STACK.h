@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_ACTIVATION_CONTEXT_STACK_FRAME.h>
+#include <_LIST_ENTRY.h>
+
 //0x28 bytes (sizeof)
 struct _ACTIVATION_CONTEXT_STACK
 {

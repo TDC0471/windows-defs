@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SLIST_ENTRY.h>
+
 //0x18 bytes (sizeof)
 struct _VI_POOL_PAGE_HEADER
 {

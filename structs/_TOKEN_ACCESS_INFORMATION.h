@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_SID_AND_ATTRIBUTES_HASH.h>
+#include <_SID_AND_ATTRIBUTES_HASH.h>
+#include <_TOKEN_PRIVILEGES.h>
+#include <_LUID.h>
+#include <_TOKEN_TYPE.h>
+#include <_SECURITY_IMPERSONATION_LEVEL.h>
+#include <_TOKEN_MANDATORY_POLICY.h>
+#include <_SID_AND_ATTRIBUTES_HASH.h>
+
 //0x58 bytes (sizeof)
 struct _TOKEN_ACCESS_INFORMATION
 {

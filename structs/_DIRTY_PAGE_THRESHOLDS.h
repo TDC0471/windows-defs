@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x38 bytes (sizeof)
 struct _DIRTY_PAGE_THRESHOLDS
 {

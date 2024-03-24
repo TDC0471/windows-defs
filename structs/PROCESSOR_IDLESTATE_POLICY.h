@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <PROCESSOR_IDLESTATE_INFO.h>
+
 //0x20 bytes (sizeof)
 struct PROCESSOR_IDLESTATE_POLICY
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x14 bytes (sizeof)
 struct _ETW_LBR_SUPPORT
 {

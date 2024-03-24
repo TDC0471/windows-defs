@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _WNF_STATE_NAME_LIFETIME
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x38 bytes (sizeof)
 struct _RTLP_RANGE_LIST_ENTRY
 {

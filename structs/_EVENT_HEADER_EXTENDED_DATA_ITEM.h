@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _EVENT_HEADER_EXTENDED_DATA_ITEM
 {

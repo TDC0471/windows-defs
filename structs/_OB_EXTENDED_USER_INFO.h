@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _OB_EXTENDED_USER_INFO
 {

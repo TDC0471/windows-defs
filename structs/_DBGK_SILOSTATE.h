@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_DBGKP_ERROR_PORT.h>
+#include <_EPROCESS.h>
+#include <_KEVENT.h>
+
 //0x20 bytes (sizeof)
 struct _DBGK_SILOSTATE
 {

@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <POWER_POLICY_DEVICE_TYPE.h>
+#include <_UNICODE_STRING.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+
 //0x40 bytes (sizeof)
 struct _POP_POLICY_DEVICE
 {

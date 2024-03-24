@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_ARBITER_REQUEST_SOURCE.h>
+#include <_IO_RESOURCE_REQUIREMENTS_LIST.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_CM_RESOURCE_LIST.h>
+
 //0x40 bytes (sizeof)
 struct _PNP_RESOURCE_REQUEST
 {

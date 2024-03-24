@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_DEVICE_OBJECT.h>
+
 //0x50 bytes (sizeof)
 struct _POP_FX_DRIVER_CALLBACKS
 {

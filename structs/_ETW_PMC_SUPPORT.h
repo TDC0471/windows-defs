@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KPROFILE_SOURCE.h>
+#include <_HAL_PMC_COUNTERS.h>
+
 //0x20 bytes (sizeof)
 struct _ETW_PMC_SUPPORT
 {

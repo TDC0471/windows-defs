@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_ARBITER_ORDERING.h>
+
 //0x10 bytes (sizeof)
 struct _ARBITER_ORDERING_LIST
 {

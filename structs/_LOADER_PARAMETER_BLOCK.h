@@ -1,6 +1,21 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_CONFIGURATION_COMPONENT_DATA.h>
+#include <_NLS_DATA_BLOCK.h>
+#include <_ARC_DISK_INFORMATION.h>
+#include <_LOADER_PARAMETER_EXTENSION.h>
+#include <_I386_LOADER_BLOCK.h>
+#include <_ARM_LOADER_BLOCK.h>
+#include <_FIRMWARE_INFORMATION_LOADER_BLOCK.h>
+
 //0x160 bytes (sizeof)
 struct _LOADER_PARAMETER_BLOCK
 {

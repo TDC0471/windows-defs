@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc0 bytes (sizeof)
 struct _WHEA_AMD_EXTENDED_REGISTERS
 {

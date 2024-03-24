@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_HALP_DMA_DOMAIN_OBJECT.h>
+#include <_MDL.h>
+#include <_DMA_COMMON_BUFFER_ENTRY.h>
+
 //0x48 bytes (sizeof)
 struct _DMA_COMMON_BUFFER_VECTOR
 {

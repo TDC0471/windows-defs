@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TREE.h>
+#include <_RTL_BITMAP.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_RUNDOWN_REF.h>
+
 //0x48 bytes (sizeof)
 struct _MI_ENCLAVE_STATE
 {

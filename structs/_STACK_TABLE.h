@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_REF_TRACE.h>
+
 //0x8088 bytes (sizeof)
 struct _STACK_TABLE
 {

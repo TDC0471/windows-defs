@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 union _WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x260 bytes (sizeof)
 struct _OBJECT_NAMESPACE_LOOKUPTABLE
 {

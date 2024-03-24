@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x38 bytes (sizeof)
 struct _FILE_NETWORK_OPEN_INFORMATION
 {

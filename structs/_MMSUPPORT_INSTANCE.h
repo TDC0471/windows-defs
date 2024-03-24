@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMWSL_INSTANCE.h>
+#include <_LIST_ENTRY.h>
+#include <_KGATE.h>
+#include <_MMSUPPORT_FLAGS.h>
+
 //0xc0 bytes (sizeof)
 struct _MMSUPPORT_INSTANCE
 {

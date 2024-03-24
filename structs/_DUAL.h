@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_HMAP_DIRECTORY.h>
+#include <_HMAP_TABLE.h>
+#include <_FREE_DISPLAY.h>
+#include <_LIST_ENTRY.h>
+
 //0x278 bytes (sizeof)
 struct _DUAL
 {

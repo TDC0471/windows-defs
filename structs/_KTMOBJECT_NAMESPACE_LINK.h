@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_LINKS.h>
+
 //0x28 bytes (sizeof)
 struct _KTMOBJECT_NAMESPACE_LINK
 {

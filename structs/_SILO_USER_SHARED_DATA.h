@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_NT_PRODUCT_TYPE.h>
+#include <_KSYSTEM_TIME.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x270 bytes (sizeof)
 struct _SILO_USER_SHARED_DATA
 {

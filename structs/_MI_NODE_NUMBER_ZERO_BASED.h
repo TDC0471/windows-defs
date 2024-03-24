@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 struct _MI_NODE_NUMBER_ZERO_BASED
 {

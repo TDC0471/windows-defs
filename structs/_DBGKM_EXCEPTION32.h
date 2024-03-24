@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EXCEPTION_RECORD32.h>
+
 //0x54 bytes (sizeof)
 struct _DBGKM_EXCEPTION32
 {

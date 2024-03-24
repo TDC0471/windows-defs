@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _WHEA_RECOVERY_CONTEXT_ERROR_TYPE
 {

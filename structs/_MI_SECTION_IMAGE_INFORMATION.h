@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECTION_IMAGE_INFORMATION.h>
+#include <_MI_EXTRA_IMAGE_INFORMATION.h>
+
 //0x50 bytes (sizeof)
 struct _MI_SECTION_IMAGE_INFORMATION
 {

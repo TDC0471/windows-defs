@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x30 bytes (sizeof)
 struct _BITMAP_RANGE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETHREAD.h>
+
 //0x80 bytes (sizeof)
 struct _VF_POOL_TRACE
 {

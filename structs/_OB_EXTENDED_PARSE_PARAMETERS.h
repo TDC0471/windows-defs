@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EJOB.h>
+
 //0x10 bytes (sizeof)
 struct _OB_EXTENDED_PARSE_PARAMETERS
 {

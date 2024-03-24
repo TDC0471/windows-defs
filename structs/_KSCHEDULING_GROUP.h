@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_KSCHEDULING_GROUP_POLICY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KDPC.h>
+#include <_LIST_ENTRY.h>
+#include <_KSCHEDULING_GROUP.h>
+#include <_KSCB.h>
+
 //0x240 bytes (sizeof)
 struct _KSCHEDULING_GROUP
 {

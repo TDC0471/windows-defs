@@ -1,7 +1,26 @@
 #pragma once
 /* ------------------ */
 
-//0x1f0 bytes (sizeof)
+#include <_GROUP_AFFINITY.h>
+#include <_GROUP_AFFINITY.h>
+#include <_LARGE_INTEGER.h>
+#include <_WHEA_RECOVERY_CONTEXT.h>
+#include <_KAFFINITY_EX.h>
+#include <_HAL_HV_SVM_SYSTEM_CAPABILITIES.h>
+#include <_HAL_HV_SVM_DEVICE_CAPABILITIES.h>
+#include <_KTB_FLUSH_VA.h>
+#include <_LARGE_INTEGER.h>
+#include <_EXT_IOMMU_DEVICE_ID.h>
+#include <_HAL_HV_DMA_DOMAIN_INFO.h>
+#include <_EXT_IOMMU_DEVICE_ID.h>
+#include <_HAL_HV_DMA_DOMAIN_INFO.h>
+#include <_HAL_HV_DMA_DOMAIN_INFO.h>
+#include <_HAL_HV_DMA_DOMAIN_INFO.h>
+#include <_HAL_HV_DMA_DOMAIN_INFO.h>
+#include <_HAL_HV_DMA_DOMAIN_INFO.h>
+#include <_HAL_HV_DMA_DOMAIN_INFO.h>
+
+//0x1f8 bytes (sizeof)
 struct _HAL_INTEL_ENLIGHTENMENT_INFORMATION
 {
     ULONG Enlightenments;                                                   //0x0
@@ -11,7 +30,7 @@ struct _HAL_INTEL_ENLIGHTENMENT_INFORMATION
     ULONG Reserved0;                                                        //0x18
     ULONG SpinCountMask;                                                    //0x1c
     VOID (*LongSpinWait)(ULONG arg1);                                       //0x20
-    ULONGLONG (*GetReferenceTime)();                                        //0x28
+    ULONGLONG (*GetReferenceTime)(ULONG* arg1);                             //0x28
     LONG (*SetSystemSleepProperty)(ULONG arg1, UCHAR arg2, UCHAR arg3);     //0x30
     LONG (*EnterSleepState)(ULONG arg1);                                    //0x38
     LONG (*NotifyDebugDeviceAvailable)();                                   //0x40
@@ -67,7 +86,8 @@ struct _HAL_INTEL_ENLIGHTENMENT_INFORMATION
     LONG (*GetDmaGuardEnabled)(UCHAR* arg1);                                //0x1d0
     LONG (*UpdateMicrocode)(VOID* arg1, ULONG arg2);                        //0x1d8
     LONG (*GetSintMessage)(UCHAR arg1, VOID** arg2);                        //0x1e0
-    LONG (*SetRootFaultReportingReady)();                                   //0x1e8
+    LONG (*RestoreTime)(ULONG arg1, ULONGLONG arg2, ULONGLONG arg3);        //0x1e8
+    LONG (*SetRootFaultReportingReady)();                                   //0x1f0
 };
 /* Used in */
 // HAL_PRIVATE_DISPATCH

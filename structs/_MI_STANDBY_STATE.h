@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_SLIST_HEADER.h>
+#include <_MM_PAGE_ACCESS_INFO_HEADER.h>
+#include <_KDPC.h>
+#include <_SLIST_HEADER.h>
+
 //0x90 bytes (sizeof)
 struct _MI_STANDBY_STATE
 {

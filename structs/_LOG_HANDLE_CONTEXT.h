@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_DIRTY_PAGE_STATISTICS.h>
+#include <_DIRTY_PAGE_THRESHOLDS.h>
+#include <_LARGE_INTEGER.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+
 //0x98 bytes (sizeof)
 struct _LOG_HANDLE_CONTEXT
 {

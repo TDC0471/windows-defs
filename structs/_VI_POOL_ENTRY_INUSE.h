@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x20 bytes (sizeof)
 struct _VI_POOL_ENTRY_INUSE
 {

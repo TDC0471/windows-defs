@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_TRIAGE_DEVICE_NODE.h>
+#include <_TRIAGE_DEVICE_NODE.h>
+#include <_TRIAGE_DEVICE_NODE.h>
+#include <_TRIAGE_DEVICE_NODE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_IRP.h>
+#include <_TRIAGE_POP_FX_DEVICE.h>
+
 //0x58 bytes (sizeof)
 struct _TRIAGE_DEVICE_NODE
 {

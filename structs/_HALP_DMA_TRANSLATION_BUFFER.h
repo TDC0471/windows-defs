@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HALP_DMA_TRANSLATION_BUFFER.h>
+#include <_HALP_DMA_TRANSLATION_ENTRY.h>
+
 //0x18 bytes (sizeof)
 struct _HALP_DMA_TRANSLATION_BUFFER
 {

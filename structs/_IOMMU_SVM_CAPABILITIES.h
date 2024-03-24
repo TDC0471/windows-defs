@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc bytes (sizeof)
 union _IOMMU_SVM_CAPABILITIES
 {

@@ -1,6 +1,26 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPAGE_FILE_EXPANSION.h>
+#include <_MMPAGE_FILE_EXPANSION.h>
+#include <_MMMOD_WRITER_LISTHEAD.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_MI_MODWRITE_DATA.h>
+#include <_KEVENT.h>
+#include <_MMMOD_WRITER_LISTHEAD.h>
+#include <_ETHREAD.h>
+#include <_EX_RUNDOWN_REF.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_MI_RESTRICTED_MODWRITES.h>
+#include <_KEVENT.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x2c0 bytes (sizeof)
 struct _MI_PARTITION_MODWRITES
 {

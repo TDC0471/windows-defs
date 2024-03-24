@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KGATE.h>
+#include <_KEVENT.h>
+
 //0x28 bytes (sizeof)
 struct _MMMOD_WRITER_LISTHEAD
 {

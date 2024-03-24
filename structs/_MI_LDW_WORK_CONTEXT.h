@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WORK_QUEUE_ITEM.h>
+#include <_FILE_OBJECT.h>
+
 //0x38 bytes (sizeof)
 struct _MI_LDW_WORK_CONTEXT
 {

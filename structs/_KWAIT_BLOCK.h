@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KTHREAD.h>
+#include <_KQUEUE.h>
+
 //0x30 bytes (sizeof)
 struct _KWAIT_BLOCK
 {

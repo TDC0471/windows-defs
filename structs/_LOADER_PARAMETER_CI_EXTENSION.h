@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x50 bytes (sizeof)
 struct _LOADER_PARAMETER_CI_EXTENSION
 {

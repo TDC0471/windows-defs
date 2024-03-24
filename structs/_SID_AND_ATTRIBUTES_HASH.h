@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SID_AND_ATTRIBUTES.h>
+
 //0x110 bytes (sizeof)
 struct _SID_AND_ATTRIBUTES_HASH
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x68 bytes (sizeof)
 struct _FAST_ERESOURCE
 {

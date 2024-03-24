@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_VERIFIER_SHARED_EXPORT_THUNK.h>
+#include <_VERIFIER_SHARED_EXPORT_THUNK.h>
+#include <_VERIFIER_SHARED_EXPORT_THUNK.h>
+#include <_VERIFIER_SHARED_EXPORT_THUNK.h>
+
 //0x20 bytes (sizeof)
 struct _VF_TARGET_ALL_SHARED_EXPORT_THUNKS
 {

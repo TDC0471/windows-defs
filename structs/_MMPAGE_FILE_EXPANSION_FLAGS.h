@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 struct _MMPAGE_FILE_EXPANSION_FLAGS
 {

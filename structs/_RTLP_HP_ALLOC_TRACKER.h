@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_CSPARSE_BITMAP.h>
+
 //0x50 bytes (sizeof)
 struct _RTLP_HP_ALLOC_TRACKER
 {

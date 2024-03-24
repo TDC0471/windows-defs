@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_MI_ACTIVE_PFN.h>
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+#include <_MIPFNBLINK.h>
+#include <_MMPFNENTRY1.h>
+#include <_MMPFNENTRY3.h>
+
 //0x30 bytes (sizeof)
 struct _MMPFN
 {

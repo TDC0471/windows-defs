@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <POHANDLE__.h>
+#include <_GUID.h>
+
 //0x38 bytes (sizeof)
 struct _PEP_WORK_POWER_CONTROL
 {

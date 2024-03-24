@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_WORK_QUEUE_ITEM.h>
+
 //0x38 bytes (sizeof)
 struct _MI_RESUME_WORKITEM
 {

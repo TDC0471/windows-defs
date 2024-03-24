@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_PLUGPLAY_EVENT_CATEGORY.h>
+#include <_GUID.h>
+#include <_PNP_VETO_TYPE.h>
+#include <_GUID.h>
+#include <_GUID.h>
+
 //0x50 bytes (sizeof)
 struct _PLUGPLAY_EVENT_BLOCK
 {

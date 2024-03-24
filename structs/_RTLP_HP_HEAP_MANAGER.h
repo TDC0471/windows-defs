@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTLP_HP_HEAP_GLOBALS.h>
+#include <_RTLP_HP_ALLOC_TRACKER.h>
+#include <_HEAP_VAMGR_CTX.h>
+#include <_RTLP_HP_METADATA_HEAP_CTX.h>
+#include <_RTL_HP_SUB_ALLOCATOR_CONFIGS.h>
+
 //0x38d0 bytes (sizeof)
 struct _RTLP_HP_HEAP_MANAGER
 {

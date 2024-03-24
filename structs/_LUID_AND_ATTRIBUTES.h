@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LUID.h>
+
 //0xc bytes (sizeof)
 struct _LUID_AND_ATTRIBUTES
 {

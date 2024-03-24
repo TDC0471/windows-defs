@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_EVENT_PAYLOAD_PREDICATE.h>
+
 //0x50 bytes (sizeof)
 struct _AGGREGATED_PAYLOAD_FILTER
 {

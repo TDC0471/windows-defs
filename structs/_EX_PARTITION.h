@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EPARTITION.h>
+#include <_EX_WORK_QUEUE.h>
+#include <_EX_WORK_QUEUE_MANAGER.h>
+
 //0x20 bytes (sizeof)
 struct _EX_PARTITION
 {

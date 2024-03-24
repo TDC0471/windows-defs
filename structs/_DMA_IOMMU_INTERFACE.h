@@ -1,6 +1,28 @@
 #pragma once
 /* ------------------ */
 
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_DEVICE_OBJECT.h>
+#include <_INPUT_MAPPING_ELEMENT.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_MDL.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_MDL.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_MDL.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_FAULT_CONFIGURATION.h>
+#include <_IOMMU_DMA_DOMAIN.h>
+#include <_DOMAIN_CONFIGURATION.h>
+
 //0x70 bytes (sizeof)
 struct _DMA_IOMMU_INTERFACE
 {

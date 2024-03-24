@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x40 bytes (sizeof)
 struct _KQUEUE
 {

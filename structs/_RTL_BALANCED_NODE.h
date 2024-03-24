@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_RTL_BALANCED_NODE.h>
+
 //0x18 bytes (sizeof)
 struct _RTL_BALANCED_NODE
 {

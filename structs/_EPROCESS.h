@@ -1,6 +1,64 @@
 #pragma once
 /* ------------------ */
 
+#include <_KPROCESS.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_RUNDOWN_REF.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_FAST_REF.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_ETHREAD.h>
+#include <_ETHREAD.h>
+#include <_EJOB.h>
+#include <_RTL_AVL_TREE.h>
+#include <_EJOB.h>
+#include <_PAGEFAULT_HISTORY.h>
+#include <_PEB.h>
+#include <_MM_SESSION_SPACE.h>
+#include <_EPROCESS_QUOTA_BLOCK.h>
+#include <_HANDLE_TABLE.h>
+#include <_EWOW64PROCESS.h>
+#include <_FILE_OBJECT.h>
+#include <_SE_AUDIT_PROCESS_CREATION_INFO.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_FAST_REF.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_MMSUPPORT_FULL.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_AVL_TREE.h>
+#include <_ALPC_PROCESS_CONTEXT.h>
+#include <_LIST_ENTRY.h>
+#include <_PO_DIAG_STACK_RECORD.h>
+#include <_LARGE_INTEGER.h>
+#include <_INVERTED_FUNCTION_TABLE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EJOB.h>
+#include <_PS_PROTECTION.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_PROCESS_DISK_COUNTERS.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_PO_PROCESS_ENERGY_CONTEXT.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_PS_INTERLOCKED_TIMER_DELAY_VALUES.h>
+#include <_LIST_ENTRY.h>
+#include <_WNF_STATE_NAME.h>
+#include <_PS_PROCESS_WAKE_INFORMATION.h>
+#include <_RTL_AVL_TREE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_PS_DYNAMIC_ENFORCED_ADDRESS_RANGES.h>
+
 //0xa40 bytes (sizeof)
 struct _EPROCESS
 {
@@ -345,6 +403,7 @@ struct _EPROCESS
     struct _EX_PUSH_LOCK DynamicEHContinuationTargetsLock;                  //0xa08
     struct _PS_DYNAMIC_ENFORCED_ADDRESS_RANGES DynamicEnforcedCetCompatibleRanges; //0xa10
     ULONG DisabledComponentFlags;                                           //0xa20
+    ULONG* volatile PathRedirectionHashes;                                  //0xa28
 };
 /* Used in */
 // _ALPC_COMPLETION_LIST

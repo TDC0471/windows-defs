@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_PCI_SLOT_NUMBER.h>
+#include <_AER_ROOTPORT_DESCRIPTOR_FLAGS.h>
+
 //0x24 bytes (sizeof)
 struct _WHEA_AER_ROOTPORT_DESCRIPTOR
 {

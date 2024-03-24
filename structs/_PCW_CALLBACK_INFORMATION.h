@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_PCW_COUNTER_INFORMATION.h>
+#include <_PCW_COUNTER_INFORMATION.h>
+#include <_PCW_MASK_INFORMATION.h>
+#include <_PCW_MASK_INFORMATION.h>
+
 //0x28 bytes (sizeof)
 union _PCW_CALLBACK_INFORMATION
 {

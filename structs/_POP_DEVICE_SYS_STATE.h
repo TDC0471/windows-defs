@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_SYSTEM_POWER_STATE.h>
+#include <_KTHREAD.h>
+#include <_KEVENT.h>
+#include <_KSEMAPHORE.h>
+#include <_KSEMAPHORE.h>
+#include <_PO_DEVICE_NOTIFY_ORDER.h>
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_OBJECT.h>
+
 //0x1d8 bytes (sizeof)
 struct _POP_DEVICE_SYS_STATE
 {

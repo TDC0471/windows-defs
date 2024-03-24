@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LOADER_FEATURE_CONFIGURATION_DIAGNOSTIC_INFORMATION.h>
+
 //0x48 bytes (sizeof)
 struct _LOADER_FEATURE_CONFIGURATION_INFORMATION
 {

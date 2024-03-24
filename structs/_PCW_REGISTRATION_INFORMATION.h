@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+#include <_PCW_COUNTER_DESCRIPTOR.h>
+#include <_PCW_CALLBACK_TYPE.h>
+#include <_PCW_CALLBACK_INFORMATION.h>
+
 //0x30 bytes (sizeof)
 struct _PCW_REGISTRATION_INFORMATION
 {

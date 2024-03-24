@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_NODE_HEADER.h>
+#include <_EX_RUNDOWN_REF.h>
+#include <_WNF_DATA_SCOPE.h>
+#include <_LIST_ENTRY.h>
+#include <_WNF_LOCK.h>
+#include <_RTL_AVL_TREE.h>
+
 //0x50 bytes (sizeof)
 struct _WNF_SCOPE_INSTANCE
 {

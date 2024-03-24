@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KCB_LAYER_INFO.h>
+#include <_LIST_ENTRY.h>
+
 //0x30 bytes (sizeof)
 struct _CM_KCB_LAYER_INFO
 {

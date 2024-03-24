@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_RTL_AVL_TREE.h>
+
 //0x20 bytes (sizeof)
 struct _MMSESSION
 {

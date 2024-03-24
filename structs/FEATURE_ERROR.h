@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x68 bytes (sizeof)
 struct FEATURE_ERROR
 {

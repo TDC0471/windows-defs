@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KPCR.h>
+#include <_KIST_LINK_FRAME.h>
+
 //0x30 bytes (sizeof)
 struct _KIST_BASE_FRAME
 {

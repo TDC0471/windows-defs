@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_UNICODE_STRING.h>
+#include <_OBJECT_SYMBOLIC_LINK.h>
+#include <_UNICODE_STRING.h>
+
 //0x28 bytes (sizeof)
 struct _OBJECT_SYMBOLIC_LINK
 {

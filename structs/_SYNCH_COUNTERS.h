@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xb8 bytes (sizeof)
 struct _SYNCH_COUNTERS
 {

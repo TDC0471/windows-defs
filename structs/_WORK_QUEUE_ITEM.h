@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x20 bytes (sizeof)
 struct _WORK_QUEUE_ITEM
 {
@@ -9,6 +11,7 @@ struct _WORK_QUEUE_ITEM
     VOID* Parameter;                                                        //0x18
 };
 /* Used in */
+// PERIODIC_CAPTURE_STATE_CONTEXT
 // _ADAPTER_OBJECT
 // _EJOB
 // _ENODE

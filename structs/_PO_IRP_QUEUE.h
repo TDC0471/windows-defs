@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_IRP.h>
+#include <_IRP.h>
+
 //0x10 bytes (sizeof)
 struct _PO_IRP_QUEUE
 {

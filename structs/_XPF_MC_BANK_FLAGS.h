@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1 bytes (sizeof)
 union _XPF_MC_BANK_FLAGS
 {

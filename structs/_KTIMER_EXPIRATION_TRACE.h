@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x10 bytes (sizeof)
 struct _KTIMER_EXPIRATION_TRACE
 {

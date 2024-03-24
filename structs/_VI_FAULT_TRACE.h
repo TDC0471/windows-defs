@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETHREAD.h>
+
 //0x48 bytes (sizeof)
 struct _VI_FAULT_TRACE
 {

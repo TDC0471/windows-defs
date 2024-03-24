@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x0 bytes (sizeof)
 struct _VERIFIER_SHARED_EXPORT_THUNK;
 /* Used in */

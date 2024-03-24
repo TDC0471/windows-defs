@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <PPM_IDLE_BUCKET_TIME_TYPE.h>
+#include <_PROC_IDLE_STATE_ACCOUNTING.h>
+
 //0x410 bytes (sizeof)
 struct _PROC_IDLE_ACCOUNTING
 {

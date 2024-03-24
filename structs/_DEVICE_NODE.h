@@ -1,6 +1,49 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_NODE.h>
+#include <_DEVICE_NODE.h>
+#include <_DEVICE_NODE.h>
+#include <_DEVICE_NODE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_IRP.h>
+#include <_POP_FX_DEVICE.h>
+#include <_KEVENT.h>
+#include <_UNICODE_STRING.h>
+#include <_POP_FX_PLUGIN.h>
+#include <_POWER_STATE.h>
+#include <_PO_DEVICE_NOTIFY.h>
+#include <_PO_IRP_MANAGER.h>
+#include <_PNP_DEVNODE_STATE.h>
+#include <_PNP_DEVNODE_STATE.h>
+#include <_PNP_DEVNODE_STATE.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IO_RESOURCE_REQUIREMENTS_LIST.h>
+#include <_INTERFACE_TYPE.h>
+#include <_INTERFACE_TYPE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_NODE.h>
+#include <_DEVICE_RELATIONS.h>
+#include <_DEVICE_NODE.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <PROFILE_STATUS.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_NODE.h>
+#include <_GUID.h>
+#include <_PENDING_RELATIONS_LIST_ENTRY.h>
+#include <_PNP_REBALANCE_TRACE_CONTEXT.h>
+#include <_DEVICE_NODE_IOMMU_EXTENSION.h>
+#include <_PO_DIRECTED_DRIPS_STATE.h>
+
 //0x310 bytes (sizeof)
 struct _DEVICE_NODE
 {

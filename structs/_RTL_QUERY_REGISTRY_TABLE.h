@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x38 bytes (sizeof)
 struct _RTL_QUERY_REGISTRY_TABLE
 {

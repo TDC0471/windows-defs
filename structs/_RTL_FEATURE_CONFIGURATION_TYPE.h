@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _RTL_FEATURE_CONFIGURATION_TYPE
 {

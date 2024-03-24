@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x98 bytes (sizeof)
 struct _EXCEPTION_RECORD64
 {

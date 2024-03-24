@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_OB_HANDLE_REVOCATION_BLOCK.h>
+
 //0x20 bytes (sizeof)
 struct _HANDLE_REVOCATION_INFO
 {

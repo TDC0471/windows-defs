@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x58 bytes (sizeof)
 struct _THERMAL_INFORMATION
 {

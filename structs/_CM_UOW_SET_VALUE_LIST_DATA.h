@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CHILD_LIST.h>
+
 //0xc bytes (sizeof)
 struct _CM_UOW_SET_VALUE_LIST_DATA
 {

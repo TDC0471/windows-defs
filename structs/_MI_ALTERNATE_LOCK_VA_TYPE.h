@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _MI_ALTERNATE_LOCK_VA_TYPE
 {

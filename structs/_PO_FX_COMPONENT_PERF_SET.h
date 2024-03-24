@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+#include <_PO_FX_PERF_STATE_UNIT.h>
+#include <_PO_FX_PERF_STATE_TYPE.h>
+#include <_PO_FX_PERF_STATE.h>
+
 //0x30 bytes (sizeof)
 struct _PO_FX_COMPONENT_PERF_SET
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x270 bytes (sizeof)
 struct _KSHARED_READY_QUEUE
 {

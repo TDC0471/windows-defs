@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SEP_CACHED_HANDLES_ENTRY_TYPE.h>
+#include <_UNICODE_STRING.h>
+
 //0x18 bytes (sizeof)
 struct _SEP_CACHED_HANDLES_ENTRY_DESCRIPTOR
 {

@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_EPROCESS.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_HANDLE_TABLE_FREE_LIST.h>
+#include <_HANDLE_TRACE_DEBUG_INFO.h>
+
 //0x80 bytes (sizeof)
 struct _HANDLE_TABLE
 {

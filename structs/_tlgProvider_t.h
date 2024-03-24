@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_EVENT_FILTER_DESCRIPTOR.h>
+
 //0x38 bytes (sizeof)
 struct _tlgProvider_t
 {

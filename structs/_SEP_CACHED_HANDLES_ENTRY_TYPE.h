@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _SEP_CACHED_HANDLES_ENTRY_TYPE
 {

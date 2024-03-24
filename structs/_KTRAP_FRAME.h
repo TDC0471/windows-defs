@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+
 //0x190 bytes (sizeof)
 struct _KTRAP_FRAME
 {

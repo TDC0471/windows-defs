@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MM_PAGE_ACCESS_INFO_HEADER.h>
+#include <_WORK_QUEUE_ITEM.h>
+
 //0x80 bytes (sizeof)
 struct _MI_ACCESS_LOG_STATE
 {

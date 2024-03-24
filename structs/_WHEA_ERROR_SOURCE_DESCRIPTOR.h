@@ -1,6 +1,21 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_ERROR_SOURCE_TYPE.h>
+#include <_WHEA_ERROR_SOURCE_STATE.h>
+#include <_WHEA_XPF_MCE_DESCRIPTOR.h>
+#include <_WHEA_XPF_CMC_DESCRIPTOR.h>
+#include <_WHEA_XPF_NMI_DESCRIPTOR.h>
+#include <_WHEA_IPF_MCA_DESCRIPTOR.h>
+#include <_WHEA_IPF_CMC_DESCRIPTOR.h>
+#include <_WHEA_IPF_CPE_DESCRIPTOR.h>
+#include <_WHEA_AER_ROOTPORT_DESCRIPTOR.h>
+#include <_WHEA_AER_ENDPOINT_DESCRIPTOR.h>
+#include <_WHEA_AER_BRIDGE_DESCRIPTOR.h>
+#include <_WHEA_GENERIC_ERROR_DESCRIPTOR.h>
+#include <_WHEA_GENERIC_ERROR_DESCRIPTOR_V2.h>
+#include <_WHEA_DEVICE_DRIVER_DESCRIPTOR.h>
+
 //0x3cc bytes (sizeof)
 struct _WHEA_ERROR_SOURCE_DESCRIPTOR
 {

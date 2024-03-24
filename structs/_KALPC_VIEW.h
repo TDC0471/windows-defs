@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KALPC_REGION.h>
+#include <_ALPC_PORT.h>
+#include <_EPROCESS.h>
+#include <_LIST_ENTRY.h>
+
 //0x60 bytes (sizeof)
 struct _KALPC_VIEW
 {

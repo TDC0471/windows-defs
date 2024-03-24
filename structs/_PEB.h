@@ -1,6 +1,22 @@
 #pragma once
 /* ------------------ */
 
+#include <_PEB_LDR_DATA.h>
+#include <_RTL_USER_PROCESS_PARAMETERS.h>
+#include <_RTL_CRITICAL_SECTION.h>
+#include <_SLIST_HEADER.h>
+#include <_LARGE_INTEGER.h>
+#include <_RTL_CRITICAL_SECTION.h>
+#include <_ULARGE_INTEGER.h>
+#include <_ULARGE_INTEGER.h>
+#include <_UNICODE_STRING.h>
+#include <_ACTIVATION_CONTEXT_DATA.h>
+#include <_ASSEMBLY_STORAGE_MAP.h>
+#include <_ACTIVATION_CONTEXT_DATA.h>
+#include <_ASSEMBLY_STORAGE_MAP.h>
+#include <_LIST_ENTRY.h>
+#include <_LEAP_SECOND_DATA.h>
+
 //0x7c8 bytes (sizeof)
 struct _PEB
 {

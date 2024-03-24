@@ -1,6 +1,56 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_RTL_RANGE_LIST.h>
+#include <_RTL_RANGE_LIST.h>
+#include <_ARBITER_ORDERING_LIST.h>
+#include <_ARBITER_ORDERING_LIST.h>
+#include <_ARBITER_INTERFACE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+#include <_CM_PARTIAL_RESOURCE_DESCRIPTOR.h>
+#include <_CM_PARTIAL_RESOURCE_DESCRIPTOR.h>
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_TEST_ALLOCATION_PARAMETERS.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_RETEST_ALLOCATION_PARAMETERS.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_BOOT_ALLOCATION_PARAMETERS.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_QUERY_ARBITRATE_PARAMETERS.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_QUERY_CONFLICT_PARAMETERS.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ADD_RESERVED_PARAMETERS.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_ARBITER_ALLOCATION_STATE.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_CM_PARTIAL_RESOURCE_DESCRIPTOR.h>
+#include <_RTL_RANGE_LIST.h>
+#include <_ARBITER_INSTANCE.h>
+#include <_KEVENT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_RTL_RANGE.h>
+
 //0x158 bytes (sizeof)
 struct _ARBITER_INSTANCE
 {

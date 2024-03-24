@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+#include <_ULARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_KDPC.h>
+
 //0x40 bytes (sizeof)
 struct _KTIMER
 {

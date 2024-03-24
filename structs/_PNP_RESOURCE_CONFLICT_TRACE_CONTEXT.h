@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+
 //0x18 bytes (sizeof)
 struct _PNP_RESOURCE_CONFLICT_TRACE_CONTEXT
 {

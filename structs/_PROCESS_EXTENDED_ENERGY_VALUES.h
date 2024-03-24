@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROCESS_ENERGY_VALUES.h>
+#include <_PROCESS_ENERGY_VALUES_EXTENSION.h>
+
 //0x1b0 bytes (sizeof)
 struct _PROCESS_EXTENDED_ENERGY_VALUES
 {

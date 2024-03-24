@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_KINTERRUPT.h>
+
 //0x30 bytes (sizeof)
 struct _KSECONDARY_IDT_ENTRY
 {

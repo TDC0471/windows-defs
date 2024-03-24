@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x38 bytes (sizeof)
 struct _ETW_HASH_BUCKET
 {

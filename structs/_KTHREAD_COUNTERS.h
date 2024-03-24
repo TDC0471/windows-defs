@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_THREAD_PERFORMANCE_DATA.h>
+#include <_COUNTER_READING.h>
+
 //0x1a8 bytes (sizeof)
 struct _KTHREAD_COUNTERS
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_RUNDOWN_REF.h>
+
 //0x18 bytes (sizeof)
 struct _EX_RUNDOWN_REF_CACHE_AWARE
 {

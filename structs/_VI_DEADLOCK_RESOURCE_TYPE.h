@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _VI_DEADLOCK_RESOURCE_TYPE
 {

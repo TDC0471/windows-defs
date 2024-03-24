@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_DESCRIPTION_HEADER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x2c bytes (sizeof)
 struct _XSDT
 {

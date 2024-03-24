@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <wil_details_ServiceReportingKind.h>
+
 //0x18 bytes (sizeof)
 struct wil_details_RecordUsageResult
 {

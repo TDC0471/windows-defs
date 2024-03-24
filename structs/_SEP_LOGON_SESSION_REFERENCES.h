@@ -1,6 +1,21 @@
 #pragma once
 /* ------------------ */
 
+#include <_SEP_LOGON_SESSION_REFERENCES.h>
+#include <_LUID.h>
+#include <_LUID.h>
+#include <_DEVICE_MAP.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_SEP_CACHED_HANDLES_TABLE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_AUTHZBASEP_CLAIM_ATTRIBUTES_COLLECTION.h>
+#include <_SEP_SID_VALUES_BLOCK.h>
+#include <_OB_HANDLE_REVOCATION_BLOCK.h>
+#include <_EJOB.h>
+#include <_LUID.h>
+#include <_LIST_ENTRY.h>
+
 //0xc0 bytes (sizeof)
 struct _SEP_LOGON_SESSION_REFERENCES
 {

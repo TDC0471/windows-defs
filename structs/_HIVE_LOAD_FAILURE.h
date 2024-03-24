@@ -1,6 +1,18 @@
 #pragma once
 /* ------------------ */
 
+#include <_HHIVE.h>
+#include <_CM_LOAD_FAILURE_TYPE.h>
+#include <_CM_LOAD_FAILURE_TYPE.h>
+#include <_CELL_DATA.h>
+#include <_CELL_DATA.h>
+#include <_CELL_DATA.h>
+#include <_HBIN.h>
+#include <_HBIN.h>
+#include <_HBIN.h>
+#include <_HCELL.h>
+#include <_CM_PARSE_DEBUG_INFO.h>
+
 //0x1b0 bytes (sizeof)
 struct _HIVE_LOAD_FAILURE
 {

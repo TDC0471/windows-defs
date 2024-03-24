@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CLIENT_ID32.h>
+
 //0x18 bytes (sizeof)
 struct _PORT_MESSAGE32
 {

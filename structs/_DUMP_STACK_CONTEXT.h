@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_DUMP_INITIALIZATION_CONTEXT.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_STRING.h>
+#include <_STRING.h>
+#include <_STRING.h>
+#include <_DEVICE_USAGE_NOTIFICATION_TYPE.h>
+
 //0x178 bytes (sizeof)
 struct _DUMP_STACK_CONTEXT
 {

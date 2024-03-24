@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_RTL_BITMAP.h>
+#include <_RTL_DYNAMIC_HASH_TABLE.h>
+
 //0x28 bytes (sizeof)
 struct _SEP_LOWBOX_NUMBER_MAPPING
 {

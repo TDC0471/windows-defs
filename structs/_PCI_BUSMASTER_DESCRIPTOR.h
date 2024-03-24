@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PCI_BUSMASTER_RID_TYPE.h>
+
 //0xc bytes (sizeof)
 struct _PCI_BUSMASTER_DESCRIPTOR
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum JOB_OBJECT_NET_RATE_CONTROL_FLAGS
 {

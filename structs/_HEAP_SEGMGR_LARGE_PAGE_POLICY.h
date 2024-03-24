@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _HEAP_SEGMGR_LARGE_PAGE_POLICY
 {

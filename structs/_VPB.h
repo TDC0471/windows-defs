@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+
 //0x60 bytes (sizeof)
 struct _VPB
 {

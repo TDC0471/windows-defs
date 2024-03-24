@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x20 bytes (sizeof)
 struct _KERNEL_STACK_SEGMENT
 {

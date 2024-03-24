@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x8 bytes (sizeof)
 struct _ARBITER_BOOT_ALLOCATION_PARAMETERS
 {

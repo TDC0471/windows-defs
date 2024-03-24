@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_SPLAY_LINKS.h>
+#include <_RTL_SPLAY_LINKS.h>
+#include <_RTL_SPLAY_LINKS.h>
+
 //0x18 bytes (sizeof)
 struct _RTL_SPLAY_LINKS
 {

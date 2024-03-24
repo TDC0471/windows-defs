@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 struct _HEAP_LFH_SUBSEGMENT_ENCODED_OFFSETS
 {

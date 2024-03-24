@@ -1,6 +1,23 @@
 #pragma once
 /* ------------------ */
 
+#include <_EJOB.h>
+#include <_ESERVERSILO_GLOBALS.h>
+#include <_ETW_GUID_ENTRY.h>
+#include <_EX_RUNDOWN_REF_CACHE_AWARE.h>
+#include <_WMI_LOGGER_CONTEXT.h>
+#include <_ETW_HASH_BUCKET.h>
+#include <_ETW_PRIV_HANDLE_DEMUX_TABLE.h>
+#include <_ETW_COUNTERS.h>
+#include <_LARGE_INTEGER.h>
+#include <_ETW_SILO_TRACING_BLOCK.h>
+#include <_EX_WNF_SUBSCRIPTION.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_LARGE_INTEGER.h>
+#include <_ETW_SYSTEM_LOGGER_SETTINGS.h>
+#include <_KMUTANT.h>
+
 //0x1220 bytes (sizeof)
 struct _ETW_SILODRIVERSTATE
 {

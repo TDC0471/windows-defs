@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+
 //0x30 bytes (sizeof)
 struct _OBJECT_ATTRIBUTES
 {

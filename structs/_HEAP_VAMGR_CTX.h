@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_VAMGR_VASPACE.h>
+#include <_HEAP_VAMGR_ALLOCATOR.h>
+
 //0x3840 bytes (sizeof)
 struct _HEAP_VAMGR_CTX
 {

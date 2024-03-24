@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SEGMENT_HEAP.h>
+#include <_RTL_RUN_ONCE.h>
+
 //0x10 bytes (sizeof)
 struct _RTLP_HP_METADATA_HEAP_CTX
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PHYSICAL_MEMORY_RUN.h>
+
 //0x20 bytes (sizeof)
 struct _PHYSICAL_MEMORY_DESCRIPTOR
 {

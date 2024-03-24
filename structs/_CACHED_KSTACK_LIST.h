@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SLIST_HEADER.h>
+
 //0x20 bytes (sizeof)
 struct _CACHED_KSTACK_LIST
 {

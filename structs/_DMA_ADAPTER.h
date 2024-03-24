@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DMA_OPERATIONS.h>
+
 //0x10 bytes (sizeof)
 struct _DMA_ADAPTER
 {

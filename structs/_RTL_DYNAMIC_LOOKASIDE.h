@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_LOOKASIDE.h>
+
 //0x1040 bytes (sizeof)
 struct _RTL_DYNAMIC_LOOKASIDE
 {

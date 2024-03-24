@@ -1,6 +1,57 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_ERESOURCE.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_KAFFINITY_EX.h>
+#include <_JOB_ACCESS_STATE.h>
+#include <_PROCESS_DISK_COUNTERS.h>
+#include <_KAFFINITY_EX.h>
+#include <_LARGE_INTEGER.h>
+#include <_EJOB.h>
+#include <_EJOB.h>
+#include <_EJOB.h>
+#include <_EJOB.h>
+#include <_WNF_STATE_NAME.h>
+#include <_PS_JOB_WAKE_INFORMATION.h>
+#include <_JOBOBJECT_WAKE_FILTER.h>
+#include <_EJOB.h>
+#include <_JOB_NOTIFICATION_INFORMATION.h>
+#include <_IO_MINI_COMPLETION_PACKET_USER.h>
+#include <_JOB_CPU_RATE_CONTROL.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_EJOB.h>
+#include <_EJOB.h>
+#include <_LIST_ENTRY.h>
+#include <_EJOB.h>
+#include <_EPROCESS_VALUES.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_ESERVERSILO_GLOBALS.h>
+#include <_PS_PROPERTY_SET.h>
+#include <_PSP_STORAGE.h>
+#include <_JOB_NET_RATE_CONTROL.h>
+#include <_PROCESS_EXTENDED_ENERGY_VALUES.h>
+#include <_EJOB.h>
+#include <_JOB_RATE_CONTROL_HEADER.h>
+#include <_PS_IO_CONTROL_ENTRY.h>
+#include <_RTL_RB_TREE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_EJOB.h>
+#include <_JOBOBJECT_ENERGY_TRACKING_STATE.h>
+
 //0x640 bytes (sizeof)
 struct _EJOB
 {

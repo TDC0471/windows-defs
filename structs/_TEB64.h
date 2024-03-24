@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_NT_TIB64.h>
+#include <_CLIENT_ID64.h>
+#include <_ACTIVATION_CONTEXT_STACK64.h>
+#include <_GDI_TEB_BATCH64.h>
+#include <_CLIENT_ID64.h>
+#include <_STRING64.h>
+#include <LIST_ENTRY64.h>
+#include <_GUID.h>
+#include <_PROCESSOR_NUMBER.h>
+#include <_GUID.h>
+
 //0x1838 bytes (sizeof)
 struct _TEB64
 {

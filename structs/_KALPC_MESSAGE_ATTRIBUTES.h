@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_KALPC_SECURITY_DATA.h>
+#include <_KALPC_VIEW.h>
+#include <_KALPC_HANDLE_DATA.h>
+#include <_KALPC_DIRECT_EVENT.h>
+#include <_KALPC_WORK_ON_BEHALF_DATA.h>
+
 //0x48 bytes (sizeof)
 struct _KALPC_MESSAGE_ATTRIBUTES
 {

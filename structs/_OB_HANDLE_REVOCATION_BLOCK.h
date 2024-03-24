@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_RUNDOWN_REF.h>
+
 //0x20 bytes (sizeof)
 struct _OB_HANDLE_REVOCATION_BLOCK
 {

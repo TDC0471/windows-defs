@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+
 //0x38 bytes (sizeof)
 struct _WHEAP_ERROR_SOURCE_TABLE
 {

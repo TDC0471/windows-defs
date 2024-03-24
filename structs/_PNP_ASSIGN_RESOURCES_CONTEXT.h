@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+
 //0x10 bytes (sizeof)
 struct _PNP_ASSIGN_RESOURCES_CONTEXT
 {

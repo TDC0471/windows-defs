@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 struct _MI_STORE_INPAGE_COMPLETE_FLAGS
 {

@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_PARTITION_FLAGS.h>
+#include <_MI_NODE_INFORMATION.h>
+#include <_RTL_AVL_TREE.h>
+#include <_PHYSICAL_MEMORY_DESCRIPTOR.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_PHYSICAL_MEMORY_DESCRIPTOR.h>
+#include <_KEVENT.h>
+#include <_EPARTITION.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+
 //0x1b8 bytes (sizeof)
 struct _MI_PARTITION_CORE
 {

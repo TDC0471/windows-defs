@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_DEVICE_POWER_STATE.h>
+
 //0x70 bytes (sizeof)
 struct _PI_BUS_EXTENSION
 {

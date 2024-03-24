@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_INVERTED_FUNCTION_TABLE_ENTRY.h>
+
 //0x1810 bytes (sizeof)
 struct _INVERTED_FUNCTION_TABLE
 {

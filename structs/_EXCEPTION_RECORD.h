@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EXCEPTION_RECORD.h>
+
 //0x98 bytes (sizeof)
 struct _EXCEPTION_RECORD
 {

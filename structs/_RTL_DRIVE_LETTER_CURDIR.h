@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_STRING.h>
+
 //0x18 bytes (sizeof)
 struct _RTL_DRIVE_LETTER_CURDIR
 {

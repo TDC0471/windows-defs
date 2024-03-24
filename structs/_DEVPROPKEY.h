@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+
 //0x14 bytes (sizeof)
 struct _DEVPROPKEY
 {

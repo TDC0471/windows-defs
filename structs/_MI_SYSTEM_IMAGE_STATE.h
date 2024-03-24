@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_ETHREAD.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KLDR_DATA_TABLE_ENTRY.h>
+#include <_KLDR_DATA_TABLE_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MI_DRIVER_VA.h>
+#include <_MM_SYSTEM_PAGE_COUNTS.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_RTL_AVL_TREE.h>
+
 //0xa8 bytes (sizeof)
 struct _MI_SYSTEM_IMAGE_STATE
 {

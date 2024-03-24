@@ -1,6 +1,24 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_KRESOURCEMANAGER_STATE.h>
+#include <_KMUTANT.h>
+#include <_KTMOBJECT_NAMESPACE_LINK.h>
+#include <_GUID.h>
+#include <_KQUEUE.h>
+#include <_KMUTANT.h>
+#include <_LIST_ENTRY.h>
+#include <_KENLISTMENT.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KTM.h>
+#include <_UNICODE_STRING.h>
+#include <_KTMOBJECT_NAMESPACE.h>
+#include <_KRESOURCEMANAGER_COMPLETION_BINDING.h>
+
 //0x250 bytes (sizeof)
 struct _KRESOURCEMANAGER
 {

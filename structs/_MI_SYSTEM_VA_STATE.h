@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_DYNAMIC_BITMAP.h>
+#include <_MI_DYNAMIC_BITMAP.h>
+#include <_MI_DYNAMIC_BITMAP.h>
+#include <_MI_DYNAMIC_BITMAP.h>
+#include <_MI_DYNAMIC_BITMAP.h>
+#include <_MI_DYNAMIC_BITMAP.h>
+#include <_MI_WSLE.h>
+#include <_KEVENT.h>
+#include <_MMWSL_INSTANCE.h>
+
 //0x4c0 bytes (sizeof)
 struct _MI_SYSTEM_VA_STATE
 {

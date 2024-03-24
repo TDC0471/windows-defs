@@ -1,6 +1,18 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KAFFINITY_EX.h>
+#include <_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_KAFFINITY_EX.h>
+#include <_KEXECUTE_OPTIONS.h>
+#include <_KSTACK_COUNT.h>
+#include <_LIST_ENTRY.h>
+#include <_KSCHEDULING_GROUP.h>
+
 //0x438 bytes (sizeof)
 struct _KPROCESS
 {

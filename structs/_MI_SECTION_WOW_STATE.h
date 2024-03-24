@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BITMAP_EX.h>
+#include <_MI_DLL_OVERFLOW_AREA.h>
+#include <_SECTION.h>
+#include <_CONTROL_AREA.h>
+
 //0x40 bytes (sizeof)
 struct _MI_SECTION_WOW_STATE
 {

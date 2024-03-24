@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_DRIVER_EXTENSION.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_FAST_IO_DISPATCH.h>
+#include <_DRIVER_OBJECT.h>
+#include <_UNICODE_STRING.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+#include <_DRIVER_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+
 //0x150 bytes (sizeof)
 struct _DRIVER_OBJECT
 {

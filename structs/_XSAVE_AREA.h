@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_XSAVE_FORMAT.h>
+#include <_XSAVE_AREA_HEADER.h>
+
 //0x240 bytes (sizeof)
 struct _XSAVE_AREA
 {

@@ -1,6 +1,27 @@
 #pragma once
 /* ------------------ */
 
+#include <_XSAVE_FORMAT.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+
 //0x4d0 bytes (sizeof)
 struct _CONTEXT
 {

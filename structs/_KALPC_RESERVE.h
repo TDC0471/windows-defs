@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_ALPC_PORT.h>
+#include <_ALPC_HANDLE_TABLE.h>
+#include <_KALPC_MESSAGE.h>
+
 //0x30 bytes (sizeof)
 struct _KALPC_RESERVE
 {

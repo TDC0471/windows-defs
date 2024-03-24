@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1c bytes (sizeof)
 struct _IMAGE_DEBUG_DIRECTORY
 {

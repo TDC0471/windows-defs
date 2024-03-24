@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_NODE_HEADER.h>
+#include <_EX_RUNDOWN_REF.h>
+#include <_LIST_ENTRY.h>
+#include <_EPROCESS.h>
+#include <_WNF_NAME_INSTANCE.h>
+#include <_WNF_STATE_NAME_STRUCT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_WNF_SUBSCRIPTION_STATE.h>
+
 //0x88 bytes (sizeof)
 struct _WNF_SUBSCRIPTION
 {

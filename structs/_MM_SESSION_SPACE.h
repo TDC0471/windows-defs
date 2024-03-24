@@ -1,6 +1,28 @@
 #pragma once
 /* ------------------ */
 
+#include <_MM_SESSION_SPACE_FLAGS.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_AVL_TREE.h>
+#include <_KGATE.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_MM_PAGED_POOL_INFO.h>
+#include <_MMSESSION.h>
+#include <_MMSUPPORT_FULL.h>
+#include <_MMWSL_INSTANCE.h>
+#include <_MMSUPPORT_AGGREGATION.h>
+#include <_MI_SESSION_DRIVER_UNLOAD.h>
+#include <_MMPTE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MI_SYSTEM_PTE_TYPE.h>
+#include <_RTL_AVL_TREE.h>
+#include <_IO_SESSION_STATE.h>
+#include <_KEVENT.h>
+#include <_EJOB.h>
+
 //0x5000 bytes (sizeof)
 struct _MM_SESSION_SPACE
 {

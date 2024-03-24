@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x6 bytes (sizeof)
 struct _PROC_IDLE_POLICY
 {

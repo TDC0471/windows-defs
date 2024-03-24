@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+#include <_DEVICE_OBJECT.h>
+#include <_ARBITER_REQUEST_SOURCE.h>
+#include <_INTERFACE_TYPE.h>
+#include <_CM_PARTIAL_RESOURCE_DESCRIPTOR.h>
+#include <_IO_RESOURCE_DESCRIPTOR.h>
+#include <_ARBITER_RESULT.h>
+
 //0x60 bytes (sizeof)
 struct _ARBITER_LIST_ENTRY
 {

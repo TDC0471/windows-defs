@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+
 //0x40 bytes (sizeof)
 struct _MI_SYSTEM_TRIM_STATE
 {

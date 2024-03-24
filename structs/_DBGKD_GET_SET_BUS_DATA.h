@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x14 bytes (sizeof)
 struct _DBGKD_GET_SET_BUS_DATA
 {

@@ -1,6 +1,41 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+#include <_XSAVE_FORMAT.h>
+#include <_KSCHEDULING_GROUP.h>
+#include <_KWAIT_STATUS_REGISTER.h>
+#include <_KTRAP_FRAME.h>
+#include <_KAPC_STATE.h>
+#include <_KWAIT_BLOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_DISPATCHER_HEADER.h>
+#include <_KTIMER.h>
+#include <_KWAIT_BLOCK.h>
+#include <_KTHREAD_COUNTERS.h>
+#include <_XSTATE_SAVE.h>
+#include <_UMS_CONTROL_BLOCK.h>
+#include <_KUMS_CONTEXT_HEADER.h>
+#include <_LIST_ENTRY.h>
+#include <_KPROCESS.h>
+#include <_GROUP_AFFINITY.h>
+#include <_GROUP_AFFINITY.h>
+#include <_KAPC_STATE.h>
+#include <_KAPC.h>
+#include <_KPRCB.h>
+#include <_KEVENT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KLOCK_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_KSCB.h>
+#include <_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+
 //0x430 bytes (sizeof)
 struct _KTHREAD
 {

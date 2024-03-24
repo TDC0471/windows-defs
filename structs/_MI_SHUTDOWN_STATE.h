@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_RESUME_WORKITEM.h>
+#include <_ETHREAD.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_MMPTE.h>
+
 //0x78 bytes (sizeof)
 struct _MI_SHUTDOWN_STATE
 {

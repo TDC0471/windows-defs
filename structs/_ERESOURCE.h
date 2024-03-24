@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_OWNER_ENTRY.h>
+#include <_OWNER_ENTRY.h>
+
 //0x68 bytes (sizeof)
 struct _ERESOURCE
 {

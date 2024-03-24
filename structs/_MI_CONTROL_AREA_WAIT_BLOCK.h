@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_CONTROL_AREA_WAIT_BLOCK.h>
+#include <_KGATE.h>
+
 //0x28 bytes (sizeof)
 struct _MI_CONTROL_AREA_WAIT_BLOCK
 {

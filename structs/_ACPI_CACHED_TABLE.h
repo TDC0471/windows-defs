@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+#include <_DESCRIPTION_HEADER.h>
+
 //0x40 bytes (sizeof)
 struct _ACPI_CACHED_TABLE
 {

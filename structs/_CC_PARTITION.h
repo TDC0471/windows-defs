@@ -1,6 +1,46 @@
 #pragma once
 /* ------------------ */
 
+#include <_EPARTITION.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_SHARED_CACHE_MAP_LIST_CURSOR.h>
+#include <_SHARED_CACHE_MAP_LIST_CURSOR.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_LAZY_WRITER.h>
+#include <_DIRTY_PAGE_STATISTICS.h>
+#include <_DIRTY_PAGE_THRESHOLDS.h>
+#include <_WRITE_BEHIND_THROUGHPUT.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_ASYNC_READ_THREAD_STATS.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_ETHREAD.h>
+#include <_SHARED_CACHE_MAP.h>
+#include <_IO_PRIORITY_HINT.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+
 //0x440 bytes (sizeof)
 struct _CC_PARTITION
 {

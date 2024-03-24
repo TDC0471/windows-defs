@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_DMA_TRANSFER_INFO_V1.h>
+#include <_DMA_TRANSFER_INFO_V2.h>
+
 //0x14 bytes (sizeof)
 struct _DMA_TRANSFER_INFO
 {

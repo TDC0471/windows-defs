@@ -1,7 +1,13 @@
 #pragma once
 /* ------------------ */
 
-//0x40 bytes (sizeof)
+#include <_GUID.h>
+#include <_LARGE_INTEGER.h>
+#include <_IO_IRP_EXT_TRACK_OFFSET_HEADER.h>
+#include <_IO_ADAPTER_CRYPTO_PARAMETERS.h>
+#include <_COPY_INFORMATION.h>
+
+//0x50 bytes (sizeof)
 struct _IOP_IRP_EXTENSION
 {
     union
@@ -37,4 +43,5 @@ struct _IOP_IRP_EXTENSION
         ULONGLONG SystemFlags:16;                                           //0x38
         ULONGLONG UserFlagsId:16;                                           //0x38
     } DriverFlags;                                                          //0x38
+    struct _COPY_INFORMATION CopyInformation;                               //0x40
 };

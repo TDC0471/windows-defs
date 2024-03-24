@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_FAILURE_TYPE.h>
+#include <_FAKE_HEAP_ENTRY.h>
+#include <_EXCEPTION_RECORD.h>
+#include <_CONTEXT.h>
+
 //0x6d0 bytes (sizeof)
 struct _HEAP_FAILURE_INFORMATION
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MACHINE_FRAME.h>
+
 //0x50 bytes (sizeof)
 struct _MACHINE_CHECK_CONTEXT
 {

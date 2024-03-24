@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_ATOM_TABLE_ENTRY.h>
+#include <_RTL_ATOM_TABLE_REFERENCE.h>
+
 //0x30 bytes (sizeof)
 struct _RTL_ATOM_TABLE_ENTRY
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x18 bytes (sizeof)
 struct _MAILSLOT_CREATE_PARAMETERS
 {

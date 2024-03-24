@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_DECAY_TIMER_LINKAGE.h>
+
 //0x8 bytes (sizeof)
 struct _MI_DECAY_TIMER_LINK
 {

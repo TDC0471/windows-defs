@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_GUID.h>
+#include <_EVENT_DESCRIPTOR.h>
+#include <_GUID.h>
+
 //0x50 bytes (sizeof)
 struct _EVENT_HEADER
 {

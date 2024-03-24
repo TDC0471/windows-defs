@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_FAST_MUTEX.h>
+#include <_HANDLE_TRACE_DB_ENTRY.h>
+
 //0xf0 bytes (sizeof)
 struct _HANDLE_TRACE_DEBUG_INFO
 {

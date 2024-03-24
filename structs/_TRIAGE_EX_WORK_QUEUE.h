@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KPRIQUEUE.h>
+
 //0x2b0 bytes (sizeof)
 struct _TRIAGE_EX_WORK_QUEUE
 {

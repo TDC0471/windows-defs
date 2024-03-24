@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_IRP.h>
+#include <_ETHREAD.h>
+
 //0x200 bytes (sizeof)
 struct _IOV_FORCED_PENDING_TRACE
 {

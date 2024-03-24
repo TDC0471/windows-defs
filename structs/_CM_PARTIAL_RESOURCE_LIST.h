@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_PARTIAL_RESOURCE_DESCRIPTOR.h>
+
 //0x1c bytes (sizeof)
 struct _CM_PARTIAL_RESOURCE_LIST
 {

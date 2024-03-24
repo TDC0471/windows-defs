@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_HANDLE_COUNT_ENTRY.h>
+
 //0x18 bytes (sizeof)
 struct _OBJECT_HANDLE_COUNT_DATABASE
 {

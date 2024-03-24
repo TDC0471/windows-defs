@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_XSTATE_FEATURE.h>
+
 //0x338 bytes (sizeof)
 struct _XSTATE_CONFIGURATION
 {

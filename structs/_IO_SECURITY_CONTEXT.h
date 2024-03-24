@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+#include <_ACCESS_STATE.h>
+
 //0x18 bytes (sizeof)
 struct _IO_SECURITY_CONTEXT
 {

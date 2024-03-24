@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_HASH_TABLE.h>
+
 //0x28 bytes (sizeof)
 struct _ETW_FILTER_EVENT_NAME_DATA
 {

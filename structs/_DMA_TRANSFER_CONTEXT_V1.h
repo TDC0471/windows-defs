@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_WAIT_CONTEXT_BLOCK.h>
+
 //0x58 bytes (sizeof)
 struct _DMA_TRANSFER_CONTEXT_V1
 {

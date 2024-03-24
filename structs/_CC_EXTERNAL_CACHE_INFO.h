@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_DIRTY_PAGE_STATISTICS.h>
+#include <_LIST_ENTRY.h>
+
 //0x30 bytes (sizeof)
 struct _CC_EXTERNAL_CACHE_INFO
 {

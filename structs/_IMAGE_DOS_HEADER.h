@@ -1,7 +1,7 @@
 #pragma once
 /* ------------------ */
 
-#define IMAGE_DOS_SIGNATURE 0x5A4D                                          //0x0
+
 //0x40 bytes (sizeof)
 struct _IMAGE_DOS_HEADER
 {

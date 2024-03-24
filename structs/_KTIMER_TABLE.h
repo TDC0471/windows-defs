@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_KTIMER.h>
+#include <_KTIMER_TABLE_ENTRY.h>
+#include <_KTIMER_TABLE_STATE.h>
+
 //0x4218 bytes (sizeof)
 struct _KTIMER_TABLE
 {

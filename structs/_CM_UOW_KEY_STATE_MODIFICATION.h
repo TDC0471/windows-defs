@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x14 bytes (sizeof)
 struct _CM_UOW_KEY_STATE_MODIFICATION
 {

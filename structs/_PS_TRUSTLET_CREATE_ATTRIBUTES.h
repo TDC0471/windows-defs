@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PS_TRUSTLET_ATTRIBUTE_DATA.h>
+
 //0x18 bytes (sizeof)
 struct _PS_TRUSTLET_CREATE_ATTRIBUTES
 {

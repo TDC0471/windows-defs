@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x60 bytes (sizeof)
 struct _LOADER_PERFORMANCE_DATA
 {

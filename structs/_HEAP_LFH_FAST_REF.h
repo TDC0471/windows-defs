@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 struct _HEAP_LFH_FAST_REF
 {

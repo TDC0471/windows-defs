@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+
 //0x20 bytes (sizeof)
 struct _ETW_PROVIDER_TRAITS
 {

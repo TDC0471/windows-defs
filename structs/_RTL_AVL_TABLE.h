@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_LINKS.h>
+#include <_RTL_BALANCED_LINKS.h>
+#include <_RTL_GENERIC_COMPARE_RESULTS.h>
+#include <_RTL_AVL_TABLE.h>
+#include <_RTL_AVL_TABLE.h>
+#include <_RTL_AVL_TABLE.h>
+
 //0x68 bytes (sizeof)
 struct _RTL_AVL_TABLE
 {

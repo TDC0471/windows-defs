@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1c bytes (sizeof)
 struct _DBGKD_GET_INTERNAL_BREAKPOINT32
 {

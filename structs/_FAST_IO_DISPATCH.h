@@ -1,6 +1,107 @@
 #pragma once
 /* ------------------ */
 
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_FILE_BASIC_INFORMATION.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_FILE_STANDARD_INFORMATION.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_KPROCESS.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_KPROCESS.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_KPROCESS.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_FILE_NETWORK_OPEN_INFORMATION.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_ERESOURCE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_MDL.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_COMPRESSED_DATA_INFO.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_COMPRESSED_DATA_INFO.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_MDL.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+#include <_FILE_NETWORK_OPEN_INFORMATION.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_ERESOURCE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+
 //0xe0 bytes (sizeof)
 struct _FAST_IO_DISPATCH
 {
@@ -10,9 +111,9 @@ struct _FAST_IO_DISPATCH
     UCHAR (*FastIoWrite)(struct _FILE_OBJECT* arg1, union _LARGE_INTEGER* arg2, ULONG arg3, UCHAR arg4, ULONG arg5, VOID* arg6, struct _IO_STATUS_BLOCK* arg7, struct _DEVICE_OBJECT* arg8); //0x18
     UCHAR (*FastIoQueryBasicInfo)(struct _FILE_OBJECT* arg1, UCHAR arg2, struct _FILE_BASIC_INFORMATION* arg3, struct _IO_STATUS_BLOCK* arg4, struct _DEVICE_OBJECT* arg5); //0x20
     UCHAR (*FastIoQueryStandardInfo)(struct _FILE_OBJECT* arg1, UCHAR arg2, struct _FILE_STANDARD_INFORMATION* arg3, struct _IO_STATUS_BLOCK* arg4, struct _DEVICE_OBJECT* arg5); //0x28
-    UCHAR (*FastIoLock)(struct _FILE_OBJECT* arg1, union _LARGE_INTEGER* arg2, union _LARGE_INTEGER* arg3, struct _EPROCESS* arg4, ULONG arg5, UCHAR arg6, UCHAR arg7, struct _IO_STATUS_BLOCK* arg8, struct _DEVICE_OBJECT* arg9); //0x30
-    UCHAR (*FastIoUnlockSingle)(struct _FILE_OBJECT* arg1, union _LARGE_INTEGER* arg2, union _LARGE_INTEGER* arg3, struct _EPROCESS* arg4, ULONG arg5, struct _IO_STATUS_BLOCK* arg6, struct _DEVICE_OBJECT* arg7); //0x38
-    UCHAR (*FastIoUnlockAll)(struct _FILE_OBJECT* arg1, struct _EPROCESS* arg2, struct _IO_STATUS_BLOCK* arg3, struct _DEVICE_OBJECT* arg4); //0x40
+    UCHAR (*FastIoLock)(struct _FILE_OBJECT* arg1, union _LARGE_INTEGER* arg2, union _LARGE_INTEGER* arg3, struct _KPROCESS* arg4, ULONG arg5, UCHAR arg6, UCHAR arg7, struct _IO_STATUS_BLOCK* arg8, struct _DEVICE_OBJECT* arg9); //0x30
+    UCHAR (*FastIoUnlockSingle)(struct _FILE_OBJECT* arg1, union _LARGE_INTEGER* arg2, union _LARGE_INTEGER* arg3, struct _KPROCESS* arg4, ULONG arg5, struct _IO_STATUS_BLOCK* arg6, struct _DEVICE_OBJECT* arg7); //0x38
+    UCHAR (*FastIoUnlockAll)(struct _FILE_OBJECT* arg1, struct _KPROCESS* arg2, struct _IO_STATUS_BLOCK* arg3, struct _DEVICE_OBJECT* arg4); //0x40
     UCHAR (*FastIoUnlockAllByKey)(struct _FILE_OBJECT* arg1, VOID* arg2, ULONG arg3, struct _IO_STATUS_BLOCK* arg4, struct _DEVICE_OBJECT* arg5); //0x48
     UCHAR (*FastIoDeviceControl)(struct _FILE_OBJECT* arg1, UCHAR arg2, VOID* arg3, ULONG arg4, VOID* arg5, ULONG arg6, ULONG arg7, struct _IO_STATUS_BLOCK* arg8, struct _DEVICE_OBJECT* arg9); //0x50
     VOID (*AcquireFileForNtCreateSection)(struct _FILE_OBJECT* arg1);       //0x58

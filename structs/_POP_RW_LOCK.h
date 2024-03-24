@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_KTHREAD.h>
+
 //0x10 bytes (sizeof)
 struct _POP_RW_LOCK
 {

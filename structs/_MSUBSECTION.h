@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_SUBSECTION.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_MI_PROTOTYPE_PTES_NODE.h>
+
 //0x90 bytes (sizeof)
 struct _MSUBSECTION
 {

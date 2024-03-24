@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_VF_SUSPECT_DRIVER_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_SLIST_HEADER.h>
+#include <_SLIST_HEADER.h>
+#include <_LIST_ENTRY.h>
+
 //0x130 bytes (sizeof)
 struct _VF_TARGET_VERIFIED_DRIVER_DATA
 {

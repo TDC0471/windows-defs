@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_CMSI_PROCESS_TUPLE.h>
+#include <_RTL_RB_TREE.h>
+
 //0x38 bytes (sizeof)
 struct _HVP_VIEW_MAP
 {

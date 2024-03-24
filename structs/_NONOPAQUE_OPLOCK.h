@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_IRP.h>
+#include <_FILE_OBJECT.h>
+#include <_EPROCESS.h>
+#include <_ETHREAD.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_GUID.h>
+#include <_FAST_MUTEX.h>
+
 //0xa0 bytes (sizeof)
 struct _NONOPAQUE_OPLOCK
 {

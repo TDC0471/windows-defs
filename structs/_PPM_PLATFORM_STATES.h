@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROCESSOR_PLATFORM_STATE_RESIDENCIES.h>
+#include <_PLATFORM_IDLE_ACCOUNTING.h>
+#include <_PPM_PLATFORM_STATE.h>
+
 //0x1c0 bytes (sizeof)
 struct _PPM_PLATFORM_STATES
 {

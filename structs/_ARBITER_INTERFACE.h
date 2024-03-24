@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_ARBITER_ACTION.h>
+#include <_ARBITER_PARAMETERS.h>
+
 //0x30 bytes (sizeof)
 struct _ARBITER_INTERFACE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x20 bytes (sizeof)
 struct _OFFLINE_CRASHDUMP_CONFIGURATION_TABLE_V2
 {

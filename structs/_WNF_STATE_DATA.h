@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_NODE_HEADER.h>
+
 //0x10 bytes (sizeof)
 struct _WNF_STATE_DATA
 {

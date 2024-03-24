@@ -1,6 +1,34 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_ALPC_COMMUNICATION_INFO.h>
+#include <_EPROCESS.h>
+#include <_ALPC_COMPLETION_PACKET_LOOKASIDE.h>
+#include <_SECURITY_CLIENT_CONTEXT.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_KSEMAPHORE.h>
+#include <_KEVENT.h>
+#include <_ALPC_PORT_ATTRIBUTES.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_ALPC_COMPLETION_LIST.h>
+#include <_CALLBACK_OBJECT.h>
+#include <_LIST_ENTRY.h>
+#include <_PALPC_PORT_REFERENCE_WAIT_BLOCK.h>
+#include <_ALPC_PORT.h>
+#include <_ALPC_PORT.h>
+#include <_KALPC_MESSAGE.h>
+
 //0x1d8 bytes (sizeof)
 struct _ALPC_PORT
 {

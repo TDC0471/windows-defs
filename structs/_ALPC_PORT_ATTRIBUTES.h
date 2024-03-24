@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+
 //0x48 bytes (sizeof)
 struct _ALPC_PORT_ATTRIBUTES
 {

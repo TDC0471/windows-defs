@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+#include <_TOKEN_CONTROL.h>
+
 //0x48 bytes (sizeof)
 struct _SECURITY_CLIENT_CONTEXT
 {

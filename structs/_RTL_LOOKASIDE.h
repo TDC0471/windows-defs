@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SLIST_HEADER.h>
+
 //0x40 bytes (sizeof)
 struct _RTL_LOOKASIDE
 {

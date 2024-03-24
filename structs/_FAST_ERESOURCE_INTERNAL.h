@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KWAIT_CHAIN.h>
+#include <_KWAIT_CHAIN.h>
+#include <_LIST_ENTRY.h>
+
 //0x68 bytes (sizeof)
 struct _FAST_ERESOURCE_INTERNAL
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_XPF_PROCESSOR_ERROR_SECTION_VALIDBITS.h>
+
 //0x41 bytes (sizeof)
 struct _WHEA_XPF_PROCESSOR_ERROR_SECTION
 {

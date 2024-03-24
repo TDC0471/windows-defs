@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_CONTROL_AREA.h>
+#include <_SEGMENT_FLAGS.h>
+#include <_MMEXTEND_INFO.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MI_SECTION_IMAGE_INFORMATION.h>
+#include <_MMPTE.h>
+
 //0x48 bytes (sizeof)
 struct _SEGMENT
 {

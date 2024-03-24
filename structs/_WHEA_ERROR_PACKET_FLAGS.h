@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 union _WHEA_ERROR_PACKET_FLAGS
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xa8 bytes (sizeof)
 struct _KAFFINITY_EX
 {

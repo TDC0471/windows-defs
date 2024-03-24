@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_SLIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x30 bytes (sizeof)
 struct _BLOB
 {

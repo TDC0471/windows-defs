@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETW_SYSTEM_LOGGER.h>
+#include <_PERFINFO_GROUPMASK.h>
+#include <_PERFINFO_GROUPMASK.h>
+
 //0x174 bytes (sizeof)
 struct _ETW_SYSTEM_LOGGER_SETTINGS
 {

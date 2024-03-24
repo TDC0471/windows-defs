@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_RB_TREE.h>
+
 //0x18 bytes (sizeof)
 struct _KTIMER2_COLLECTION
 {

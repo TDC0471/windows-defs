@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_REVISION.h>
+#include <_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS.h>
+#include <_WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_FLAGS.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_WHEA_ERROR_SEVERITY.h>
+
 //0x48 bytes (sizeof)
 struct _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR
 {

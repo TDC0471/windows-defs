@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KNODE.h>
+#include <_WORK_QUEUE_ITEM.h>
+
 //0x1c0 bytes (sizeof)
 struct _ENODE
 {

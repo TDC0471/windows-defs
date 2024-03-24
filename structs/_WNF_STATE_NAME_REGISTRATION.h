@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_TYPE_ID.h>
+#include <_SECURITY_DESCRIPTOR.h>
+
 //0x18 bytes (sizeof)
 struct _WNF_STATE_NAME_REGISTRATION
 {

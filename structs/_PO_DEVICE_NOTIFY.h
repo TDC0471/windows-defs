@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+
 //0x68 bytes (sizeof)
 struct _PO_DEVICE_NOTIFY
 {

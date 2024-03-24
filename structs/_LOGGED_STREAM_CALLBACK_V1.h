@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x10 bytes (sizeof)
 struct _LOGGED_STREAM_CALLBACK_V1
 {

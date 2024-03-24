@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_REVISION.h>
+#include <_WHEA_ERROR_SEVERITY.h>
+#include <_WHEA_ERROR_RECORD_HEADER_VALIDBITS.h>
+#include <_WHEA_TIMESTAMP.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_WHEA_ERROR_RECORD_HEADER_FLAGS.h>
+#include <_WHEA_PERSISTENCE_INFO.h>
+
 //0x80 bytes (sizeof)
 struct _WHEA_ERROR_RECORD_HEADER
 {

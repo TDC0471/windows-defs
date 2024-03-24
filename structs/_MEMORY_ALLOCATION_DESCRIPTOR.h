@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_TYPE_OF_MEMORY.h>
+
 //0x28 bytes (sizeof)
 struct _MEMORY_ALLOCATION_DESCRIPTOR
 {

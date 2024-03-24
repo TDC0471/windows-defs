@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_MDL.h>
+#include <_EPROCESS.h>
+
 //0x90 bytes (sizeof)
 struct _LOCK_TRACKER
 {

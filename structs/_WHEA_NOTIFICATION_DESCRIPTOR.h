@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_NOTIFICATION_FLAGS.h>
+
 //0x1c bytes (sizeof)
 struct _WHEA_NOTIFICATION_DESCRIPTOR
 {

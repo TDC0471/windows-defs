@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_OBJECT.h>
+#include <_PNP_DEVICE_ACTION_REQUEST.h>
+#include <_KEVENT.h>
+#include <_GUID.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x60 bytes (sizeof)
 struct _PNP_DEVICE_ACTION_ENTRY
 {

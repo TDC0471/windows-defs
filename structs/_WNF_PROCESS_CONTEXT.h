@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_NODE_HEADER.h>
+#include <_EPROCESS.h>
+#include <_LIST_ENTRY.h>
+#include <_WNF_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_WNF_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_WNF_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+
 //0x88 bytes (sizeof)
 struct _WNF_PROCESS_CONTEXT
 {

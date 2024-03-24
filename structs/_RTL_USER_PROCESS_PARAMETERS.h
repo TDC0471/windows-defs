@@ -1,6 +1,18 @@
 #pragma once
 /* ------------------ */
 
+#include <_CURDIR.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_RTL_DRIVE_LETTER_CURDIR.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+
 //0x440 bytes (sizeof)
 struct _RTL_USER_PROCESS_PARAMETERS
 {

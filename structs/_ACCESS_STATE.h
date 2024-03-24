@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LUID.h>
+#include <_SECURITY_SUBJECT_CONTEXT.h>
+#include <_INITIAL_PRIVILEGE_SET.h>
+#include <_PRIVILEGE_SET.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+
 //0xa0 bytes (sizeof)
 struct _ACCESS_STATE
 {

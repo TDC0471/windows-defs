@@ -1,6 +1,18 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_POP_FX_WORK_ORDER.h>
+#include <_POP_FX_DEVICE.h>
+#include <_POP_FX_COMPONENT_FLAGS.h>
+#include <_KEVENT.h>
+#include <_POP_FX_IDLE_STATE.h>
+#include <_POP_FX_PROVIDER.h>
+#include <_POP_FX_DEPENDENT.h>
+#include <_POP_FX_ACCOUNTING.h>
+#include <_POP_FX_PERF_INFO.h>
+#include <_POP_COMPONENT_POWER_PROFILE.h>
+
 //0x1b8 bytes (sizeof)
 struct _POP_FX_COMPONENT
 {

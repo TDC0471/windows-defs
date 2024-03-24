@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_POP_FX_ACTIVE_TIME_ACCOUNTING.h>
+#include <_POP_FX_ACTIVE_TIME_ACCOUNTING.h>
+
 //0xe0 bytes (sizeof)
 struct _POP_FX_ACCOUNTING
 {

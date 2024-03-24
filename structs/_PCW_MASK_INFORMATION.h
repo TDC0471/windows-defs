@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+#include <_PCW_BUFFER.h>
+#include <_KEVENT.h>
+
 //0x28 bytes (sizeof)
 struct _PCW_MASK_INFORMATION
 {

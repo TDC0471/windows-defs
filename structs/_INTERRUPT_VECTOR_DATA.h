@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <INTERRUPT_CONNECTION_TYPE.h>
+#include <_KINTERRUPT_POLARITY.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_GROUP_AFFINITY.h>
+#include <_INTERRUPT_REMAPPING_INFO.h>
+#include <_LARGE_INTEGER.h>
+#include <_INTERRUPT_HT_INTR_INFO.h>
+#include <_LARGE_INTEGER.h>
+#include <HAL_APIC_DESTINATION_MODE.h>
+
 //0x58 bytes (sizeof)
 struct _INTERRUPT_VECTOR_DATA
 {

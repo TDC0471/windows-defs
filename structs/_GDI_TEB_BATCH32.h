@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4e0 bytes (sizeof)
 struct _GDI_TEB_BATCH32
 {

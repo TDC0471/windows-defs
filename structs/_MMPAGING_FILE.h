@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_FILE_OBJECT.h>
+#include <_MMMOD_WRITER_MDL_ENTRY.h>
+#include <_SLIST_HEADER.h>
+#include <_UNICODE_STRING.h>
+#include <_MI_PAGING_FILE_SPACE_BITMAPS.h>
+#include <_RTL_RB_TREE.h>
+#include <_RTL_RB_TREE.h>
+#include <_LIST_ENTRY.h>
+#include <_MI_PAGEFILE_BITMAPS_CACHE_ENTRY.h>
+#include <_RTL_AVL_TREE.h>
+#include <_MI_PARTITION.h>
+#include <_RTL_BALANCED_NODE.h>
+
 //0x120 bytes (sizeof)
 struct _MMPAGING_FILE
 {

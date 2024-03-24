@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x20 bytes (sizeof)
 struct _PPM_FFH_THROTTLE_STATE_INFO
 {

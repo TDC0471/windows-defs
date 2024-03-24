@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_PPM_SELECTION_STATISTICS.h>
+#include <_PROC_IDLE_STATE_BUCKET.h>
+
 //0x3e8 bytes (sizeof)
 struct _PROC_IDLE_STATE_ACCOUNTING
 {

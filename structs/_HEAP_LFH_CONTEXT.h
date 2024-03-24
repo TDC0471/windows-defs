@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_SUBALLOCATOR_CALLBACKS.h>
+#include <_RTL_HP_LFH_CONFIG.h>
+#include <_HEAP_LFH_SUBSEGMENT_STATS.h>
+#include <_HEAP_LFH_BUCKET.h>
+
 //0x4c0 bytes (sizeof)
 struct _HEAP_LFH_CONTEXT
 {

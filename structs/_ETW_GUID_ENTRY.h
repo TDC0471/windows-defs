@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_GUID.h>
+#include <_LIST_ENTRY.h>
+#include <_ETW_LAST_ENABLE_INFO.h>
+#include <_TRACE_ENABLE_INFO.h>
+#include <_TRACE_ENABLE_INFO.h>
+#include <_ETW_FILTER_HEADER.h>
+#include <_ETW_SILODRIVERSTATE.h>
+#include <_ETW_GUID_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_ETHREAD.h>
+
 //0x1a8 bytes (sizeof)
 struct _ETW_GUID_ENTRY
 {

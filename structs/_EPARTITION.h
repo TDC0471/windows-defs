@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EPARTITION.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EPROCESS.h>
+
 //0x80 bytes (sizeof)
 struct _EPARTITION
 {

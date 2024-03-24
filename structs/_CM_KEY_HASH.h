@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_PATH_HASH.h>
+#include <_CM_KEY_HASH.h>
+#include <_HHIVE.h>
+
 //0x20 bytes (sizeof)
 struct _CM_KEY_HASH
 {

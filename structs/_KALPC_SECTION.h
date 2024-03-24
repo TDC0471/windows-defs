@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_ALPC_HANDLE_TABLE.h>
+#include <_EPROCESS.h>
+#include <_ALPC_PORT.h>
+#include <_LIST_ENTRY.h>
+
 //0x48 bytes (sizeof)
 struct _KALPC_SECTION
 {

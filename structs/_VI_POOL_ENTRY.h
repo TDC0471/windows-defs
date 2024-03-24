@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_VI_POOL_PAGE_HEADER.h>
+#include <_VI_POOL_ENTRY_INUSE.h>
+#include <_SLIST_ENTRY.h>
+
 //0x20 bytes (sizeof)
 struct _VI_POOL_ENTRY
 {

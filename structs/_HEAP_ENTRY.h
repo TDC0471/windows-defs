@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_UNPACKED_ENTRY.h>
+#include <_HEAP_EXTENDED_ENTRY.h>
+
 //0x10 bytes (sizeof)
 struct _HEAP_ENTRY
 {

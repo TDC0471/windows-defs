@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 struct _ALPC_WORK_ON_BEHALF_TICKET
 {

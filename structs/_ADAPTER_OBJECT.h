@@ -1,6 +1,32 @@
 #pragma once
 /* ------------------ */
 
+#include <_HALP_DMA_ADAPTER_OBJECT.h>
+#include <_HALP_DMA_MASTER_ADAPTER_OBJECT.h>
+#include <_LIST_ENTRY.h>
+#include <_KDEVICE_QUEUE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_MDL.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_WAIT_CONTEXT_BLOCK.h>
+#include <_DMA_TRANSFER_CONTEXT.h>
+#include <_HALP_DMA_CONTROLLER.h>
+#include <_DMA_WIDTH.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_HALP_DMA_DOMAIN_OBJECT.h>
+#include <_EXT_IOMMU_TRANSLATION_TYPE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_EXT_IOMMU_DEVICE_ID.h>
+#include <_MDL.h>
+#include <_LIST_ENTRY.h>
+#include <_HALP_EMERGENCY_LA_QUEUE_ENTRY.h>
+#include <_HALP_DMA_ADAPTER_ALLOCATION_STATE.h>
+#include <_SCATTER_GATHER_LIST.h>
+
 //0x280 bytes (sizeof)
 struct _ADAPTER_OBJECT
 {

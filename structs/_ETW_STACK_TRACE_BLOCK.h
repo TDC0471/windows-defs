@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_ETHREAD.h>
+#include <_KDPC.h>
+#include <_SLIST_HEADER.h>
+#include <_ETW_APC_ENTRY.h>
+
 //0x80 bytes (sizeof)
 struct _ETW_STACK_TRACE_BLOCK
 {

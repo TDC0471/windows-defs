@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTLP_HP_ADDRESS_SPACE_TYPE.h>
+#include <_RTL_SPARSE_ARRAY.h>
+
 //0x860 bytes (sizeof)
 struct _HEAP_VAMGR_VASPACE
 {

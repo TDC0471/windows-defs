@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum SE_WS_APPX_SIGNATURE_ORIGIN
 {

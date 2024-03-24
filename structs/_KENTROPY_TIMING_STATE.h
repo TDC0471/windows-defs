@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KDPC.h>
+
 //0x150 bytes (sizeof)
 struct _KENTROPY_TIMING_STATE
 {

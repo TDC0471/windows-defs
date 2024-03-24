@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_PO_NOTIFY_ORDER_LEVEL.h>
+
 //0x180 bytes (sizeof)
 struct _PO_DEVICE_NOTIFY_ORDER
 {

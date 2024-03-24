@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_POP_FX_PLUGIN.h>
+#include <_LIST_ENTRY.h>
+#include <_KSEMAPHORE.h>
+#include <_POP_FX_WORK_POOL_ITEM.h>
+#include <_KTHREAD.h>
+#include <_KTHREAD.h>
+
 //0x130 bytes (sizeof)
 struct _POP_FX_WORK_POOL
 {

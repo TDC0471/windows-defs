@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 struct _SYSTEM_POWER_STATE_CONTEXT
 {

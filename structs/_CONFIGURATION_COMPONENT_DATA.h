@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_CONFIGURATION_COMPONENT_DATA.h>
+#include <_CONFIGURATION_COMPONENT_DATA.h>
+#include <_CONFIGURATION_COMPONENT_DATA.h>
+#include <_CONFIGURATION_COMPONENT.h>
+
 //0x48 bytes (sizeof)
 struct _CONFIGURATION_COMPONENT_DATA
 {

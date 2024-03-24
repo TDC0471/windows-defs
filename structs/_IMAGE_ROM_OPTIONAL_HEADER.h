@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x38 bytes (sizeof)
 struct _IMAGE_ROM_OPTIONAL_HEADER
 {

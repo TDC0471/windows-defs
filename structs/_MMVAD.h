@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMVAD_SHORT.h>
+#include <_MMVAD_FLAGS2.h>
+#include <_SUBSECTION.h>
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+#include <_LIST_ENTRY.h>
+#include <_EPROCESS.h>
+#include <_MI_VAD_SEQUENTIAL_INFO.h>
+#include <_MMEXTEND_INFO.h>
+#include <_FILE_OBJECT.h>
+
 //0x88 bytes (sizeof)
 struct _MMVAD
 {

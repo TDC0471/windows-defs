@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x28 bytes (sizeof)
 struct _KDEVICE_QUEUE
 {

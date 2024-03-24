@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_FAULT_INFORMATION_ARM64_FLAGS.h>
+#include <_FAULT_INFORMATION_ARM64_TYPE.h>
+
 //0x30 bytes (sizeof)
 struct _FAULT_INFORMATION_ARM64
 {

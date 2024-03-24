@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_CVDD.h>
+
 //0x38 bytes (sizeof)
 struct _ETW_DEBUGID_TRACKING_ENTRY
 {

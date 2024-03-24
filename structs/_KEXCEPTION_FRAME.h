@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+#include <_M128A.h>
+
 //0x140 bytes (sizeof)
 struct _KEXCEPTION_FRAME
 {

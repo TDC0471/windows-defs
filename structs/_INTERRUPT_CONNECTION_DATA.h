@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_INTERRUPT_VECTOR_DATA.h>
+
 //0x60 bytes (sizeof)
 struct _INTERRUPT_CONNECTION_DATA
 {

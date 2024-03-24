@@ -1,6 +1,30 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_SLIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_LARGE_INTEGER.h>
+#include <_KAPC_STATE.h>
+#include <_MI_HARD_FAULT_STATE.h>
+#include <_ETHREAD.h>
+#include <_MMPFN.h>
+#include <_MMPTE.h>
+#include <_MMINPAGE_FLAGS.h>
+#include <_FILE_OBJECT.h>
+#include <_MMPAGING_FILE.h>
+#include <_CONTROL_AREA.h>
+#include <_SUBSECTION.h>
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+#include <_MMPFN.h>
+#include <_MDL.h>
+#include <_MDL.h>
+#include <_MMINPAGE_SUPPORT_FLOW_THROUGH.h>
+
 //0x1c0 bytes (sizeof)
 struct _MMINPAGE_SUPPORT
 {

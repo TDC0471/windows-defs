@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1c bytes (sizeof)
 struct _PROC_PERF_QOS_CLASS_POLICY
 {

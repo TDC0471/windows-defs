@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PARTITION.h>
+#include <_ENODE.h>
+#include <_KEVENT.h>
+#include <_KTIMER.h>
+#include <_KEVENT.h>
+#include <_KTIMER2.h>
+
 //0x118 bytes (sizeof)
 struct _EX_WORK_QUEUE_MANAGER
 {

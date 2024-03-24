@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_TEB_ACTIVE_FRAME.h>
+#include <_TEB_ACTIVE_FRAME_CONTEXT.h>
+
 //0x18 bytes (sizeof)
 struct _TEB_ACTIVE_FRAME
 {

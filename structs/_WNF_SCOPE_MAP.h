@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_NODE_HEADER.h>
+#include <_WNF_SCOPE_INSTANCE.h>
+#include <_WNF_SCOPE_INSTANCE.h>
+#include <_WNF_SCOPE_INSTANCE.h>
+#include <_WNF_SCOPE_MAP_ENTRY.h>
+
 //0xb0 bytes (sizeof)
 struct _WNF_SCOPE_MAP
 {

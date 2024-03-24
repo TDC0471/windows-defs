@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_FAST_LEAF_HINT.h>
+#include <_CM_COMPONENT_HASH.h>
+
 //0x8 bytes (sizeof)
 struct _CM_INDEX
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <POHANDLE__.h>
+#include <_ACPI_METHOD_ARGUMENT_V1.h>
+
 //0x28 bytes (sizeof)
 struct _PEP_WORK_ACPI_EVALUATE_CONTROL_METHOD_COMPLETE
 {

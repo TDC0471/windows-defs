@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_UNICODE_STRING.h>
+#include <_OBJECT_TYPE_INITIALIZER.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+
 //0xd8 bytes (sizeof)
 struct _OBJECT_TYPE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROC_FEEDBACK_COUNTER.h>
+
 //0x90 bytes (sizeof)
 struct _PROC_FEEDBACK
 {

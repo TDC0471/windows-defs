@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x6c bytes (sizeof)
 struct _OBP_SYSTEM_DOS_DEVICE_STATE
 {

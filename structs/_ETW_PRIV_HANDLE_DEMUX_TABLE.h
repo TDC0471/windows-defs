@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_RB_TREE.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x20 bytes (sizeof)
 struct _ETW_PRIV_HANDLE_DEMUX_TABLE
 {

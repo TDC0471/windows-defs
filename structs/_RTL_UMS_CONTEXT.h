@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_CONTEXT.h>
+#include <_RTL_UMS_CONTEXT.h>
+
 //0x520 bytes (sizeof)
 struct _RTL_UMS_CONTEXT
 {

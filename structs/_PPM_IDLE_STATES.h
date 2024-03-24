@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_KAFFINITY_EX.h>
+#include <_KAFFINITY_EX.h>
+#include <_PROCESSOR_IDLE_PREPARE_INFO.h>
+#include <_PROCESSOR_IDLE_CONSTRAINTS.h>
+#include <_PROCESSOR_IDLE_PREPARE_INFO.h>
+#include <_KAFFINITY_EX.h>
+#include <_PERFINFO_PPM_STATE_SELECTION.h>
+#include <_PERFINFO_PPM_STATE_SELECTION.h>
+#include <_PPM_SELECTION_MENU.h>
+#include <_PPM_SELECTION_MENU.h>
+#include <_PPM_COORDINATED_SELECTION.h>
+#include <_PPM_IDLE_STATE.h>
+
 //0x428 bytes (sizeof)
 struct _PPM_IDLE_STATES
 {

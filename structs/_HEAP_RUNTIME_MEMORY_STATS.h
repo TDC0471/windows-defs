@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_OPPORTUNISTIC_LARGE_PAGE_STATS.h>
+#include <_RTL_HP_SEG_ALLOC_POLICY.h>
+
 //0x58 bytes (sizeof)
 struct _HEAP_RUNTIME_MEMORY_STATS
 {

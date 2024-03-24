@@ -1,7 +1,27 @@
 #pragma once
 /* ------------------ */
 
-//0x498 bytes (sizeof)
+#include <_OBP_SILODRIVERSTATE.h>
+#include <_SEP_SILOSTATE.h>
+#include <_SEP_RM_LSA_CONNECTION_STATE.h>
+#include <_ETW_SILODRIVERSTATE.h>
+#include <_EPROCESS.h>
+#include <_EPROCESS.h>
+#include <_EXP_LICENSE_STATE.h>
+#include <_WNF_SILODRIVERSTATE.h>
+#include <_DBGK_SILOSTATE.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_EX_TIMEZONE_STATE.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_PSP_STORAGE.h>
+#include <_SERVERSILO_STATE.h>
+#include <_KEVENT.h>
+#include <_SILO_USER_SHARED_DATA.h>
+#include <_WORK_QUEUE_ITEM.h>
+
+//0x4a0 bytes (sizeof)
 struct _ESERVERSILO_GLOBALS
 {
     struct _OBP_SILODRIVERSTATE ObSiloState;                                //0x0
@@ -21,17 +41,18 @@ struct _ESERVERSILO_GLOBALS
     VOID* ApiSetSchema;                                                     //0x410
     UCHAR OneCoreForwardersEnabled;                                         //0x418
     UCHAR TzVirtualizationSupported;                                        //0x419
-    struct _EX_TIMEZONE_STATE* ExTimeZoneState;                             //0x420
-    struct _UNICODE_STRING NtSystemRoot;                                    //0x428
-    struct _UNICODE_STRING SiloRootDirectoryName;                           //0x438
-    struct _PSP_STORAGE* Storage;                                           //0x448
-    enum _SERVERSILO_STATE State;                                           //0x450
-    LONG ExitStatus;                                                        //0x454
-    struct _KEVENT* DeleteEvent;                                            //0x458
-    struct _SILO_USER_SHARED_DATA* UserSharedData;                          //0x460
-    VOID* UserSharedSection;                                                //0x468
-    struct _WORK_QUEUE_ITEM TerminateWorkItem;                              //0x470
-    UCHAR IsDownlevelContainer;                                             //0x490
+    VOID* ImgFileExecOptions;                                               //0x420
+    struct _EX_TIMEZONE_STATE* ExTimeZoneState;                             //0x428
+    struct _UNICODE_STRING NtSystemRoot;                                    //0x430
+    struct _UNICODE_STRING SiloRootDirectoryName;                           //0x440
+    struct _PSP_STORAGE* Storage;                                           //0x450
+    enum _SERVERSILO_STATE State;                                           //0x458
+    LONG ExitStatus;                                                        //0x45c
+    struct _KEVENT* DeleteEvent;                                            //0x460
+    struct _SILO_USER_SHARED_DATA* UserSharedData;                          //0x468
+    VOID* UserSharedSection;                                                //0x470
+    struct _WORK_QUEUE_ITEM TerminateWorkItem;                              //0x478
+    UCHAR IsDownlevelContainer;                                             //0x498
 };
 /* Used in */
 // _EJOB

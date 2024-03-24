@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc bytes (sizeof)
 struct _IMAGE_RUNTIME_FUNCTION_ENTRY
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KSEMAPHORE.h>
+#include <_LPCP_PORT_OBJECT.h>
+
 //0x28 bytes (sizeof)
 struct _LPCP_NONPAGED_PORT_QUEUE
 {

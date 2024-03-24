@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_PNP_DEVICE_DELETE_TYPE.h>
+#include <_DEVICE_OBJECT_LIST_ENTRY.h>
+
 //0x28 bytes (sizeof)
 struct _DEVICE_OBJECT_LIST
 {

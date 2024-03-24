@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_HANDLE_TABLE.h>
+#include <_RTL_ATOM_TABLE_ENTRY.h>
+
 //0x28 bytes (sizeof)
 struct _RTL_ATOM_TABLE
 {

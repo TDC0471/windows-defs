@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_CMHIVE.h>
+#include <_ERESOURCE.h>
+
 //0x88 bytes (sizeof)
 struct _CM_RM
 {

@@ -1,6 +1,50 @@
 #pragma once
 /* ------------------ */
 
+#include <_IO_SECURITY_CONTEXT.h>
+#include <_IO_SECURITY_CONTEXT.h>
+#include <_NAMED_PIPE_CREATE_PARAMETERS.h>
+#include <_IO_SECURITY_CONTEXT.h>
+#include <_MAILSLOT_CREATE_PARAMETERS.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_UNICODE_STRING.h>
+#include <_FILE_INFORMATION_CLASS.h>
+#include <_DIRECTORY_NOTIFY_INFORMATION_CLASS.h>
+#include <_FILE_INFORMATION_CLASS.h>
+#include <_FILE_INFORMATION_CLASS.h>
+#include <_FILE_OBJECT.h>
+#include <_FSINFOCLASS.h>
+#include <_FSINFOCLASS.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_VPB.h>
+#include <_DEVICE_OBJECT.h>
+#include <_VPB.h>
+#include <_DEVICE_OBJECT.h>
+#include <_SCSI_REQUEST_BLOCK.h>
+#include <_FILE_GET_QUOTA_INFORMATION.h>
+#include <_DEVICE_RELATION_TYPE.h>
+#include <_GUID.h>
+#include <_INTERFACE.h>
+#include <_DEVICE_CAPABILITIES.h>
+#include <_IO_RESOURCE_REQUIREMENTS_LIST.h>
+#include <BUS_QUERY_ID_TYPE.h>
+#include <DEVICE_TEXT_TYPE.h>
+#include <_DEVICE_USAGE_NOTIFICATION_TYPE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_POWER_SEQUENCE.h>
+#include <_SYSTEM_POWER_STATE_CONTEXT.h>
+#include <_POWER_STATE_TYPE.h>
+#include <_POWER_STATE.h>
+#include <POWER_ACTION.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_CM_RESOURCE_LIST.h>
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+
 //0x48 bytes (sizeof)
 struct _IO_STACK_LOCATION
 {

@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMINPAGE_SUPPORT.h>
+#include <_MMPAGING_FILE.h>
+#include <_RTL_BALANCED_NODE.h>
+
 //0x38 bytes (sizeof)
 struct _MMINPAGE_SUPPORT_FLOW_THROUGH
 {

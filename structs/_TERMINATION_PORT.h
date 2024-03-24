@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_TERMINATION_PORT.h>
+
 //0x10 bytes (sizeof)
 struct _TERMINATION_PORT
 {

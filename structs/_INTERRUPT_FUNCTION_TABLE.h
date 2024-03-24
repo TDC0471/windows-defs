@@ -1,6 +1,20 @@
 #pragma once
 /* ------------------ */
 
+#include <_INTERRUPT_TARGET.h>
+#include <_INTERRUPT_TARGET.h>
+#include <_INTERRUPT_RESULT.h>
+#include <_INTERRUPT_LINE.h>
+#include <_INTERRUPT_LINE_STATE.h>
+#include <_INTERRUPT_LINE.h>
+#include <_INTERRUPT_TARGET.h>
+#include <_INTERRUPT_LINE.h>
+#include <_INTERRUPT_LINE_STATE.h>
+#include <_INTERRUPT_TARGET.h>
+#include <_INTERRUPT_RESULT.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_KINTERRUPT_MODE.h>
+
 //0xb8 bytes (sizeof)
 struct _INTERRUPT_FUNCTION_TABLE
 {

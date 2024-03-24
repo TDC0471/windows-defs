@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 union _WHEAP_ERROR_RECORD_WRAPPER_FLAGS
 {

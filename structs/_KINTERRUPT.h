@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KINTERRUPT.h>
+#include <_KINTERRUPT.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_KINTERRUPT_POLARITY.h>
+#include <_KEVENT.h>
+#include <_KTRAP_FRAME.h>
+#include <_KTHREAD.h>
+#include <_INTERRUPT_CONNECTION_DATA.h>
+#include <_ISRDPCSTATS.h>
+
 //0x120 bytes (sizeof)
 struct _KINTERRUPT
 {

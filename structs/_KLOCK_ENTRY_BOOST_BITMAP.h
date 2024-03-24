@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 union _KLOCK_ENTRY_BOOST_BITMAP
 {

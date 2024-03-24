@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_LINKS.h>
+#include <_RTL_BALANCED_LINKS.h>
+#include <_RTL_BALANCED_LINKS.h>
+
 //0x20 bytes (sizeof)
 struct _RTL_BALANCED_LINKS
 {

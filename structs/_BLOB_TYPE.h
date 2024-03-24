@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_BLOB_ID.h>
+#include <_BLOB_COUNTERS.h>
+
 //0x38 bytes (sizeof)
 struct _BLOB_TYPE
 {

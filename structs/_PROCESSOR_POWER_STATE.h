@@ -1,6 +1,22 @@
 #pragma once
 /* ------------------ */
 
+#include <_PPM_IDLE_STATES.h>
+#include <_PROC_IDLE_ACCOUNTING.h>
+#include <_PROC_IDLE_POLICY.h>
+#include <_PPM_IDLE_SYNCHRONIZATION_STATE.h>
+#include <_PROC_FEEDBACK.h>
+#include <_PROC_HYPERVISOR_STATE.h>
+#include <_PPM_FFH_THROTTLE_STATE_INFO.h>
+#include <_KDPC.h>
+#include <_PROC_IDLE_SNAP.h>
+#include <_PROC_PERF_CHECK_CONTEXT.h>
+#include <_PPM_CONCURRENCY_ACCOUNTING.h>
+#include <_PPM_CONCURRENCY_ACCOUNTING.h>
+#include <_POP_FX_DEVICE.h>
+#include <_KHETERO_CPU_QOS.h>
+#include <_KHETERO_CPU_QOS.h>
+
 //0x200 bytes (sizeof)
 struct _PROCESSOR_POWER_STATE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_OB_DUPLICATE_OBJECT_STATE.h>
+
 //0x30 bytes (sizeof)
 struct _KALPC_HANDLE_DATA
 {

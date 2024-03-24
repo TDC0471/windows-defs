@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_FREE_LARGE_PAGES.h>
+#include <_MI_REBUILD_LARGE_PAGE_TIMER.h>
+#include <_MMPFNLIST_SHORT.h>
+#include <_RTL_BITMAP.h>
+#include <_MI_LARGE_PAGE_LISTS_CHANGING.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MI_PAGE_COLORS.h>
+#include <_MI_WRITE_CALIBRATION.h>
+#include <_GROUP_AFFINITY.h>
+#include <_PHYSICAL_MEMORY_DESCRIPTOR.h>
+
 //0x11c0 bytes (sizeof)
 struct _MI_NODE_INFORMATION
 {

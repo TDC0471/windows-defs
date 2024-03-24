@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_ULARGE_INTEGER.h>
+
 //0x20 bytes (sizeof)
 struct _KTIMER_TABLE_ENTRY
 {

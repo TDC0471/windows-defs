@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_ISRDPCSTATS_SEQUENCE.h>
+
 //0x60 bytes (sizeof)
 struct _ISRDPCSTATS
 {

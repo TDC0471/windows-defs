@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HANDLE_REVOCATION_INFO.h>
+#include <_OB_EXTENDED_USER_INFO.h>
+
 //0x30 bytes (sizeof)
 struct _OBJECT_FOOTER
 {

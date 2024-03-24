@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_BALANCED_NODE.h>
+
 //0x38 bytes (sizeof)
 struct _MI_PAGEFILE_BITMAPS_CACHE_ENTRY
 {

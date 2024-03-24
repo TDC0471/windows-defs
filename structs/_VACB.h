@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_SHARED_CACHE_MAP.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_VACB_ARRAY_HEADER.h>
+
 //0x28 bytes (sizeof)
 struct _VACB
 {

@@ -1,6 +1,22 @@
 #pragma once
 /* ------------------ */
 
+#include <_POP_POLICY_DEVICE.h>
+#include <_LIST_ENTRY.h>
+#include <POWER_POLICY_DEVICE_TYPE.h>
+#include <_UNICODE_STRING.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+#include <_THERMAL_INFORMATION_EX.h>
+#include <_THERMAL_POLICY.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_KTIMER2.h>
+#include <_POP_RW_LOCK.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_POP_THERMAL_TELEMETRY_TRACKER.h>
+#include <_UNICODE_STRING.h>
+
 //0x420 bytes (sizeof)
 struct _POP_THERMAL_ZONE
 {

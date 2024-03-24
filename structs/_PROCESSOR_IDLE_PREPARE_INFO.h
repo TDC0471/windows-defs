@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROCESSOR_IDLE_CONSTRAINTS.h>
+#include <_PROCESSOR_IDLE_DEPENDENCY.h>
+
 //0x58 bytes (sizeof)
 struct _PROCESSOR_IDLE_PREPARE_INFO
 {

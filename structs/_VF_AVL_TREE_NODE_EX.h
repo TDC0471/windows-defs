@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_VF_AVL_TREE_NODE.h>
+
 //0x18 bytes (sizeof)
 struct _VF_AVL_TREE_NODE_EX
 {

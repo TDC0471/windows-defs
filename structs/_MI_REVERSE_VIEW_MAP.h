@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EPROCESS.h>
+#include <_SUBSECTION.h>
+#include <_MI_SYSTEM_CACHE_VIEW_ATTRIBUTES.h>
+
 //0x28 bytes (sizeof)
 struct _MI_REVERSE_VIEW_MAP
 {

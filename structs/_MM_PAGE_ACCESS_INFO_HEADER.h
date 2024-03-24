@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_MM_PAGE_ACCESS_TYPE.h>
+#include <_MM_PAGE_ACCESS_INFO.h>
+#include <_MM_PAGE_ACCESS_INFO.h>
+#include <_EPROCESS.h>
+
 //0x48 bytes (sizeof)
 struct _MM_PAGE_ACCESS_INFO_HEADER
 {

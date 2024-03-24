@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_KPRIQUEUE.h>
+#include <_EX_PARTITION.h>
+#include <_ENODE.h>
+#include <_EXQUEUEINDEX.h>
+#include <_KEVENT.h>
+
 //0x2e0 bytes (sizeof)
 struct _EX_WORK_QUEUE
 {

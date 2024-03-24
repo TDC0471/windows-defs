@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+
 //0x20 bytes (sizeof)
 struct _PALPC_PORT_REFERENCE_WAIT_BLOCK
 {

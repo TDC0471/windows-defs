@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_CM_PARTIAL_RESOURCE_DESCRIPTOR.h>
+
 //0x18 bytes (sizeof)
 struct _ARBITER_RETEST_ALLOCATION_PARAMETERS
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TABLE.h>
+#include <_VF_AVL_TREE_NODE.h>
+
 //0xc0 bytes (sizeof)
 struct _VF_AVL_TABLE
 {

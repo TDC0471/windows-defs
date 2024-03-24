@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1c bytes (sizeof)
 struct _AMD64_DBGKD_CONTROL_SET
 {

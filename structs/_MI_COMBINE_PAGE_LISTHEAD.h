@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TREE.h>
+
 //0x10 bytes (sizeof)
 struct _MI_COMBINE_PAGE_LISTHEAD
 {

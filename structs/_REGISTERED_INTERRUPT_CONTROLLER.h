@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_INTERRUPT_FUNCTION_TABLE.h>
+#include <_KNOWN_CONTROLLER_TYPE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_INTERRUPT_PROBLEM.h>
+#include <_UNICODE_STRING.h>
+#include <POHANDLE__.h>
+
 //0x160 bytes (sizeof)
 struct _REGISTERED_INTERRUPT_CONTROLLER
 {

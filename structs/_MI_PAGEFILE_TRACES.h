@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_MDL.h>
+
 //0x78 bytes (sizeof)
 struct _MI_PAGEFILE_TRACES
 {

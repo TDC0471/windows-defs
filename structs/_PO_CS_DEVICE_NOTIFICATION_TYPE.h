@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _PO_CS_DEVICE_NOTIFICATION_TYPE
 {

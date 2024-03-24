@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPFN.h>
+#include <_MMPFN.h>
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+
 //0xa8 bytes (sizeof)
 struct _MI_COMMON_PAGE_STATE
 {

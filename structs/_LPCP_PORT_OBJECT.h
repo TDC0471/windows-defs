@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_LPCP_PORT_OBJECT.h>
+#include <_LPCP_PORT_OBJECT.h>
+#include <_LPCP_PORT_QUEUE.h>
+#include <_CLIENT_ID.h>
+#include <_ETHREAD.h>
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+#include <_SECURITY_CLIENT_CONTEXT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_EPROCESS.h>
+#include <_EPROCESS.h>
+#include <_KEVENT.h>
+
 //0x100 bytes (sizeof)
 struct _LPCP_PORT_OBJECT
 {

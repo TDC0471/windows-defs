@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_RTL_BITMAP.h>
+#include <_MM_PAGED_POOL_INFO.h>
+#include <_MI_SYSTEM_PTE_TYPE.h>
+#include <_MMSUPPORT_FULL.h>
+#include <_MMSUPPORT_SHARED.h>
+#include <_MMSUPPORT_AGGREGATION.h>
+#include <_SYSPTES_HEADER.h>
+#include <_MI_SYSTEM_VA_ASSIGNMENT.h>
+
 //0xcc0 bytes (sizeof)
 struct _MI_VISIBLE_STATE
 {

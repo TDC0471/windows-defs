@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_RB_TREE.h>
+#include <_KSCB.h>
+#include <_KSCB.h>
+
 //0x1a8 bytes (sizeof)
 struct _KSCB
 {

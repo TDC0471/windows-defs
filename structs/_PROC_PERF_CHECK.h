@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROC_PERF_CHECK_SNAP.h>
+#include <_PROC_PERF_CHECK_SNAP.h>
+#include <_PROC_PERF_CHECK_SNAP.h>
+
 //0x158 bytes (sizeof)
 struct _PROC_PERF_CHECK
 {

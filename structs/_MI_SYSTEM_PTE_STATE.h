@@ -1,6 +1,20 @@
 #pragma once
 /* ------------------ */
 
+#include <_NPAGED_LOOKASIDE_LIST.h>
+#include <_SLIST_HEADER.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_MI_CACHED_PTES.h>
+#include <_MI_CACHED_PTES.h>
+#include <_MI_SYSTEM_PTE_TYPE.h>
+#include <_MI_SYSTEM_PTE_TYPE.h>
+#include <_RTL_AVL_TREE.h>
+#include <_MMPFN.h>
+#include <_RTL_AVL_TREE.h>
+#include <_MMPTE.h>
+#include <_MI_ULTRA_VA_CONTEXT.h>
+#include <_MI_ULTRA_MDL_NODE.h>
+
 //0x200 bytes (sizeof)
 struct _MI_SYSTEM_PTE_STATE
 {

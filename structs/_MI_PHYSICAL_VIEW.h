@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_MMVAD_SHORT.h>
+#include <_AWEINFO.h>
+#include <_CONTROL_AREA.h>
+
 //0x30 bytes (sizeof)
 struct _MI_PHYSICAL_VIEW
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x44 bytes (sizeof)
 struct _MI_PROBE_RAISE_TRACKER
 {

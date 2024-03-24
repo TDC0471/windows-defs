@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LDR_SERVICE_TAG_RECORD.h>
+
 //0x10 bytes (sizeof)
 struct _LDR_SERVICE_TAG_RECORD
 {

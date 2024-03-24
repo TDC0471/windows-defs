@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_FILE_OBJECT.h>
+
 //0x18 bytes (sizeof)
 struct _DELAY_ACK_FO
 {

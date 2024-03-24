@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KQUEUE.h>
+
 //0x48 bytes (sizeof)
 struct _ETW_REPLY_QUEUE
 {

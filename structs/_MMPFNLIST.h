@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMLISTS.h>
+
 //0x28 bytes (sizeof)
 struct _MMPFNLIST
 {

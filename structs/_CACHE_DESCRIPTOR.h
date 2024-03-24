@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROCESSOR_CACHE_TYPE.h>
+
 //0xc bytes (sizeof)
 struct _CACHE_DESCRIPTOR
 {

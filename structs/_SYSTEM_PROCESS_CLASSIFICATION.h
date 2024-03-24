@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _SYSTEM_PROCESS_CLASSIFICATION
 {

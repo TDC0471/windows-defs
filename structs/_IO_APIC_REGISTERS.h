@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x44 bytes (sizeof)
 struct _IO_APIC_REGISTERS
 {

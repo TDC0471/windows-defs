@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum wil_details_ServiceReportingKind
 {
@@ -26,5 +27,6 @@ enum wil_details_ServiceReportingKind
     wil_details_ServiceReportingKind_VariantUniqueUsageBase = 448
 };
 /* Used in */
+// Change
 // wil_details_RecordUsageResult
 

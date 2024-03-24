@@ -1,6 +1,44 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IRP.h>
+#include <_POP_IRP_DATA.h>
+#include <_POP_FX_DEVICE_STATUS.h>
+#include <_DEVICE_NODE.h>
+#include <PEPHANDLE__.h>
+#include <_POP_FX_PLUGIN.h>
+#include <PEPHANDLE__.h>
+#include <_POP_FX_PLUGIN.h>
+#include <PEPHANDLE__.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_POP_FX_DRIVER_CALLBACKS.h>
+#include <_LIST_ENTRY.h>
+#include <_UNICODE_STRING.h>
+#include <_IO_REMOVE_LOCK.h>
+#include <_IO_REMOVE_LOCK.h>
+#include <_POP_FX_WORK_ORDER.h>
+#include <_KTIMER.h>
+#include <_KDPC.h>
+#include <_DEVICE_OBJECT.h>
+#include <_POWER_STATE.h>
+#include <_DEVICE_OBJECT.h>
+#include <_POWER_STATE.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_KEVENT.h>
+#include <_PEP_CRASHDUMP_INFORMATION.h>
+#include <_POP_FX_ACCOUNTING.h>
+#include <_POP_FX_COMPONENT.h>
+#include <_POP_FX_LOG_ENTRY.h>
+#include <_DRIVER_OBJECT.h>
+#include <_POP_FX_DRIPS_WATCHDOG_CONTEXT.h>
+#include <_POP_FX_WORK_ORDER.h>
+#include <_POP_FX_WORK_ORDER_WATCHDOG_INFO.h>
+#include <_POP_FX_DEVICE_DIRECTED_TRANSITION_STATE.h>
+#include <_POP_DEVICE_POWER_PROFILE.h>
+#include <_UNICODE_STRING.h>
+
 //0x4b8 bytes (sizeof)
 struct _POP_FX_DEVICE
 {

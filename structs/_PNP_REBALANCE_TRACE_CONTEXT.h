@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_PNP_REBALANCE_REASON.h>
+#include <_PNP_REBALANCE_FAILURE.h>
+#include <_DEVICE_NODE.h>
+#include <_DEVICE_NODE.h>
+#include <_DEVICE_NODE.h>
+#include <_PNP_DEVNODE_QUERY_REBALANCE_VETO_REASON.h>
+#include <_PNP_RESOURCE_CONFLICT_TRACE_CONTEXT.h>
+
 //0x70 bytes (sizeof)
 struct _PNP_REBALANCE_TRACE_CONTEXT
 {

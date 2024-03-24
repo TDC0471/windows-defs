@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_HMAP_ENTRY.h>
+
 //0x3000 bytes (sizeof)
 struct _HMAP_TABLE
 {

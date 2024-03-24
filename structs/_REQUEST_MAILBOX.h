@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_REQUEST_MAILBOX.h>
+#include <_KREQUEST_PACKET.h>
+
 //0x40 bytes (sizeof)
 struct _REQUEST_MAILBOX
 {

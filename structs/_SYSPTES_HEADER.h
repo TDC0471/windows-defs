@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x118 bytes (sizeof)
 struct _SYSPTES_HEADER
 {

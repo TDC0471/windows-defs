@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_VI_DEADLOCK_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_VI_DEADLOCK_RESOURCE.h>
+#include <_VI_DEADLOCK_THREAD.h>
+
 //0xd0 bytes (sizeof)
 struct _VI_DEADLOCK_NODE
 {

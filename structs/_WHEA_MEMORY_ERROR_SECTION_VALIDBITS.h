@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 union _WHEA_MEMORY_ERROR_SECTION_VALIDBITS
 {

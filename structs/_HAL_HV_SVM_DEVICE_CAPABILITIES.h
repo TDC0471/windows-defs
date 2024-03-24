@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xc bytes (sizeof)
 struct _HAL_HV_SVM_DEVICE_CAPABILITIES
 {

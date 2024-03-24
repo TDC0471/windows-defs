@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_PNP_DEVICE_EVENT_ENTRY.h>
+#include <_DEVICE_OBJECT.h>
+#include <_RELATION_LIST.h>
+#include <_IRP.h>
+#include <IRPLOCK.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <DOCK_INTERFACE.h>
+#include <_PNP_DEVICE_DELETE_TYPE.h>
+
 //0x70 bytes (sizeof)
 struct _PENDING_RELATIONS_LIST_ENTRY
 {

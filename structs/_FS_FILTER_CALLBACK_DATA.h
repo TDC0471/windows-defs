@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_FS_FILTER_PARAMETERS.h>
+
 //0x40 bytes (sizeof)
 struct _FS_FILTER_CALLBACK_DATA
 {

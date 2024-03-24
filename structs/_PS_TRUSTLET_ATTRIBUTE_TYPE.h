@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PS_TRUSTLET_ATTRIBUTE_ACCESSRIGHTS.h>
+
 //0x4 bytes (sizeof)
 struct _PS_TRUSTLET_ATTRIBUTE_TYPE
 {

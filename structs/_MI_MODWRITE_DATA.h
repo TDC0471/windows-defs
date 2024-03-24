@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_RESERVATION_CLUSTER_INFO.h>
+
 //0x40 bytes (sizeof)
 struct _MI_MODWRITE_DATA
 {

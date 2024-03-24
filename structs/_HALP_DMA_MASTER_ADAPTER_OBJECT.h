@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_HALP_DMA_ADAPTER_OBJECT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+
 //0xd8 bytes (sizeof)
 struct _HALP_DMA_MASTER_ADAPTER_OBJECT
 {

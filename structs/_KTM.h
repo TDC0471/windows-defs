@@ -1,6 +1,31 @@
 #pragma once
 /* ------------------ */
 
+#include <_KMUTANT.h>
+#include <KTM_STATE.h>
+#include <_KTMOBJECT_NAMESPACE_LINK.h>
+#include <_GUID.h>
+#include <_UNICODE_STRING.h>
+#include <_FILE_OBJECT.h>
+#include <_KTMOBJECT_NAMESPACE.h>
+#include <_KTMOBJECT_NAMESPACE.h>
+#include <_KMUTANT.h>
+#include <_LIST_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+#include <_FAST_MUTEX.h>
+#include <_CLS_LSN.h>
+#include <_CLS_LSN.h>
+#include <_CLS_LSN.h>
+#include <_KRESOURCEMANAGER.h>
+#include <_KEVENT.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_CLS_LSN.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_ERESOURCE.h>
+#include <_CLS_LSN.h>
+#include <_LIST_ENTRY.h>
+#include <_WORK_QUEUE_ITEM.h>
+
 //0x3c0 bytes (sizeof)
 struct _KTM
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KDEVICE_QUEUE.h>
+#include <_LARGE_INTEGER.h>
+
 //0x48 bytes (sizeof)
 struct _CONTROLLER_OBJECT
 {

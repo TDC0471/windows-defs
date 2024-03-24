@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_DYNAMIC_HASH_TABLE_ENTRY.h>
+
 //0x38 bytes (sizeof)
 struct _SEP_LUID_TO_INDEX_MAP_ENTRY
 {

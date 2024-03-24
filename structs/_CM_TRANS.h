@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_CM_TRANS_PTR.h>
+#include <_CM_RM.h>
+#include <_KENLISTMENT.h>
+#include <_GUID.h>
+#include <_CMHIVE.h>
+
 //0xb8 bytes (sizeof)
 struct _CM_TRANS
 {

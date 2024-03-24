@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x40 bytes (sizeof)
 struct _SECTION_IMAGE_INFORMATION
 {

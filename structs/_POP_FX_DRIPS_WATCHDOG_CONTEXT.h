@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_NODE.h>
+
 //0x28 bytes (sizeof)
 struct _POP_FX_DRIPS_WATCHDOG_CONTEXT
 {

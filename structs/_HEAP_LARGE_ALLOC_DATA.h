@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+
 //0x28 bytes (sizeof)
 struct _HEAP_LARGE_ALLOC_DATA
 {

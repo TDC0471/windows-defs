@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_PROCESSOR_GENERIC_ERROR_SECTION_VALIDBITS.h>
+
 //0xc0 bytes (sizeof)
 struct _WHEA_PROCESSOR_GENERIC_ERROR_SECTION
 {

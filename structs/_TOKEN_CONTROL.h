@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LUID.h>
+#include <_LUID.h>
+#include <_LUID.h>
+#include <_TOKEN_SOURCE.h>
+
 //0x28 bytes (sizeof)
 struct _TOKEN_CONTROL
 {

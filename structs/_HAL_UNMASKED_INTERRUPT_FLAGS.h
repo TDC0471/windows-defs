@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x2 bytes (sizeof)
 union _HAL_UNMASKED_INTERRUPT_FLAGS
 {

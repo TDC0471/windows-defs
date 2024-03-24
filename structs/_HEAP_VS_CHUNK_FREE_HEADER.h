@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_VS_CHUNK_HEADER.h>
+#include <_RTL_BALANCED_NODE.h>
+
 //0x20 bytes (sizeof)
 struct _HEAP_VS_CHUNK_FREE_HEADER
 {

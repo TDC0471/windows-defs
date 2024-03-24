@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_PARTIAL_RESOURCE_LIST.h>
+
 //0x8 bytes (sizeof)
 struct _ARBITER_QUERY_ALLOCATED_RESOURCES_PARAMETERS
 {

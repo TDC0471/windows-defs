@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_KLOCK_ENTRY_LOCK_STATE.h>
+#include <_RTL_RB_TREE.h>
+#include <_RTL_RB_TREE.h>
+#include <_KLOCK_ENTRY_BOOST_BITMAP.h>
+
 //0x60 bytes (sizeof)
 struct _KLOCK_ENTRY
 {

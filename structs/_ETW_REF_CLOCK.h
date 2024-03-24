@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x10 bytes (sizeof)
 struct _ETW_REF_CLOCK
 {

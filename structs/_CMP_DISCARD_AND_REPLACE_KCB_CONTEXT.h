@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_LIST_ENTRY.h>
+
 //0x20 bytes (sizeof)
 struct _CMP_DISCARD_AND_REPLACE_KCB_CONTEXT
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_HEADER.h>
+#include <_OBJECT_REF_STACK_INFO.h>
+
 //0x28 bytes (sizeof)
 struct _OBJECT_REF_INFO
 {

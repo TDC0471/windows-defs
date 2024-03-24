@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_WRITE_TYPES.h>
+#include <_MI_WRITE_MODES.h>
+
 //0x20 bytes (sizeof)
 struct _MI_WRITE_CALIBRATION
 {

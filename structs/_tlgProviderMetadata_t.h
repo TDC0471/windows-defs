@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+
 //0x13 bytes (sizeof)
 struct _tlgProviderMetadata_t
 {

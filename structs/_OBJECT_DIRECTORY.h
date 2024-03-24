@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_DIRECTORY_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_DEVICE_MAP.h>
+#include <_OBJECT_DIRECTORY.h>
+
 //0x158 bytes (sizeof)
 struct _OBJECT_DIRECTORY
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_HV_PARTITION_PRIVILEGE_MASK.h>
+
 //0x10 bytes (sizeof)
 struct _HV_X64_HYPERVISOR_FEATURES
 {

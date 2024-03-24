@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_SEGMENT.h>
+#include <_LIST_ENTRY.h>
+#include <_MI_PARTITION.h>
+#include <_KEVENT.h>
+#include <_MMPAGE_FILE_EXPANSION_FLAGS.h>
+
 //0x58 bytes (sizeof)
 struct _MMPAGE_FILE_EXPANSION
 {

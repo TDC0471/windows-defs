@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _POP_DIRECTED_DRIPS_PROBLEM_DEVICE_REASON
 {

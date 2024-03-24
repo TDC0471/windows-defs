@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x70 bytes (sizeof)
 struct _VIRTUAL_EFI_RUNTIME_SERVICES
 {

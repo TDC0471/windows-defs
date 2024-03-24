@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_WMI_BUFFER_HEADER.h>
+#include <_ETW_BUFFER_CONTEXT.h>
+#include <_ETW_BUFFER_STATE.h>
+#include <_ETW_REF_CLOCK.h>
+#include <_LIST_ENTRY.h>
+
 //0x48 bytes (sizeof)
 struct _WMI_BUFFER_HEADER
 {

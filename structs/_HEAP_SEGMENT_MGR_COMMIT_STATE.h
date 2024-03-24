@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x2 bytes (sizeof)
 union _HEAP_SEGMENT_MGR_COMMIT_STATE
 {

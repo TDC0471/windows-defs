@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <DEBUG_DEVICE_ADDRESS.h>
+#include <DEBUG_MEMORY_REQUIREMENTS.h>
+#include <KD_NAMESPACE_ENUM.h>
+#include <_DEBUG_TRANSPORT_DATA.h>
+
 //0xf8 bytes (sizeof)
 struct _DEBUG_DEVICE_DESCRIPTOR
 {

@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT_POWER_EXTENSION.h>
+#include <_DEVICE_OBJECT.h>
+#include <_VPB.h>
+
 //0x70 bytes (sizeof)
 struct _DEVOBJ_EXTENSION
 {

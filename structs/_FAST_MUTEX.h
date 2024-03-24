@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+
 //0x38 bytes (sizeof)
 struct _FAST_MUTEX
 {

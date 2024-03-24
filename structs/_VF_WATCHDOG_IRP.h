@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IRP.h>
+
 //0x20 bytes (sizeof)
 struct _VF_WATCHDOG_IRP
 {

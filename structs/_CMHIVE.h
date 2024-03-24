@@ -1,6 +1,42 @@
 #pragma once
 /* ------------------ */
 
+#include <_HHIVE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_RUNDOWN_REF.h>
+#include <_CM_KEY_HASH_TABLE_ENTRY.h>
+#include <_CM_KEY_HASH_TABLE_ENTRY.h>
+#include <_CMSI_RW_LOCK.h>
+#include <_RTL_BITMAP.h>
+#include <CMP_OFFSET_ARRAY.h>
+#include <_RTL_BITMAP.h>
+#include <CMP_OFFSET_ARRAY.h>
+#include <_HBASE_BLOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_CM_KEY_SECURITY_CACHE_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_WORKITEM.h>
+#include <_CM_WORKITEM.h>
+#include <_CM_DIRTY_VECTOR_LOG.h>
+#include <_LIST_ENTRY.h>
+#include <_CM_RM.h>
+#include <_KTHREAD.h>
+#include <_KTHREAD.h>
+#include <_LARGE_INTEGER.h>
+#include <_HIVE_WRITE_WAIT_QUEUE.h>
+#include <_HIVE_WRITE_WAIT_QUEUE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_CMP_VOLUME_CONTEXT.h>
+
 //0x12e8 bytes (sizeof)
 struct _CMHIVE
 {

@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_HANDLE_TABLE_ENTRY_INFO.h>
+#include <_HANDLE_TABLE_ENTRY.h>
+#include <_EXHANDLE.h>
+
 //0x10 bytes (sizeof)
 union _HANDLE_TABLE_ENTRY
 {

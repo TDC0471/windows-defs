@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_VPB.h>
+#include <_SECTION_OBJECT_POINTERS.h>
+#include <_FILE_OBJECT.h>
+#include <_UNICODE_STRING.h>
+#include <_LARGE_INTEGER.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_IO_COMPLETION_CONTEXT.h>
+#include <_LIST_ENTRY.h>
+
 //0xd8 bytes (sizeof)
 struct _FILE_OBJECT
 {
@@ -36,6 +47,7 @@ struct _FILE_OBJECT
     VOID* FileObjectExtension;                                              //0xd0
 };
 /* Used in */
+// _COPY_INFORMATION
 // _DEFERRED_WRITE
 // _DELAY_ACK_FO
 // _EPROCESS

@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_XSAVE_FORMAT.h>
+#include <_KTRAP_FRAME.h>
+#include <_KEXCEPTION_FRAME.h>
+#include <_KTHREAD.h>
+
 //0x70 bytes (sizeof)
 struct _KUMS_CONTEXT_HEADER
 {

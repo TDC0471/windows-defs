@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_ARBITER_LIST_ENTRY.h>
+#include <_ARBITER_ALTERNATIVE.h>
+#include <_ARBITER_ALTERNATIVE.h>
+
 //0x50 bytes (sizeof)
 struct _ARBITER_ALLOCATION_STATE
 {

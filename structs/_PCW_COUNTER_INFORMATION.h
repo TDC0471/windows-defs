@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+
 //0x10 bytes (sizeof)
 struct _PCW_COUNTER_INFORMATION
 {

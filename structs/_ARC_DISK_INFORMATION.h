@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x10 bytes (sizeof)
 struct _ARC_DISK_INFORMATION
 {

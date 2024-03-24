@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SYSTEM_DLL_TYPE.h>
+
 //0x10 bytes (sizeof)
 struct _EWOW64PROCESS
 {

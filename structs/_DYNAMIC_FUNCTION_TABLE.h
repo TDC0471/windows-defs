@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IMAGE_RUNTIME_FUNCTION_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+#include <_IMAGE_RUNTIME_FUNCTION_ENTRY.h>
+#include <_FUNCTION_TABLE_TYPE.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_RTL_BALANCED_NODE.h>
+
 //0x88 bytes (sizeof)
 struct _DYNAMIC_FUNCTION_TABLE
 {

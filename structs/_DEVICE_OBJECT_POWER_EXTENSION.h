@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_LIST_ENTRY.h>
+#include <_POP_DEVICE_IDLE_TYPE.h>
+#include <_DEVICE_POWER_STATE.h>
+#include <_DEVICE_POWER_STATE.h>
+#include <_POP_COOLING_EXTENSION.h>
+#include <_LIST_ENTRY.h>
+
 //0x60 bytes (sizeof)
 struct _DEVICE_OBJECT_POWER_EXTENSION
 {

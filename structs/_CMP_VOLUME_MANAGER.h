@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_CMSI_RW_LOCK.h>
+#include <_LIST_ENTRY.h>
+
 //0x18 bytes (sizeof)
 struct _CMP_VOLUME_MANAGER
 {

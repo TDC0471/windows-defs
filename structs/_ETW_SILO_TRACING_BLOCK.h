@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_FAST_REF.h>
+
 //0x40 bytes (sizeof)
 struct _ETW_SILO_TRACING_BLOCK
 {

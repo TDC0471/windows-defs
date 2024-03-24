@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x14 bytes (sizeof)
 struct _DMA_ADAPTER_INFO_V1
 {

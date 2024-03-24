@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <<unnamed-enum-KTMOH_CommitTransaction_Result>.h>
+
 //0x8 bytes (sizeof)
 struct _KTRANSACTION_HISTORY
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x20 bytes (sizeof)
 struct _RTL_HEAP_MEMORY_LIMIT_DATA
 {

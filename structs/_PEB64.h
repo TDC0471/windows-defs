@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_ULARGE_INTEGER.h>
+#include <_ULARGE_INTEGER.h>
+#include <_STRING64.h>
+#include <LIST_ENTRY64.h>
+
 //0x7c8 bytes (sizeof)
 struct _PEB64
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x11 bytes (sizeof)
 struct _PROCLOCALSAPIC
 {

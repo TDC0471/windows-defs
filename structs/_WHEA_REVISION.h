@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x2 bytes (sizeof)
 union _WHEA_REVISION
 {

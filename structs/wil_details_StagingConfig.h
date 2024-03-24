@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <wil_FeatureStore.h>
+#include <wil_details_StagingConfigHeader.h>
+#include <wil_details_StagingConfigFeature.h>
+#include <wil_details_StagingConfigUsageTrigger.h>
+
 //0x58 bytes (sizeof)
 struct wil_details_StagingConfig
 {

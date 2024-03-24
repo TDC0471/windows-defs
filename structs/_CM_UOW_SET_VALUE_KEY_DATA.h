@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _CM_UOW_SET_VALUE_KEY_DATA
 {

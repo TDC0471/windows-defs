@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x30 bytes (sizeof)
 struct _PROCESSOR_IDLE_CONSTRAINTS
 {

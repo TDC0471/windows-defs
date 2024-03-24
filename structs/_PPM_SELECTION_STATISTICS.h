@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PPM_VETO_ACCOUNTING.h>
+
 //0x80 bytes (sizeof)
 struct _PPM_SELECTION_STATISTICS
 {

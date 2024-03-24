@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMSECURE_FLAGS.h>
+
 //0x10 bytes (sizeof)
 struct _MMADDRESS_LIST
 {

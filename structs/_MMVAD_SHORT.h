@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMVAD_SHORT.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MMVAD_FLAGS.h>
+#include <_MM_PRIVATE_VAD_FLAGS.h>
+#include <_MM_GRAPHICS_VAD_FLAGS.h>
+#include <_MM_SHARED_VAD_FLAGS.h>
+#include <_MMVAD_FLAGS1.h>
+#include <_MI_VAD_EVENT_BLOCK.h>
+
 //0x40 bytes (sizeof)
 struct _MMVAD_SHORT
 {

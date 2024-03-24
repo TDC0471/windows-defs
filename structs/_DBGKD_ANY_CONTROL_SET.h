@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_X86_DBGKD_CONTROL_SET.h>
+#include <_IA64_DBGKD_CONTROL_SET.h>
+#include <_AMD64_DBGKD_CONTROL_SET.h>
+#include <_ARM_DBGKD_CONTROL_SET.h>
+#include <_ARM64_DBGKD_CONTROL_SET.h>
+#include <_ARMCE_DBGKD_CONTROL_SET.h>
+#include <_PPC_DBGKD_CONTROL_SET.h>
+
 //0x1c bytes (sizeof)
 struct _DBGKD_ANY_CONTROL_SET
 {

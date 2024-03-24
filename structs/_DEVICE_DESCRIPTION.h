@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_INTERFACE_TYPE.h>
+#include <_DMA_WIDTH.h>
+#include <_DMA_SPEED.h>
+#include <_LARGE_INTEGER.h>
+
 //0x40 bytes (sizeof)
 struct _DEVICE_DESCRIPTION
 {

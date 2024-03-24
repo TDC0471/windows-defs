@@ -1,6 +1,32 @@
 #pragma once
 /* ------------------ */
 
+#include <_DBGKD_READ_MEMORY64.h>
+#include <_DBGKD_WRITE_MEMORY64.h>
+#include <_DBGKD_GET_CONTEXT.h>
+#include <_DBGKD_SET_CONTEXT.h>
+#include <_DBGKD_WRITE_BREAKPOINT64.h>
+#include <_DBGKD_RESTORE_BREAKPOINT.h>
+#include <_DBGKD_CONTINUE.h>
+#include <_DBGKD_CONTINUE2.h>
+#include <_DBGKD_READ_WRITE_IO64.h>
+#include <_DBGKD_READ_WRITE_IO_EXTENDED64.h>
+#include <_DBGKD_QUERY_SPECIAL_CALLS.h>
+#include <_DBGKD_SET_SPECIAL_CALL64.h>
+#include <_DBGKD_SET_INTERNAL_BREAKPOINT64.h>
+#include <_DBGKD_GET_INTERNAL_BREAKPOINT64.h>
+#include <_DBGKD_GET_VERSION64.h>
+#include <_DBGKD_BREAKPOINTEX.h>
+#include <_DBGKD_READ_WRITE_MSR.h>
+#include <_DBGKD_SEARCH_MEMORY.h>
+#include <_DBGKD_GET_SET_BUS_DATA.h>
+#include <_DBGKD_FILL_MEMORY.h>
+#include <_DBGKD_QUERY_MEMORY.h>
+#include <_DBGKD_SWITCH_PARTITION.h>
+#include <_DBGKD_CONTEXT_EX.h>
+#include <_DBGKD_CONTEXT_EX.h>
+#include <_DBGKD_WRITE_CUSTOM_BREAKPOINT.h>
+
 //0x38 bytes (sizeof)
 struct _DBGKD_MANIPULATE_STATE64
 {

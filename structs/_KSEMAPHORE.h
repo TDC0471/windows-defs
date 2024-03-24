@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+
 //0x20 bytes (sizeof)
 struct _KSEMAPHORE
 {

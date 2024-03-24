@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT.h>
+#include <_LIST_ENTRY.h>
+#include <_LOG_HANDLE_CONTEXT.h>
+
 //0xd0 bytes (sizeof)
 struct _VOLUME_CACHE_MAP
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SYSTEM_POWER_POLICY.h>
+#include <SYSTEM_POWER_CONDITION.h>
+
 //0x148 bytes (sizeof)
 struct _POP_POWER_SETTING_VALUES
 {

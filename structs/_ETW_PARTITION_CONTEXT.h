@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EPARTITION.h>
+
 //0x8 bytes (sizeof)
 struct _ETW_PARTITION_CONTEXT
 {

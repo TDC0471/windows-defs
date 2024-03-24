@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x18 bytes (sizeof)
 struct _WHEA_ERROR_SOURCE_CONFIGURATION_DD
 {

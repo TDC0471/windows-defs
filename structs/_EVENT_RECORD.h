@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EVENT_HEADER.h>
+#include <_ETW_BUFFER_CONTEXT.h>
+#include <_EVENT_HEADER_EXTENDED_DATA_ITEM.h>
+
 //0x70 bytes (sizeof)
 struct _EVENT_RECORD
 {

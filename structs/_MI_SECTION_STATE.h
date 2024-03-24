@@ -1,6 +1,33 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TREE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MSUBSECTION.h>
+#include <_CONTROL_AREA.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFN.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_MI_EXTENT_DELETION_WAIT_BLOCK.h>
+#include <_RTL_AVL_TREE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_MI_DLL_OVERFLOW_AREA.h>
+#include <_MI_SECTION_WOW_STATE.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_SECTION.h>
+#include <_CONTROL_AREA.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MDL.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_RTL_RETPOLINE_ROUTINES.h>
+#include <_MMPTE.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_AVL_TREE.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x340 bytes (sizeof)
 struct _MI_SECTION_STATE
 {

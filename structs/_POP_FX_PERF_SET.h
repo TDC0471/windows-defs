@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PO_FX_COMPONENT_PERF_SET.h>
+
 //0x20 bytes (sizeof)
 struct _POP_FX_PERF_SET
 {

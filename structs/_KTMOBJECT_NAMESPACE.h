@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TABLE.h>
+#include <_KMUTANT.h>
+
 //0xa8 bytes (sizeof)
 struct _KTMOBJECT_NAMESPACE
 {

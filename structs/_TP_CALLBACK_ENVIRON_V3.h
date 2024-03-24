@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_TP_POOL.h>
+#include <_TP_CLEANUP_GROUP.h>
+#include <_ACTIVATION_CONTEXT.h>
+#include <_TP_CALLBACK_INSTANCE.h>
+#include <_TP_CALLBACK_PRIORITY.h>
+
 //0x48 bytes (sizeof)
 struct _TP_CALLBACK_ENVIRON_V3
 {

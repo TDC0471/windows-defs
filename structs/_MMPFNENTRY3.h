@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1 bytes (sizeof)
 struct _MMPFNENTRY3
 {

@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPAGING_FILE.h>
+#include <_MMSUPPORT_INSTANCE.h>
+#include <_MMWSL_INSTANCE.h>
+#include <_MMPFNLIST.h>
+#include <_MMPFNLIST.h>
+#include <_MI_PAGEFILE_TRACES.h>
+
 //0x1200 bytes (sizeof)
 struct _MI_VISIBLE_PARTITION
 {

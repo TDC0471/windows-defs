@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTLP_HP_HEAP_MANAGER.h>
+#include <RTL_HP_ENV_HANDLE.h>
+#include <_SEGMENT_HEAP.h>
+#include <_SEGMENT_HEAP.h>
+
 //0x38f0 bytes (sizeof)
 struct _EX_HEAP_SESSION_STATE
 {

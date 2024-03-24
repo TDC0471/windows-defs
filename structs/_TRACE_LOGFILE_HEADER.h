@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_GUID.h>
+#include <_RTL_TIME_ZONE_INFORMATION.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x118 bytes (sizeof)
 struct _TRACE_LOGFILE_HEADER
 {

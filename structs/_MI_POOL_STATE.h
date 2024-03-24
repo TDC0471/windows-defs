@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_RTL_AVL_TREE.h>
+#include <_MI_ACCESS_VIOLATION_RANGE.h>
+
 //0xa8 bytes (sizeof)
 struct _MI_POOL_STATE
 {

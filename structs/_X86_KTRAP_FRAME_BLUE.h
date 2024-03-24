@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8c bytes (sizeof)
 struct _X86_KTRAP_FRAME_BLUE
 {

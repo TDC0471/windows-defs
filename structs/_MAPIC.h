@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DESCRIPTION_HEADER.h>
+
 //0x30 bytes (sizeof)
 struct _MAPIC
 {

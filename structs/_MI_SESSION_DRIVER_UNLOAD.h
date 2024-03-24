@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DRIVER_OBJECT.h>
+
 //0x8 bytes (sizeof)
 struct _MI_SESSION_DRIVER_UNLOAD
 {

@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_POP_FX_COMPONENT.h>
+#include <_KEVENT.h>
+#include <_POP_FX_PERF_FLAGS.h>
+#include <_PO_FX_PERF_STATE_CHANGE.h>
+#include <_POP_FX_WORK_ORDER.h>
+#include <_POP_FX_PERF_SET.h>
+
 //0xa0 bytes (sizeof)
 struct _POP_FX_PERF_INFO
 {

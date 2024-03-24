@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_IMAGE_RUNTIME_FUNCTION_ENTRY.h>
+#include <_DYNAMIC_FUNCTION_TABLE.h>
+
 //0x18 bytes (sizeof)
 struct _INVERTED_FUNCTION_TABLE_ENTRY
 {

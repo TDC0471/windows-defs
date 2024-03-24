@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_KDPC.h>
+
 //0x40 bytes (sizeof)
 struct _KDPC
 {

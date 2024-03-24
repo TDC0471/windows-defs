@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTLP_HP_LOCK_TYPE.h>
+#include <_RTL_RB_TREE.h>
+#include <_LIST_ENTRY.h>
+#include <_HEAP_VS_DELAY_FREE_CONTEXT.h>
+#include <_HEAP_SUBALLOCATOR_CALLBACKS.h>
+#include <_RTL_HP_VS_CONFIG.h>
+
 //0xc0 bytes (sizeof)
 struct _HEAP_VS_CONTEXT
 {

@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+
 //0x110 bytes (sizeof)
 struct _PROCESS_ENERGY_VALUES
 {

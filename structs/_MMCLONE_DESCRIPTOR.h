@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_MMCLONE_DESCRIPTOR.h>
+#include <_MMCLONE_BLOCK.h>
+#include <_MMCLONE_BLOCK.h>
+#include <_MMCLONE_HEADER.h>
+#include <_SLIST_ENTRY.h>
+
 //0x70 bytes (sizeof)
 struct _MMCLONE_DESCRIPTOR
 {

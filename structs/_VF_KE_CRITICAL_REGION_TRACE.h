@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETHREAD.h>
+
 //0x40 bytes (sizeof)
 struct _VF_KE_CRITICAL_REGION_TRACE
 {

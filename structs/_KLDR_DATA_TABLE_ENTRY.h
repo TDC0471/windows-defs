@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_NON_PAGED_DEBUG_INFO.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+
 //0xa0 bytes (sizeof)
 struct _KLDR_DATA_TABLE_ENTRY
 {

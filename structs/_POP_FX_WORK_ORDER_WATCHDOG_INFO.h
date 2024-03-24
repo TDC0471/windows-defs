@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KTIMER.h>
+#include <_KDPC.h>
+#include <_POP_FX_WORK_ORDER.h>
+#include <_PEP_WORK_INFORMATION.h>
+#include <_KTHREAD.h>
+
 //0xb0 bytes (sizeof)
 struct _POP_FX_WORK_ORDER_WATCHDOG_INFO
 {

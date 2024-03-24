@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_PROTOTYPE_PTES_NODE.h>
+#include <_IMAGE_SECURITY_CONTEXT.h>
+
 //0x40 bytes (sizeof)
 struct _MI_IMAGE_SECURITY_REFERENCE
 {

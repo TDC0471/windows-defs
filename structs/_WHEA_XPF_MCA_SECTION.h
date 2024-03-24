@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_CPU_VENDOR.h>
+#include <_LARGE_INTEGER.h>
+#include <_MCG_STATUS.h>
+#include <_MCI_STATUS.h>
+#include <_WHEA_AMD_EXTENDED_REGISTERS.h>
+#include <_MCG_CAP.h>
+
 //0x110 bytes (sizeof)
 struct _WHEA_XPF_MCA_SECTION
 {

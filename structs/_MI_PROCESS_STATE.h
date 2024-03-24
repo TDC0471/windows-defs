@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_MMPTE.h>
+
 //0x48 bytes (sizeof)
 struct _MI_PROCESS_STATE
 {

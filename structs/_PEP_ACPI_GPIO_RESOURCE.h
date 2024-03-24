@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_PEP_ACPI_RESOURCE_TYPE.h>
+#include <_PEP_ACPI_RESOURCE_FLAGS.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_KINTERRUPT_POLARITY.h>
+#include <_GPIO_PIN_CONFIG_TYPE.h>
+#include <_GPIO_PIN_IORESTRICTION_TYPE.h>
+#include <_UNICODE_STRING.h>
+
 //0x48 bytes (sizeof)
 struct _PEP_ACPI_GPIO_RESOURCE
 {

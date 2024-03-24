@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MDL.h>
+
 //0x20 bytes (sizeof)
 struct _CC_ASYNC_READ_CONTEXT
 {

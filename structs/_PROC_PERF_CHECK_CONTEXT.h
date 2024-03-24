@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROC_PERF_DOMAIN.h>
+#include <_PROC_PERF_CONSTRAINT.h>
+#include <_PROC_PERF_CHECK.h>
+#include <_PROC_PERF_LOAD.h>
+#include <_PROC_PERF_HISTORY.h>
+
 //0x40 bytes (sizeof)
 struct _PROC_PERF_CHECK_CONTEXT
 {

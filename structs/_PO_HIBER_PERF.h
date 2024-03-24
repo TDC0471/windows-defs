@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x1f8 bytes (sizeof)
 struct _PO_HIBER_PERF
 {

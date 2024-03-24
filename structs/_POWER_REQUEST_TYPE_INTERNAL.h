@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _POWER_REQUEST_TYPE_INTERNAL
 {

@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+
 //0x50 bytes (sizeof)
 struct _CM_PARSE_DEBUG_INFO
 {

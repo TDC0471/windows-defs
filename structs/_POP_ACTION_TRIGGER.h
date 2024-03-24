@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <POWER_POLICY_DEVICE_TYPE.h>
+#include <_POP_TRIGGER_WAIT.h>
+
 //0x18 bytes (sizeof)
 struct _POP_ACTION_TRIGGER
 {

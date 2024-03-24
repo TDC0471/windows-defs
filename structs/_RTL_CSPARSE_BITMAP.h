@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x40 bytes (sizeof)
 struct _RTL_CSPARSE_BITMAP
 {

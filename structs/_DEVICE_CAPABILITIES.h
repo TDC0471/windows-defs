@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_DEVICE_POWER_STATE.h>
+
 //0x40 bytes (sizeof)
 struct _DEVICE_CAPABILITIES
 {

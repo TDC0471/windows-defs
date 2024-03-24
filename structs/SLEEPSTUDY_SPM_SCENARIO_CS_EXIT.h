@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum SLEEPSTUDY_SPM_SCENARIO_CS_EXIT
 {

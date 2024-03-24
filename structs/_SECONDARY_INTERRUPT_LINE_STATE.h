@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KINTERRUPT_POLARITY.h>
+#include <_KINTERRUPT_MODE.h>
+
 //0x10 bytes (sizeof)
 struct _SECONDARY_INTERRUPT_LINE_STATE
 {

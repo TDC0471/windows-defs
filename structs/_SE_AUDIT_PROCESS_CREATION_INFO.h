@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_NAME_INFORMATION.h>
+
 //0x8 bytes (sizeof)
 struct _SE_AUDIT_PROCESS_CREATION_INFO
 {

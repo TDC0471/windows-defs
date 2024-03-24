@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TREE.h>
+#include <_SLIST_HEADER.h>
+#include <_SLIST_HEADER.h>
+#include <_MMINPAGE_SUPPORT.h>
+#include <_MMINPAGE_SUPPORT.h>
+#include <_MMPTE.h>
+
 //0xb0 bytes (sizeof)
 struct _MI_PAGING_IO_STATE
 {

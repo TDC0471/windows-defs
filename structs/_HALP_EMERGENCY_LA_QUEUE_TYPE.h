@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _HALP_EMERGENCY_LA_QUEUE_TYPE
 {

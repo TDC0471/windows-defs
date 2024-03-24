@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_ERESOURCE.h>
+#include <_ERESOURCE.h>
+#include <_FS_FILTER_SECTION_SYNC_TYPE.h>
+#include <_FS_FILTER_SECTION_SYNC_OUTPUT.h>
+#include <_IRP.h>
+#include <_FILE_INFORMATION_CLASS.h>
+
 //0x28 bytes (sizeof)
 union _FS_FILTER_PARAMETERS
 {

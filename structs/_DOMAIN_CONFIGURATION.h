@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_DOMAIN_CONFIGURATION_ARCH.h>
+#include <_DOMAIN_CONFIGURATION_ARM64.h>
+
 //0x28 bytes (sizeof)
 struct _DOMAIN_CONFIGURATION
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_DIRTY_VECTOR_LOG_ENTRY.h>
+
 //0x488 bytes (sizeof)
 struct _CM_DIRTY_VECTOR_LOG
 {

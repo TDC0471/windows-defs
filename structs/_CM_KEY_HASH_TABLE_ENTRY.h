@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_KTHREAD.h>
+#include <_CM_KEY_HASH.h>
+
 //0x18 bytes (sizeof)
 struct _CM_KEY_HASH_TABLE_ENTRY
 {

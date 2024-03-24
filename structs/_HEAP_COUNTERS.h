@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x78 bytes (sizeof)
 struct _HEAP_COUNTERS
 {

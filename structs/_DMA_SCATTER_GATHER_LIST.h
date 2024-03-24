@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SCATTER_GATHER_ELEMENT.h>
+
 //0x10 bytes (sizeof)
 struct _DMA_SCATTER_GATHER_LIST
 {

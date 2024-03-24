@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_NB10.h>
+#include <_RSDS.h>
+
 //0x1c bytes (sizeof)
 union _CVDD
 {

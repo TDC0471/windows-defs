@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_KINTERRUPT_POLARITY.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_INTERRUPT_LINE.h>
+#include <_INTERRUPT_TARGET.h>
+
 //0x38 bytes (sizeof)
 struct _INTERRUPT_LINE_STATE
 {

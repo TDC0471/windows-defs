@@ -1,3 +1,66 @@
+#pragma once
+/* ------------------ */
+
+#include <_KTHREAD.h>
+#include <_KTHREAD.h>
+#include <_KTHREAD.h>
+#include <_KNODE.h>
+#include <_KPRCBFLAG.h>
+#include <_KPROCESSOR_STATE.h>
+#include <_XSAVE_AREA_HEADER.h>
+#include <_KSPIN_LOCK_QUEUE.h>
+#include <_PP_LOOKASIDE_LIST.h>
+#include <_GENERAL_LOOKASIDE_POOL.h>
+#include <_GENERAL_LOOKASIDE_POOL.h>
+#include <_GENERAL_LOOKASIDE_POOL.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_KPRCB.h>
+#include <_KSTATIC_AFFINITY_BLOCK.h>
+#include <_SLIST_HEADER.h>
+#include <_RTL_HASH_TABLE.h>
+#include <_KDPC.h>
+#include <_KDPC.h>
+#include <_KDPC_DATA.h>
+#include <_KTIMER_TABLE.h>
+#include <_KGATE.h>
+#include <_KDPC.h>
+#include <_LIST_ENTRY.h>
+#include <_KDPC.h>
+#include <_RTL_RB_TREE.h>
+#include <_LIST_ENTRY.h>
+#include <_PROCESSOR_POWER_STATE.h>
+#include <_LIST_ENTRY.h>
+#include <_KDPC.h>
+#include <_KDPC.h>
+#include <_KTIMER.h>
+#include <_CACHE_DESCRIPTOR.h>
+#include <_SLIST_HEADER.h>
+#include <_KAFFINITY_EX.h>
+#include <_KSHARED_READY_QUEUE.h>
+#include <_PROCESSOR_PROFILE_CONTROL_AREA.h>
+#include <_SYNCH_COUNTERS.h>
+#include <_FILESYSTEM_DISK_COUNTERS.h>
+#include <_LARGE_INTEGER.h>
+#include <_CONTEXT.h>
+#include <_XSAVE_AREA.h>
+#include <_KENTROPY_TIMING_STATE.h>
+#include <_KTHREAD.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_KDPC.h>
+#include <_IOP_IRP_STACK_PROFILER.h>
+#include <_IOP_IRP_STACK_PROFILER.h>
+#include <_KSECURE_FAULT_INFORMATION.h>
+#include <_KSHARED_READY_QUEUE.h>
+#include <_KTIMER_EXPIRATION_TRACE.h>
+#include <_REQUEST_MAILBOX.h>
+#include <_MACHINE_CHECK_CONTEXT.h>
+#include <_KLOCK_QUEUE_HANDLE.h>
+#include <_REQUEST_MAILBOX.h>
+
 //0xaf00 bytes (sizeof)
 struct _KPRCB
 {
@@ -16,8 +79,8 @@ struct _KPRCB
         UCHAR PendingTickFlags;                                             //0x22
         struct
         {
-            UCHAR PendingTick : 1;                                            //0x22
-            UCHAR PendingBackupTick : 1;                                      //0x22
+            UCHAR PendingTick:1;                                            //0x22
+            UCHAR PendingBackupTick:1;                                      //0x22
         };
     };
     UCHAR IdleState;                                                        //0x23
@@ -69,14 +132,14 @@ struct _KPRCB
                 UCHAR BpbState;                                             //0xf8
                 struct
                 {
-                    UCHAR BpbCpuIdle : 1;                                     //0xf8
-                    UCHAR BpbFlushRsbOnTrap : 1;                              //0xf8
-                    UCHAR BpbIbpbOnReturn : 1;                                //0xf8
-                    UCHAR BpbIbpbOnTrap : 1;                                  //0xf8
-                    UCHAR BpbIbpbOnRetpolineExit : 1;                         //0xf8
-                    UCHAR BpbFlushRsbOnReturn : 1;                            //0xf8
-                    UCHAR BpbFlushRsbOnRetpolineExit : 1;                     //0xf8
-                    UCHAR BpbStateReserved : 1;                               //0xf8
+                    UCHAR BpbCpuIdle:1;                                     //0xf8
+                    UCHAR BpbFlushRsbOnTrap:1;                              //0xf8
+                    UCHAR BpbIbpbOnReturn:1;                                //0xf8
+                    UCHAR BpbIbpbOnTrap:1;                                  //0xf8
+                    UCHAR BpbIbpbOnRetpolineExit:1;                         //0xf8
+                    UCHAR BpbFlushRsbOnReturn:1;                            //0xf8
+                    UCHAR BpbFlushRsbOnRetpolineExit:1;                     //0xf8
+                    UCHAR BpbStateReserved:1;                               //0xf8
                 };
             };
             union
@@ -84,10 +147,10 @@ struct _KPRCB
                 UCHAR BpbFeatures;                                          //0xf9
                 struct
                 {
-                    UCHAR BpbClearOnIdle : 1;                                 //0xf9
-                    UCHAR BpbEnabled : 1;                                     //0xf9
-                    UCHAR BpbSmep : 1;                                        //0xf9
-                    UCHAR BpbFeaturesReserved : 5;                            //0xf9
+                    UCHAR BpbClearOnIdle:1;                                 //0xf9
+                    UCHAR BpbEnabled:1;                                     //0xf9
+                    UCHAR BpbSmep:1;                                        //0xf9
+                    UCHAR BpbFeaturesReserved:5;                            //0xf9
                 };
             };
             UCHAR BpbCurrentSpecCtrl;                                       //0xfa
@@ -113,14 +176,14 @@ struct _KPRCB
                 UCHAR BpbTrappedBpbState;                                   //0x6d2
                 struct
                 {
-                    UCHAR BpbTrappedCpuIdle : 1;                              //0x6d2
-                    UCHAR BpbTrappedFlushRsbOnTrap : 1;                       //0x6d2
-                    UCHAR BpbTrappedIbpbOnReturn : 1;                         //0x6d2
-                    UCHAR BpbTrappedIbpbOnTrap : 1;                           //0x6d2
-                    UCHAR BpbTrappedIbpbOnRetpolineExit : 1;                  //0x6d2
-                    UCHAR BpbTrappedFlushRsbOnReturn : 1;                     //0x6d2
-                    UCHAR BpbTrappedFlushRsbOnRetpolineExit : 1;              //0x6d2
-                    UCHAR BpbTrappedBpbStateReserved : 1;                     //0x6d2
+                    UCHAR BpbTrappedCpuIdle:1;                              //0x6d2
+                    UCHAR BpbTrappedFlushRsbOnTrap:1;                       //0x6d2
+                    UCHAR BpbTrappedIbpbOnReturn:1;                         //0x6d2
+                    UCHAR BpbTrappedIbpbOnTrap:1;                           //0x6d2
+                    UCHAR BpbTrappedIbpbOnRetpolineExit:1;                  //0x6d2
+                    UCHAR BpbTrappedFlushRsbOnReturn:1;                     //0x6d2
+                    UCHAR BpbTrappedFlushRsbOnRetpolineExit:1;              //0x6d2
+                    UCHAR BpbTrappedBpbStateReserved:1;                     //0x6d2
                 };
             };
             union
@@ -128,10 +191,10 @@ struct _KPRCB
                 UCHAR BpbRetpolineState;                                    //0x6d3
                 struct
                 {
-                    UCHAR BpbRunningNonRetpolineCode : 1;                     //0x6d3
-                    UCHAR BpbIndirectCallsSafe : 1;                           //0x6d3
-                    UCHAR BpbRetpolineEnabled : 1;                            //0x6d3
-                    UCHAR BpbRetpolineStateReserved : 5;                      //0x6d3
+                    UCHAR BpbRunningNonRetpolineCode:1;                     //0x6d3
+                    UCHAR BpbIndirectCallsSafe:1;                           //0x6d3
+                    UCHAR BpbRetpolineEnabled:1;                            //0x6d3
+                    UCHAR BpbRetpolineStateReserved:5;                      //0x6d3
                 };
             };
             ULONG PrcbPad12b;                                               //0x6d4
@@ -187,7 +250,7 @@ struct _KPRCB
     union _SLIST_HEADER InterruptObjectPool;                                //0x3080
     struct _RTL_HASH_TABLE* DpcRuntimeHistoryHashTable;                     //0x3090
     struct _KDPC* DpcRuntimeHistoryHashTableCleanupDpc;                     //0x3098
-    VOID(*CurrentDpcRoutine)(struct _KDPC* arg1, VOID* arg2, VOID* arg3, VOID* arg4); //0x30a0
+    VOID (*CurrentDpcRoutine)(struct _KDPC* arg1, VOID* arg2, VOID* arg3, VOID* arg4); //0x30a0
     ULONGLONG CurrentDpcRuntimeHistoryCached;                               //0x30a8
     ULONGLONG CurrentDpcStartTime;                                          //0x30b0
     ULONGLONG PrcbPad41[1];                                                 //0x30b8
@@ -212,16 +275,16 @@ struct _KPRCB
         };
         struct
         {
-            ULONG DpcNormalProcessingActive : 1;                              //0x312c
-            ULONG DpcNormalProcessingRequested : 1;                           //0x312c
-            ULONG DpcNormalThreadSignal : 1;                                  //0x312c
-            ULONG DpcNormalTimerExpiration : 1;                               //0x312c
-            ULONG DpcNormalDpcPresent : 1;                                    //0x312c
-            ULONG DpcNormalLocalInterrupt : 1;                                //0x312c
-            ULONG DpcNormalSpare : 10;                                        //0x312c
-            ULONG DpcThreadActive : 1;                                        //0x312c
-            ULONG DpcThreadRequested : 1;                                     //0x312c
-            ULONG DpcThreadSpare : 14;                                        //0x312c
+            ULONG DpcNormalProcessingActive:1;                              //0x312c
+            ULONG DpcNormalProcessingRequested:1;                           //0x312c
+            ULONG DpcNormalThreadSignal:1;                                  //0x312c
+            ULONG DpcNormalTimerExpiration:1;                               //0x312c
+            ULONG DpcNormalDpcPresent:1;                                    //0x312c
+            ULONG DpcNormalLocalInterrupt:1;                                //0x312c
+            ULONG DpcNormalSpare:10;                                        //0x312c
+            ULONG DpcThreadActive:1;                                        //0x312c
+            ULONG DpcThreadRequested:1;                                     //0x312c
+            ULONG DpcThreadSpare:14;                                        //0x312c
         };
     };
     ULONG PrcbPad93;                                                        //0x3130
@@ -392,11 +455,11 @@ struct _KPRCB
             struct
             {
                 UCHAR PairLocalLow;                                         //0x873c
-                UCHAR PairLocalForceStibp : 1;                                //0x873d
-                UCHAR Reserved : 4;                                           //0x873d
-                UCHAR Frozen : 1;                                             //0x873d
-                UCHAR ForceUntrusted : 1;                                     //0x873d
-                UCHAR SynchIpi : 1;                                           //0x873d
+                UCHAR PairLocalForceStibp:1;                                //0x873d
+                UCHAR Reserved:4;                                           //0x873d
+                UCHAR Frozen:1;                                             //0x873d
+                UCHAR ForceUntrusted:1;                                     //0x873d
+                UCHAR SynchIpi:1;                                           //0x873d
             };
         };
         union
@@ -451,3 +514,8 @@ struct _KPRCB
     UCHAR PrcbPad141a[64];                                                  //0xae80
     struct _REQUEST_MAILBOX RequestMailbox[1];                              //0xaec0
 };
+/* Used in */
+// _KPCR
+// _KPRCB
+// _KTHREAD
+

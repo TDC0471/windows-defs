@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+
 //0x18 bytes (sizeof)
 struct _MI_PTE_CHAIN_HEAD
 {

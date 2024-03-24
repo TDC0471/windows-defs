@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_CRITICAL_SECTION_DEBUG.h>
+
 //0x28 bytes (sizeof)
 struct _RTL_CRITICAL_SECTION
 {

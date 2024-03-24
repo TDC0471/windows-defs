@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_RECOVERY_CONTEXT_ERROR_TYPE.h>
+
 //0x20 bytes (sizeof)
 struct _WHEA_RECOVERY_CONTEXT
 {

@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_CONFIGURATION_CLASS.h>
+#include <_CONFIGURATION_TYPE.h>
+#include <_DEVICE_FLAGS.h>
+
 //0x28 bytes (sizeof)
 struct _CONFIGURATION_COMPONENT
 {

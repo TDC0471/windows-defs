@@ -1,6 +1,26 @@
 #pragma once
 /* ------------------ */
 
+#include <POWER_ACTION.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <POWER_POLICY_DEVICE_TYPE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_POP_SHUTDOWN_BUG_CHECK.h>
+#include <_POP_DEVICE_SYS_STATE.h>
+#include <_POP_HIBER_CONTEXT.h>
+#include <SYSTEM_POWER_CONDITION.h>
+#include <_DIAGNOSTIC_BUFFER.h>
+#include <SYSTEM_POWER_CAPABILITIES.h>
+#include <_KDPC.h>
+#include <_KTIMER.h>
+#include <_POP_POWER_ACTION_WATCHDOG_STATE.h>
+#include <_KTHREAD.h>
+#include <_KTHREAD.h>
+#include <_KTHREAD.h>
+
 //0x1c8 bytes (sizeof)
 struct _POP_POWER_ACTION
 {

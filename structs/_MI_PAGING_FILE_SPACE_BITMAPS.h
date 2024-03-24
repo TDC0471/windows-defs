@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_PAGING_FILE_SPACE_BITMAPS.h>
+#include <_RTL_BITMAP.h>
+#include <_RTL_BITMAP.h>
+#include <_RTL_BITMAP.h>
+
 //0x28 bytes (sizeof)
 struct _MI_PAGING_FILE_SPACE_BITMAPS
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x20 bytes (sizeof)
 struct _OBJECT_HEADER_CREATOR_INFO
 {

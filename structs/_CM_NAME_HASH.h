@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_COMPONENT_HASH.h>
+#include <_CM_NAME_HASH.h>
+
 //0x18 bytes (sizeof)
 struct _CM_NAME_HASH
 {

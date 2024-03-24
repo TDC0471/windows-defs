@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x50 bytes (sizeof)
 struct _RTL_RETPOLINE_ROUTINES
 {

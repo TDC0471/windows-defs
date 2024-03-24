@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_VF_AVL_TREE_NODE_EX.h>
+#include <_VF_TARGET_ALL_SHARED_EXPORT_THUNKS.h>
+#include <_VF_TARGET_VERIFIED_DRIVER_DATA.h>
+
 //0x40 bytes (sizeof)
 struct _VF_TARGET_DRIVER
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WDT_HANDLE.h>
+#include <_PNP_WATCHDOG_TYPE.h>
+
 //0x28 bytes (sizeof)
 struct _PNP_WATCHDOG
 {

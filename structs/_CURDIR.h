@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+
 //0x18 bytes (sizeof)
 struct _CURDIR
 {

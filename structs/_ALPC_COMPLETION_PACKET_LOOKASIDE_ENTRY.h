@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_IO_MINI_COMPLETION_PACKET_USER.h>
+#include <_ALPC_COMPLETION_PACKET_LOOKASIDE.h>
+
 //0x18 bytes (sizeof)
 struct _ALPC_COMPLETION_PACKET_LOOKASIDE_ENTRY
 {

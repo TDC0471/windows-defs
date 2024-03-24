@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+
 //0x18 bytes (sizeof)
 struct _MM_PAGED_POOL_INFO
 {

@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_RUNDOWN_REF.h>
+
 //0x38 bytes (sizeof)
 struct _PS_IO_CONTROL_ENTRY
 {

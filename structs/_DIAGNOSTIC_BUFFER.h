@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_REQUESTER_TYPE.h>
+
 //0x28 bytes (sizeof)
 struct _DIAGNOSTIC_BUFFER
 {

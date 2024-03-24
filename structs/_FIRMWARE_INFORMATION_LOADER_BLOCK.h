@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_EFI_FIRMWARE_INFORMATION.h>
+#include <_PCAT_FIRMWARE_INFORMATION.h>
+
 //0x40 bytes (sizeof)
 struct _FIRMWARE_INFORMATION_LOADER_BLOCK
 {

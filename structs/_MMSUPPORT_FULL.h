@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMSUPPORT_INSTANCE.h>
+#include <_MMSUPPORT_SHARED.h>
+
 //0x140 bytes (sizeof)
 struct _MMSUPPORT_FULL
 {

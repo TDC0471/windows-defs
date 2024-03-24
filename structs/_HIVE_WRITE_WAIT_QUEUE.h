@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETHREAD.h>
+#include <_HIVE_WAIT_PACKET.h>
+
 //0x10 bytes (sizeof)
 struct _HIVE_WRITE_WAIT_QUEUE
 {

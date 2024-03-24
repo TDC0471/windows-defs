@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_TRIAGE_EX_WORK_QUEUE.h>
+#include <_TRIAGE_EX_WORK_QUEUE.h>
+
 //0x28 bytes (sizeof)
 struct _TRIAGE_9F_POWER
 {

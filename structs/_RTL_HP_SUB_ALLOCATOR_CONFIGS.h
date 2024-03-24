@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_HP_LFH_CONFIG.h>
+#include <_RTL_HP_VS_CONFIG.h>
+
 //0x8 bytes (sizeof)
 struct _RTL_HP_SUB_ALLOCATOR_CONFIGS
 {

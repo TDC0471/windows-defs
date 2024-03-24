@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROCESSOR_NUMBER.h>
+#include <_COUNTER_READING.h>
+#include <_COUNTER_READING.h>
+
 //0x1c0 bytes (sizeof)
 struct _THREAD_PERFORMANCE_DATA
 {

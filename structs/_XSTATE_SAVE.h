@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_XSTATE_SAVE.h>
+#include <_KTHREAD.h>
+#include <_XSTATE_CONTEXT.h>
+
 //0x38 bytes (sizeof)
 struct _XSTATE_SAVE
 {

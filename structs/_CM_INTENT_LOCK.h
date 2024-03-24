@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_KCB_UOW.h>
+
 //0x10 bytes (sizeof)
 struct _CM_INTENT_LOCK
 {

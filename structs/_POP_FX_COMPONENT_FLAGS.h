@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 union _POP_FX_COMPONENT_FLAGS
 {

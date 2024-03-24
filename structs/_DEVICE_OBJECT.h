@@ -1,6 +1,19 @@
 #pragma once
 /* ------------------ */
 
+#include <_DRIVER_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+#include <_IO_TIMER.h>
+#include <_VPB.h>
+#include <_LIST_ENTRY.h>
+#include <_WAIT_CONTEXT_BLOCK.h>
+#include <_KDEVICE_QUEUE.h>
+#include <_KDPC.h>
+#include <_KEVENT.h>
+#include <_DEVOBJ_EXTENSION.h>
+
 //0x150 bytes (sizeof)
 struct _DEVICE_OBJECT
 {

@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_LIST_LOOKUP.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x38 bytes (sizeof)
 struct _HEAP_LIST_LOOKUP
 {

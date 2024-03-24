@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_NT_TIB.h>
+#include <_KGDTENTRY64.h>
+#include <_KTSS64.h>
+#include <_KPCR.h>
+#include <_KPRCB.h>
+#include <_KSPIN_LOCK_QUEUE.h>
+#include <_KIDTENTRY64.h>
+#include <_KPRCB.h>
+
 //0xb080 bytes (sizeof)
 struct _KPCR
 {

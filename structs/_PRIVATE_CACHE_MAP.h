@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_PRIVATE_CACHE_MAP_FLAGS.h>
+#include <_FILE_OBJECT.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+
 //0x78 bytes (sizeof)
 struct _PRIVATE_CACHE_MAP
 {

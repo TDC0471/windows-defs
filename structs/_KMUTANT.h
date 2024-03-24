@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+#include <_LIST_ENTRY.h>
+#include <_KTHREAD.h>
+
 //0x38 bytes (sizeof)
 struct _KMUTANT
 {

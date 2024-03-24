@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_WHEA_NOTIFICATION_DESCRIPTOR.h>
+
 //0x34 bytes (sizeof)
 struct _WHEA_GENERIC_ERROR_DESCRIPTOR
 {

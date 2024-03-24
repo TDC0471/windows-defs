@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WNF_SCOPE_MAP.h>
+#include <_WNF_LOCK.h>
+
 //0x38 bytes (sizeof)
 struct _WNF_SILODRIVERSTATE
 {

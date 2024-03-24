@@ -1,7 +1,22 @@
 #pragma once
 /* ------------------ */
 
-//0x10c bytes (sizeof)
+#include <_DESCRIPTION_HEADER.h>
+#include <_GEN_ADDR.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+#include <_GEN_ADDR.h>
+
+//0x114 bytes (sizeof)
 struct _FADT
 {
     struct _DESCRIPTION_HEADER Header;                                      //0x0
@@ -59,4 +74,5 @@ struct _FADT
     struct _GEN_ADDR x_gp1_blk;                                             //0xe8
     struct _GEN_ADDR sleep_control_reg;                                     //0xf4
     struct _GEN_ADDR sleep_status_reg;                                      //0x100
+    ULONGLONG hypervisor_vendor_identity;                                   //0x10c
 };

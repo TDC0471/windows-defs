@@ -1,6 +1,28 @@
 #pragma once
 /* ------------------ */
 
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_TIMELINE_BITMAP.h>
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+#include <_ENERGY_STATE_DURATION.h>
+
 //0xa0 bytes (sizeof)
 struct _PROCESS_ENERGY_VALUES_EXTENSION
 {

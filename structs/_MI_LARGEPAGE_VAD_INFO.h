@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EPARTITION.h>
+
 //0x18 bytes (sizeof)
 struct _MI_LARGEPAGE_VAD_INFO
 {

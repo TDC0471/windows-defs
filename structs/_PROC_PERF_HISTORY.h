@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROC_PERF_HISTORY_ENTRY.h>
+
 //0x2c bytes (sizeof)
 struct _PROC_PERF_HISTORY
 {

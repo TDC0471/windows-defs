@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x6 bytes (sizeof)
 struct _SID_IDENTIFIER_AUTHORITY
 {

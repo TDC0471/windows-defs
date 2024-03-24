@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DEVICE_OBJECT_LIST.h>
+
 //0x10 bytes (sizeof)
 struct _RELATION_LIST
 {

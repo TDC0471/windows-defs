@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1 bytes (sizeof)
 union _WHEA_ERROR_RECORD_SECTION_DESCRIPTOR_VALIDBITS
 {

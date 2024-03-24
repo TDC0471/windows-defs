@@ -1,6 +1,18 @@
 #pragma once
 /* ------------------ */
 
+#include <_KSYSTEM_TIME.h>
+#include <_KSYSTEM_TIME.h>
+#include <_KSYSTEM_TIME.h>
+#include <_NT_PRODUCT_TYPE.h>
+#include <_ALTERNATIVE_ARCHITECTURE_TYPE.h>
+#include <_LARGE_INTEGER.h>
+#include <_KSYSTEM_TIME.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_XSTATE_CONFIGURATION.h>
+#include <_KSYSTEM_TIME.h>
+
 //0x720 bytes (sizeof)
 struct _KUSER_SHARED_DATA
 {

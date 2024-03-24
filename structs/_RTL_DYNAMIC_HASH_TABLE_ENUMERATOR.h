@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_DYNAMIC_HASH_TABLE_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x28 bytes (sizeof)
 struct _RTL_DYNAMIC_HASH_TABLE_ENUMERATOR
 {

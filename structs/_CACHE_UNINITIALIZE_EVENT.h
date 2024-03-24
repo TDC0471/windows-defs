@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_CACHE_UNINITIALIZE_EVENT.h>
+#include <_KEVENT.h>
+
 //0x20 bytes (sizeof)
 struct _CACHE_UNINITIALIZE_EVENT
 {

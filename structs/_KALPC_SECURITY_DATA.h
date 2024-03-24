@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_ALPC_HANDLE_TABLE.h>
+#include <_EPROCESS.h>
+#include <_ALPC_PORT.h>
+#include <_SECURITY_CLIENT_CONTEXT.h>
+
 //0x70 bytes (sizeof)
 struct _KALPC_SECURITY_DATA
 {

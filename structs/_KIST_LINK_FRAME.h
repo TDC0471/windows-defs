@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KIST_BASE_FRAME.h>
+
 //0x20 bytes (sizeof)
 struct _KIST_LINK_FRAME
 {

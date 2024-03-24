@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_ALPC_PORT.h>
+#include <_KALPC_MESSAGE.h>
+#include <_ALPC_COMMUNICATION_INFO.h>
+#include <_ETHREAD.h>
+#include <_ALPC_PORT.h>
+#include <_KALPC_DIRECT_EVENT.h>
+
 //0x40 bytes (sizeof)
 struct _ALPC_DISPATCH_CONTEXT
 {

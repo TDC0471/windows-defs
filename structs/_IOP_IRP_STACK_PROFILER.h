@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x54 bytes (sizeof)
 struct _IOP_IRP_STACK_PROFILER
 {

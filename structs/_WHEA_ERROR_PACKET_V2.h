@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_ERROR_PACKET_FLAGS.h>
+#include <_WHEA_ERROR_TYPE.h>
+#include <_WHEA_ERROR_SEVERITY.h>
+#include <_WHEA_ERROR_SOURCE_TYPE.h>
+#include <_GUID.h>
+#include <_WHEA_ERROR_PACKET_DATA_FORMAT.h>
+
 //0x50 bytes (sizeof)
 struct _WHEA_ERROR_PACKET_V2
 {

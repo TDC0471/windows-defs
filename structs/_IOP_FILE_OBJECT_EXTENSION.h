@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_IOP_PRIORITY_HINT.h>
+
 //0x58 bytes (sizeof)
 struct _IOP_FILE_OBJECT_EXTENSION
 {

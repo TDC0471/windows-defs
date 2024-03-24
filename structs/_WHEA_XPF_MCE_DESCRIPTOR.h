@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_XPF_MCE_FLAGS.h>
+#include <_WHEA_XPF_MC_BANK_DESCRIPTOR.h>
+
 //0x398 bytes (sizeof)
 struct _WHEA_XPF_MCE_DESCRIPTOR
 {

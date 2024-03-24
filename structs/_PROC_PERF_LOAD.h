@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x2 bytes (sizeof)
 struct _PROC_PERF_LOAD
 {

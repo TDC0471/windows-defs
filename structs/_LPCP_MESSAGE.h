@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_ETHREAD.h>
+#include <_PORT_MESSAGE.h>
+
 //0x50 bytes (sizeof)
 struct _LPCP_MESSAGE
 {

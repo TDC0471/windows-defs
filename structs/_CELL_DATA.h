@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_u.h>
+
 //0x50 bytes (sizeof)
 struct _CELL_DATA
 {

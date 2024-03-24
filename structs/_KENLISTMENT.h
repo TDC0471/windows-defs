@@ -1,6 +1,21 @@
 #pragma once
 /* ------------------ */
 
+#include <_KTMOBJECT_NAMESPACE_LINK.h>
+#include <_GUID.h>
+#include <_KMUTANT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KRESOURCEMANAGER.h>
+#include <_KTRANSACTION.h>
+#include <_KENLISTMENT_STATE.h>
+#include <_KTMNOTIFICATION_PACKET.h>
+#include <_KENLISTMENT.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_KENLISTMENT_HISTORY.h>
+
 //0x1e0 bytes (sizeof)
 struct _KENLISTMENT
 {

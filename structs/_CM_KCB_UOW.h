@@ -1,6 +1,27 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_CM_INTENT_LOCK.h>
+#include <_CM_INTENT_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_TRANS.h>
+#include <UoWActionType.h>
+#include <HSTORAGE_TYPE.h>
+#include <_CM_KCB_UOW.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_LARGE_INTEGER.h>
+#include <_CM_KEY_SECURITY_CACHE.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_UOW_SET_SD_DATA.h>
+#include <_CM_UOW_KEY_STATE_MODIFICATION.h>
+#include <_CM_UOW_SET_VALUE_LIST_DATA.h>
+#include <_CM_UOW_SET_VALUE_KEY_DATA.h>
+#include <_CMP_DISCARD_AND_REPLACE_KCB_CONTEXT.h>
+
 //0x78 bytes (sizeof)
 struct _CM_KCB_UOW
 {

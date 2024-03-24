@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_SEP_LOWBOX_NUMBER_MAPPING.h>
+
 //0x40 bytes (sizeof)
 struct _SESSION_LOWBOX_MAP
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <POHANDLE__.h>
+
 //0x10 bytes (sizeof)
 struct _PEP_WORK_IDLE_STATE
 {

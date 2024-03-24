@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 struct _RTL_FEATURE_USAGE_REPORT
 {

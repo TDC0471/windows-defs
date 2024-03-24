@@ -1,6 +1,21 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_ALPC_PORT.h>
+#include <_ALPC_PORT.h>
+#include <_ETHREAD.h>
+#include <_EPROCESS.h>
+#include <_ALPC_PORT.h>
+#include <_ALPC_PORT.h>
+#include <_LIST_ENTRY.h>
+#include <_KALPC_RESERVE.h>
+#include <_KALPC_MESSAGE_ATTRIBUTES.h>
+#include <_ALPC_COMMUNICATION_INFO.h>
+#include <_ALPC_PORT.h>
+#include <_ETHREAD.h>
+#include <_PORT_MESSAGE.h>
+
 //0x118 bytes (sizeof)
 struct _KALPC_MESSAGE
 {
@@ -23,6 +38,7 @@ struct _KALPC_MESSAGE
             ULONG ReceiverReference:1;                                      //0x28
             ULONG ViewAttributeRetrieved:1;                                 //0x28
             ULONG InDispatch:1;                                             //0x28
+            ULONG InCanceledQueue:1;                                        //0x28
         } s1;                                                               //0x28
         ULONG State;                                                        //0x28
     } u1;                                                                   //0x28

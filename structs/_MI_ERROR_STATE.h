@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_BAD_MEMORY_EVENT_ENTRY.h>
+#include <_MI_PROBE_RAISE_TRACKER.h>
+#include <_MI_FORCED_COMMITS.h>
+#include <_MI_RESAVAIL_FAILURES.h>
+
 //0xc8 bytes (sizeof)
 struct _MI_ERROR_STATE
 {

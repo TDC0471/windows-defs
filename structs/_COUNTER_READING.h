@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_HARDWARE_COUNTER_TYPE.h>
+
 //0x18 bytes (sizeof)
 struct _COUNTER_READING
 {

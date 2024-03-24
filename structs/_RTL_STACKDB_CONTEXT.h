@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_HASH_TABLE.h>
+#include <_RTL_HASH_TABLE.h>
+#include <_RTL_SRWLOCK.h>
+#include <_RTL_SRWLOCK.h>
+
 //0x48 bytes (sizeof)
 struct _RTL_STACKDB_CONTEXT
 {

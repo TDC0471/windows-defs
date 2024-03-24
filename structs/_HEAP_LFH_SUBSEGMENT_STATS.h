@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_LFH_SUBSEGMENT_STAT.h>
+
 //0x8 bytes (sizeof)
 union _HEAP_LFH_SUBSEGMENT_STATS
 {

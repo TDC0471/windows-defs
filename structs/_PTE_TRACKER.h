@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_MDL.h>
+
 //0x80 bytes (sizeof)
 struct _PTE_TRACKER
 {

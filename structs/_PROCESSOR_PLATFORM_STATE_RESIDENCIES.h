@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROCESSOR_PLATFORM_STATE_RESIDENCY.h>
+
 //0x18 bytes (sizeof)
 struct _PROCESSOR_PLATFORM_STATE_RESIDENCIES
 {

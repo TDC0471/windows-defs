@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BITMAP_EX.h>
+
 //0x48 bytes (sizeof)
 struct _MI_DYNAMIC_BITMAP
 {

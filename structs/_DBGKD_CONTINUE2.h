@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_AMD64_DBGKD_CONTROL_SET.h>
+#include <_DBGKD_ANY_CONTROL_SET.h>
+
 //0x20 bytes (sizeof)
 struct _DBGKD_CONTINUE2
 {

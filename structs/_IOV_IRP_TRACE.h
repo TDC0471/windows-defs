@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_IRP.h>
+#include <_KTHREAD.h>
+
 //0x80 bytes (sizeof)
 struct _IOV_IRP_TRACE
 {

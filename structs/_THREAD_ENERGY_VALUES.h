@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_TIMELINE_BITMAP.h>
+
 //0xc8 bytes (sizeof)
 struct _THREAD_ENERGY_VALUES
 {

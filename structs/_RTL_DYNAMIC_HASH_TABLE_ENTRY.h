@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x18 bytes (sizeof)
 struct _RTL_DYNAMIC_HASH_TABLE_ENTRY
 {

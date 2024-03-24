@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SID_IDENTIFIER_AUTHORITY.h>
+
 //0xc bytes (sizeof)
 struct _SID
 {

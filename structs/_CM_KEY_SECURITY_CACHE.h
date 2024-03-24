@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_SECURITY_DESCRIPTOR_RELATIVE.h>
+
 //0x38 bytes (sizeof)
 struct _CM_KEY_SECURITY_CACHE
 {

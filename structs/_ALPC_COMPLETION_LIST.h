@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EPROCESS.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MDL.h>
+#include <_ALPC_COMPLETION_LIST_HEADER.h>
+
 //0xa0 bytes (sizeof)
 struct _ALPC_COMPLETION_LIST
 {

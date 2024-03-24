@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_WHEA_ERROR_SOURCE_TYPE.h>
+#include <_WHEAP_ERROR_RECORD_WRAPPER.h>
+#include <_LARGE_INTEGER.h>
+#include <_WHEA_ERROR_SOURCE_DESCRIPTOR.h>
+
 //0x430 bytes (sizeof)
 struct _WHEAP_ERROR_SOURCE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SLIST_HEADER.h>
+
 //0x10 bytes (sizeof)
 struct _HEAP_VS_DELAY_FREE_CONTEXT
 {

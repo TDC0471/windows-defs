@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _FS_FILTER_SECTION_SYNC_TYPE
 {

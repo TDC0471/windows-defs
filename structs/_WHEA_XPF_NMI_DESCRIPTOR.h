@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x3 bytes (sizeof)
 struct _WHEA_XPF_NMI_DESCRIPTOR
 {

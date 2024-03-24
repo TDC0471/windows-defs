@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_ARBITER_INTERFACE.h>
+#include <_DEVICE_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x70 bytes (sizeof)
 struct _PI_RESOURCE_ARBITER_ENTRY
 {

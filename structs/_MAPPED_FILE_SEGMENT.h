@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_CONTROL_AREA.h>
+#include <_SEGMENT_FLAGS.h>
+#include <_MMEXTEND_INFO.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x30 bytes (sizeof)
 struct _MAPPED_FILE_SEGMENT
 {

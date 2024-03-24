@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _HAL_DMA_CRASH_DUMP_REGISTER_TYPE
 {

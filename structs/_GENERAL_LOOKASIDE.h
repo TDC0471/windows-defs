@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_SLIST_HEADER.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_POOL_TYPE.h>
+#include <_POOL_TYPE.h>
+#include <_LOOKASIDE_LIST_EX.h>
+#include <_POOL_TYPE.h>
+#include <_LOOKASIDE_LIST_EX.h>
+#include <_LIST_ENTRY.h>
+
 //0x80 bytes (sizeof)
 struct _GENERAL_LOOKASIDE
 {

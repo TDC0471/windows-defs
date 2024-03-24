@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_PPM_ENGINE_SETTINGS.h>
+
 //0x15b0 bytes (sizeof)
 struct _POP_PPM_PROFILE
 {

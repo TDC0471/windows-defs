@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+
 //0x18 bytes (sizeof)
 struct _KEVENT
 {

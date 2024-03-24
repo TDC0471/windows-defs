@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_FLAGS.h>
+
 //0x38 bytes (sizeof)
 struct _MI_TRIAGE_DUMP_DATA
 {

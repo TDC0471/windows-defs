@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _POWER_INFORMATION_LEVEL_INTERNAL_TTMTCAPI
 {

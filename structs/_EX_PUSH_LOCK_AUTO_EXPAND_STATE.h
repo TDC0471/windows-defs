@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 struct _EX_PUSH_LOCK_AUTO_EXPAND_STATE
 {

@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TREE.h>
+#include <_LIST_ENTRY.h>
+#include <_MI_IO_CACHE_STATS.h>
+#include <_RTL_AVL_TREE.h>
+
 //0x68 bytes (sizeof)
 struct _MI_IO_PAGE_STATE
 {

@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_KGATE.h>
+#include <_MI_WRITE_CALIBRATION.h>
+#include <_KEVENT.h>
+#include <_MI_ZERO_THREAD_CONTEXT.h>
+
 //0xb0 bytes (sizeof)
 struct _MI_PARTITION_ZEROING
 {

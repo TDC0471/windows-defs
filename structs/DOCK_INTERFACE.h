@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <PROFILE_DEPARTURE_STYLE.h>
+
 //0x30 bytes (sizeof)
 struct DOCK_INTERFACE
 {

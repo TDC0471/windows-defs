@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_M128A.h>
+#include <_M128A.h>
+
 //0x200 bytes (sizeof)
 struct _XSAVE_FORMAT
 {

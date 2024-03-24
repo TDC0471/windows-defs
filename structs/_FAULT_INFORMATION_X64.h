@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_FAULT_INFORMATION_X64_FLAGS.h>
+#include <_FAULT_INFORMATION_ARM64_TYPE.h>
+
 //0x28 bytes (sizeof)
 struct _FAULT_INFORMATION_X64
 {

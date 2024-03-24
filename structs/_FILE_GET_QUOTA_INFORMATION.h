@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SID.h>
+
 //0x14 bytes (sizeof)
 struct _FILE_GET_QUOTA_INFORMATION
 {

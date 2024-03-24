@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_FAILURE_INFORMATION.h>
+#include <_RTL_HEAP_MEMORY_LIMIT_DATA.h>
+
 //0x38 bytes (sizeof)
 struct _RTLP_HP_HEAP_GLOBALS
 {

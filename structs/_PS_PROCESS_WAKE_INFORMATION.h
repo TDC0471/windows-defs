@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_JOBOBJECT_WAKE_FILTER.h>
+
 //0x30 bytes (sizeof)
 struct _PS_PROCESS_WAKE_INFORMATION
 {

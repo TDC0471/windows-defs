@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KSPIN_LOCK_QUEUE.h>
+
 //0x10 bytes (sizeof)
 struct _KSPIN_LOCK_QUEUE
 {

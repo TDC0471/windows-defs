@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_HIVE_WAIT_PACKET.h>
+
 //0x28 bytes (sizeof)
 struct _HIVE_WAIT_PACKET
 {

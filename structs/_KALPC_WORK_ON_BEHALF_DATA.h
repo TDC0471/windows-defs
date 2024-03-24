@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_ALPC_WORK_ON_BEHALF_TICKET.h>
+
 //0x8 bytes (sizeof)
 struct _KALPC_WORK_ON_BEHALF_DATA
 {

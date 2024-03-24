@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_KDEVICE_QUEUE_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_IO_ALLOCATION_ACTION.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+#include <_KDPC.h>
+
 //0x48 bytes (sizeof)
 struct _WAIT_CONTEXT_BLOCK
 {

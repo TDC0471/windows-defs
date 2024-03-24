@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETW_HW_TRACE_EXT_INTERFACE.h>
+
 //0x28 bytes (sizeof)
 struct _ETW_IPT_SUPPORT
 {

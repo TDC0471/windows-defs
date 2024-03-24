@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_ETWP_NOTIFICATION_HEADER.h>
+#include <_ETW_REG_ENTRY.h>
+#include <_ETW_REG_ENTRY.h>
+
 //0x38 bytes (sizeof)
 struct _ETW_QUEUE_ENTRY
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_IMAGE_DATA_DIRECTORY.h>
+
 //0xf0 bytes (sizeof)
 struct _IMAGE_OPTIONAL_HEADER64
 {

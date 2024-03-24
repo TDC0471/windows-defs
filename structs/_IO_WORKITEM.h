@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_WORK_QUEUE_ITEM.h>
+#include <_IO_WORKITEM.h>
+#include <_ETHREAD.h>
+#include <_GUID.h>
+
 //0x58 bytes (sizeof)
 struct _IO_WORKITEM
 {

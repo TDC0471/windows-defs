@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_VAD_EVENT_BLOCK.h>
+#include <_KGATE.h>
+#include <_MMADDRESS_LIST.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_MMINPAGE_SUPPORT.h>
+#include <_MI_LARGEPAGE_VAD_INFO.h>
+#include <_MI_PHYSICAL_VIEW.h>
+#include <_ETHREAD.h>
+#include <_MI_SUB64K_FREE_RANGES.h>
+#include <_MMVAD_SHORT.h>
+
 //0x48 bytes (sizeof)
 struct _MI_VAD_EVENT_BLOCK
 {

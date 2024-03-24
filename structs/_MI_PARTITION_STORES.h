@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETHREAD.h>
+#include <_KEVENT.h>
+#include <_SLIST_HEADER.h>
+#include <_KEVENT.h>
+#include <_RTL_BITMAP.h>
+#include <_EPROCESS.h>
+
 //0x90 bytes (sizeof)
 struct _MI_PARTITION_STORES
 {

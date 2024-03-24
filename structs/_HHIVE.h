@@ -1,6 +1,23 @@
 #pragma once
 /* ------------------ */
 
+#include <_CELL_DATA.h>
+#include <_HHIVE.h>
+#include <_HV_GET_CELL_CONTEXT.h>
+#include <_HHIVE.h>
+#include <_HV_GET_CELL_CONTEXT.h>
+#include <_HHIVE.h>
+#include <CMP_OFFSET_ARRAY.h>
+#include <_HHIVE.h>
+#include <_HBASE_BLOCK.h>
+#include <_CMSI_RW_LOCK.h>
+#include <_CMSI_RW_LOCK.h>
+#include <_RTL_BITMAP.h>
+#include <_RTL_BITMAP.h>
+#include <_LARGE_INTEGER.h>
+#include <_HVP_VIEW_MAP.h>
+#include <_DUAL.h>
+
 //0x600 bytes (sizeof)
 struct _HHIVE
 {
@@ -65,6 +82,7 @@ struct _HHIVE
 // _CM_KEY_CONTROL_BLOCK
 // _CM_KEY_HASH
 // _CM_KEY_REFERENCE
+// _CM_UOW_SET_SD_DATA
 // _HHIVE
 // _HIVE_LOAD_FAILURE
 

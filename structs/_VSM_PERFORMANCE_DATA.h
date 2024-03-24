@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x40 bytes (sizeof)
 struct _VSM_PERFORMANCE_DATA
 {

@@ -1,6 +1,16 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_UMS_CONTEXT.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_KQUEUE.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_UMS_CONTEXT.h>
+#include <_KQUEUE.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+
 //0x88 bytes (sizeof)
 struct _UMS_CONTROL_BLOCK
 {

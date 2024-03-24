@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_ETW_GUID_ENTRY.h>
+#include <_ETW_GUID_ENTRY.h>
+#include <_ETW_REPLY_QUEUE.h>
+#include <_ETW_QUEUE_ENTRY.h>
+#include <_EPROCESS.h>
+#include <_ETW_PROVIDER_TRAITS.h>
+
 //0x70 bytes (sizeof)
 struct _ETW_REG_ENTRY
 {

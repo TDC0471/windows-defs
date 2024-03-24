@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <tagSWITCH_CONTEXT_ATTRIBUTE.h>
+#include <tagSWITCH_CONTEXT_DATA.h>
+
 //0x358 bytes (sizeof)
 struct tagSWITCH_CONTEXT
 {

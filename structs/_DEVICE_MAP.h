@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_DIRECTORY.h>
+#include <_OBJECT_DIRECTORY.h>
+#include <_EJOB.h>
+
 //0x48 bytes (sizeof)
 struct _DEVICE_MAP
 {

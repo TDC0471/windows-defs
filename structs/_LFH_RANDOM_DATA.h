@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x100 bytes (sizeof)
 union _LFH_RANDOM_DATA
 {

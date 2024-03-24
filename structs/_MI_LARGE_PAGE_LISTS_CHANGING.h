@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_LARGE_PAGE_LISTS_CHANGING.h>
+#include <_KGATE.h>
+
 //0x20 bytes (sizeof)
 struct _MI_LARGE_PAGE_LISTS_CHANGING
 {

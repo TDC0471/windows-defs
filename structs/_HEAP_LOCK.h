@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_CRITICAL_SECTION.h>
+#include <_ERESOURCE.h>
+
 //0x68 bytes (sizeof)
 struct _HEAP_LOCK
 {

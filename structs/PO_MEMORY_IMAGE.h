@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_PO_HIBER_PERF.h>
+#include <_LARGE_INTEGER.h>
+
 //0x3e0 bytes (sizeof)
 struct PO_MEMORY_IMAGE
 {

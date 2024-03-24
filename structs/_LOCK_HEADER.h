@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TREE.h>
+#include <_RTL_AVL_TREE.h>
+
 //0x28 bytes (sizeof)
 struct _LOCK_HEADER
 {

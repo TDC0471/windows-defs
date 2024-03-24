@@ -1,6 +1,32 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_KEY_HASH.h>
+#include <_CM_PATH_HASH.h>
+#include <_CM_KEY_HASH.h>
+#include <_HHIVE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_KTHREAD.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_NAME_CONTROL_BLOCK.h>
+#include <_CM_KEY_SECURITY_CACHE.h>
+#include <_CHILD_LIST.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_INDEX_HINT_BLOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_CM_KEY_BODY.h>
+#include <_LARGE_INTEGER.h>
+#include <_CM_KCB_LAYER_INFO.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_CM_TRANS.h>
+#include <_CM_INTENT_LOCK.h>
+#include <_CM_INTENT_LOCK.h>
+#include <_CHILD_LIST.h>
+#include <_CM_TRANS.h>
+#include <_UNICODE_STRING.h>
+
 //0x138 bytes (sizeof)
 struct _CM_KEY_CONTROL_BLOCK
 {

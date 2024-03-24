@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_EPROCESS.h>
+
 //0x10 bytes (sizeof)
 struct _POOL_HEADER
 {

@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IRP.h>
+#include <_DEVICE_OBJECT.h>
+
 //0x20 bytes (sizeof)
 struct _TRIAGE_POP_IRP_DATA
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _POP_SYSTEM_IDLE_EVENT_TYPE
 {

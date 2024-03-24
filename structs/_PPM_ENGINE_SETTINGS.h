@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_PPM_POLICY_SETTINGS_MASK.h>
+#include <_KHETERO_CPU_POLICY.h>
+
 //0xab0 bytes (sizeof)
 struct _PPM_ENGINE_SETTINGS
 {

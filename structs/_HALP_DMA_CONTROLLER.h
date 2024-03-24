@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_HALP_DMA_CHANNEL.h>
+#include <_DMA_FUNCTION_TABLE.h>
+#include <_KINTERRUPT_POLARITY.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_UNICODE_STRING.h>
+#include <POHANDLE__.h>
+
 //0xe0 bytes (sizeof)
 struct _HALP_DMA_CONTROLLER
 {

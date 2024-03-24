@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_SEGMENT.h>
+#include <_LIST_ENTRY.h>
+#include <_MMSECTION_FLAGS.h>
+#include <_MMSECTION_FLAGS2.h>
+#include <_EX_FAST_REF.h>
+#include <_MI_CONTROL_AREA_WAIT_BLOCK.h>
+#include <_MI_IMAGE_SECURITY_REFERENCE.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x80 bytes (sizeof)
 struct _CONTROL_AREA
 {

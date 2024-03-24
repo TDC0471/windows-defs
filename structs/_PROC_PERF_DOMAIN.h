@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_PROC_PERF_CHECK_CONTEXT.h>
+#include <_KAFFINITY_EX.h>
+#include <_PROCESSOR_PRESENCE.h>
+#include <_PROC_PERF_CONSTRAINT.h>
+#include <_PERF_CONTROL_STATE_SELECTION.h>
+#include <_PERF_CONTROL_STATE_SELECTION.h>
+#include <_PERF_CONTROL_STATE_SELECTION.h>
+#include <_PROC_PERF_QOS_CLASS_POLICY.h>
+#include <_PERF_CONTROL_STATE_SELECTION.h>
+
 //0x300 bytes (sizeof)
 struct _PROC_PERF_DOMAIN
 {

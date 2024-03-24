@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_HHIVE.h>
+
 //0x10 bytes (sizeof)
 struct _CM_KEY_REFERENCE
 {

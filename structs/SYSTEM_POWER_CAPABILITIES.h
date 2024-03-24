@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <BATTERY_REPORTING_SCALE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+
 //0x4c bytes (sizeof)
 struct SYSTEM_POWER_CAPABILITIES
 {

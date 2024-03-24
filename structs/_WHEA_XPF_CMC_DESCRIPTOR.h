@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_NOTIFICATION_DESCRIPTOR.h>
+#include <_WHEA_XPF_MC_BANK_DESCRIPTOR.h>
+
 //0x3a4 bytes (sizeof)
 struct _WHEA_XPF_CMC_DESCRIPTOR
 {

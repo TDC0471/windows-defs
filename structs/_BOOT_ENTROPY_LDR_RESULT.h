@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_BOOT_ENTROPY_SOURCE_LDR_RESULT.h>
+
 //0x868 bytes (sizeof)
 struct _BOOT_ENTROPY_LDR_RESULT
 {

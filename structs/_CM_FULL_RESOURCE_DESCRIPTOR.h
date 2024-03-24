@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_INTERFACE_TYPE.h>
+#include <_CM_PARTIAL_RESOURCE_LIST.h>
+
 //0x24 bytes (sizeof)
 struct _CM_FULL_RESOURCE_DESCRIPTOR
 {

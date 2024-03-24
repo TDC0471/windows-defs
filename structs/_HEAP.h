@@ -1,6 +1,26 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_SEGMENT.h>
+#include <_HEAP_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_HEAP.h>
+#include <_HEAP_ENTRY.h>
+#include <_HEAP_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_HEAP_ENTRY.h>
+#include <_HEAP_TAG_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_HEAP_PSEUDO_TAG_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_HEAP_LOCK.h>
+#include <_RTL_RUN_ONCE.h>
+#include <_RTL_HEAP_MEMORY_LIMIT_DATA.h>
+#include <_HEAP_COUNTERS.h>
+#include <_HEAP_TUNING_PARAMETERS.h>
+
 //0x2c0 bytes (sizeof)
 struct _HEAP
 {

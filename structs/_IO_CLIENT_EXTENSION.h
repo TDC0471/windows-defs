@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_IO_CLIENT_EXTENSION.h>
+
 //0x10 bytes (sizeof)
 struct _IO_CLIENT_EXTENSION
 {

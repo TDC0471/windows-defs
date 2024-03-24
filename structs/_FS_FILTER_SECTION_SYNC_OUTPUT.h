@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _FS_FILTER_SECTION_SYNC_OUTPUT
 {

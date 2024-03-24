@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+
 //0x1000 bytes (sizeof)
 struct _HBASE_BLOCK
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_ALPC_COMPLETION_LIST_STATE.h>
+#include <_RTL_SRWLOCK.h>
+
 //0x180 bytes (sizeof)
 struct _ALPC_COMPLETION_LIST_HEADER
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_TOKEN_AUDIT_POLICY.h>
+
 //0x1f bytes (sizeof)
 struct _SEP_AUDIT_POLICY
 {

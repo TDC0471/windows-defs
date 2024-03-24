@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DESCRIPTION_HEADER.h>
+
 //0x28 bytes (sizeof)
 struct _RSDT_32
 {

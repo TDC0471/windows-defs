@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_CHILD_LIST.h>
+#include <_CM_KEY_REFERENCE.h>
+
 //0x50 bytes (sizeof)
 struct _CM_KEY_NODE
 {

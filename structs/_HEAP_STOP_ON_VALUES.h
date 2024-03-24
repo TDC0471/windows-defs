@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_STOP_ON_TAG.h>
+#include <_HEAP_STOP_ON_TAG.h>
+#include <_HEAP_STOP_ON_TAG.h>
+
 //0x30 bytes (sizeof)
 struct _HEAP_STOP_ON_VALUES
 {

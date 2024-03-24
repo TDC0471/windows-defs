@@ -1,7 +1,19 @@
 #pragma once
 /* ------------------ */
 
-//0xd8 bytes (sizeof)
+#include <_FILE_OBJECT.h>
+#include <_FILE_OBJECT.h>
+#include <_DEVICE_OBJECT.h>
+#include <_OBJECT_ATTRIBUTES.h>
+#include <_LARGE_INTEGER.h>
+#include <_FILE_BASIC_INFORMATION.h>
+#include <_FILE_NETWORK_OPEN_INFORMATION.h>
+#include <_CREATE_FILE_TYPE.h>
+#include <_DUMMY_FILE_OBJECT.h>
+#include <_IO_DRIVER_CREATE_CONTEXT.h>
+#include <_FILE_INFORMATION_CLASS.h>
+
+//0xe0 bytes (sizeof)
 struct _OPEN_PACKET
 {
     SHORT Type;                                                             //0x0
@@ -40,4 +52,5 @@ struct _OPEN_PACKET
     enum _FILE_INFORMATION_CLASS FileInformationClass;                      //0xc8
     ULONG FileInformationLength;                                            //0xcc
     UCHAR FilterQuery;                                                      //0xd0
+    LONGLONG ExtendedCreateFlags;                                           //0xd8
 };

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <wil_FeatureEnabledState.h>
+#include <wil_FeatureVariantPayloadKind.h>
+
 //0x18 bytes (sizeof)
 struct wil_FeatureState
 {

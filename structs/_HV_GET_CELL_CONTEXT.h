@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_HV_GET_BIN_CONTEXT.h>
+
 //0x8 bytes (sizeof)
 struct _HV_GET_CELL_CONTEXT
 {

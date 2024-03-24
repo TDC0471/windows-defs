@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+
 //0x40 bytes (sizeof)
 struct _OBJECT_CREATE_INFORMATION
 {

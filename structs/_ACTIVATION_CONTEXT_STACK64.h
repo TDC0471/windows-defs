@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <LIST_ENTRY64.h>
+
 //0x28 bytes (sizeof)
 struct _ACTIVATION_CONTEXT_STACK64
 {

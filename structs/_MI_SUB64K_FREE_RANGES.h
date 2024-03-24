@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BITMAP_EX.h>
+#include <_LIST_ENTRY.h>
+#include <_MMVAD_SHORT.h>
+
 //0x38 bytes (sizeof)
 struct _MI_SUB64K_FREE_RANGES
 {

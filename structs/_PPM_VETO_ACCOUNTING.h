@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_PPM_VETO_ENTRY.h>
+
 //0x28 bytes (sizeof)
 struct _PPM_VETO_ACCOUNTING
 {

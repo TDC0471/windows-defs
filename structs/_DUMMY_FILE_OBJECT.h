@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_HEADER.h>
+
 //0x110 bytes (sizeof)
 struct _DUMMY_FILE_OBJECT
 {

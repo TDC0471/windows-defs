@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPTE.h>
+
 //0x118 bytes (sizeof)
 struct _MI_DEBUGGER_STATE
 {

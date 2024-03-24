@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PPM_SELECTION_MENU.h>
+
 //0x18 bytes (sizeof)
 struct _PPM_SELECTION_DEPENDENCY
 {

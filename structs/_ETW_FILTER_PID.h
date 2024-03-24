@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x24 bytes (sizeof)
 struct _ETW_FILTER_PID
 {

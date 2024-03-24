@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_FAULT_INFORMATION.h>
+
 //0x10 bytes (sizeof)
 struct _DEVICE_FAULT_CONFIGURATION
 {

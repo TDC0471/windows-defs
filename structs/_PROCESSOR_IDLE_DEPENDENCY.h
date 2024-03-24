@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 struct _PROCESSOR_IDLE_DEPENDENCY
 {

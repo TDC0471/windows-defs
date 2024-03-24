@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1c bytes (sizeof)
 struct PROCESSOR_PERFSTATE_POLICY
 {

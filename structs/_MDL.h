@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MDL.h>
+#include <_EPROCESS.h>
+
 //0x30 bytes (sizeof)
 struct _MDL
 {

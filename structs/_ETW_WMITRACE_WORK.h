@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+
 //0xf0 bytes (sizeof)
 struct _ETW_WMITRACE_WORK
 {

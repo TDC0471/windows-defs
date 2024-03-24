@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_DISPATCHER_HEADER.h>
+#include <_RTL_BALANCED_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_KTIMER2.h>
+
 //0x88 bytes (sizeof)
 struct _KTIMER2
 {

@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <POWER_ACTION_POLICY.h>
+#include <POWER_ACTION_POLICY.h>
+#include <POWER_ACTION_POLICY.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <POWER_ACTION_POLICY.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <_SYSTEM_POWER_STATE.h>
+#include <SYSTEM_POWER_LEVEL.h>
+#include <POWER_ACTION_POLICY.h>
+
 //0xe8 bytes (sizeof)
 struct _SYSTEM_POWER_POLICY
 {

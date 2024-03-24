@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_NODE.h>
+#include <_PNP_DEVNODE_STATE.h>
+#include <_PNP_WATCHDOG.h>
+
 //0x48 bytes (sizeof)
 struct _PNP_DEVICE_COMPLETION_REQUEST
 {

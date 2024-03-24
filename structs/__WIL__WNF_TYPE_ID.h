@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+
 //0x10 bytes (sizeof)
 struct __WIL__WNF_TYPE_ID
 {

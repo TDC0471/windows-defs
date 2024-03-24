@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_KERNEL_STACK_SEGMENT.h>
+
 //0x30 bytes (sizeof)
 struct _KSTACK_CONTROL
 {

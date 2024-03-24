@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_SECONDARY_INTERRUPT_PROVIDER_INTERFACE.h>
+#include <_KEVENT.h>
+#include <_LIST_ENTRY.h>
+#include <_SECONDARY_INTERRUPT_LINE_STATE.h>
+
 //0xb0 bytes (sizeof)
 struct _SECONDARY_IC_LIST_ENTRY
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_DIRECTORY.h>
+#include <_UNICODE_STRING.h>
+
 //0x20 bytes (sizeof)
 struct _OBJECT_HEADER_NAME_INFO
 {

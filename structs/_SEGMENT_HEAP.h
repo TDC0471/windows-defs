@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <RTL_HP_ENV_HANDLE.h>
+#include <_RTL_HEAP_MEMORY_LIMIT_DATA.h>
+#include <_RTL_RB_TREE.h>
+#include <_RTL_RUN_ONCE.h>
+#include <_HEAP_RUNTIME_MEMORY_STATS.h>
+#include <_HEAP_SEG_CONTEXT.h>
+#include <_HEAP_VS_CONTEXT.h>
+#include <_HEAP_LFH_CONTEXT.h>
+
 //0x800 bytes (sizeof)
 struct _SEGMENT_HEAP
 {

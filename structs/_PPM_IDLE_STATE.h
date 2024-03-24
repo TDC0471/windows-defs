@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_KAFFINITY_EX.h>
+#include <_UNICODE_STRING.h>
+#include <_PPM_VETO_ACCOUNTING.h>
+
 //0xf8 bytes (sizeof)
 struct _PPM_IDLE_STATE
 {

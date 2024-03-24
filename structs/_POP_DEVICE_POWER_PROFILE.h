@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+#include <_POP_POWER_PLANE.h>
+#include <_POP_FX_DEVICE.h>
+#include <_PO_POWER_PLANE_PROFILE.h>
+#include <_POP_COMPONENT_POWER_PROFILE.h>
+
 //0x58 bytes (sizeof)
 struct _POP_DEVICE_POWER_PROFILE
 {

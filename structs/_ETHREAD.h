@@ -1,6 +1,38 @@
 #pragma once
 /* ------------------ */
 
+#include <_KTHREAD.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_TERMINATION_PORT.h>
+#include <_ETHREAD.h>
+#include <_LIST_ENTRY.h>
+#include <_CLIENT_ID.h>
+#include <_KSEMAPHORE.h>
+#include <_KSEMAPHORE.h>
+#include <_PS_CLIENT_SECURITY_CONTEXT.h>
+#include <_LIST_ENTRY.h>
+#include <_DEVICE_OBJECT.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_RUNDOWN_REF.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_GUID.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_PS_PROPERTY_SET.h>
+#include <_THREAD_ENERGY_VALUES.h>
+#include <_EJOB.h>
+#include <_UNICODE_STRING.h>
+#include <_CONTEXT.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KLOCK_ENTRY.h>
+
 //0x898 bytes (sizeof)
 struct _ETHREAD
 {

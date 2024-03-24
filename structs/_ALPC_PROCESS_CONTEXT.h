@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+
 //0x20 bytes (sizeof)
 struct _ALPC_PROCESS_CONTEXT
 {

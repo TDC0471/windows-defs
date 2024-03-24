@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 struct _HAL_HV_DMA_DOMAIN_INFO
 {

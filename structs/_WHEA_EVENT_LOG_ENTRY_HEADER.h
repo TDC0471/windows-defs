@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEA_EVENT_LOG_ENTRY_TYPE.h>
+#include <_WHEA_EVENT_LOG_ENTRY_ID.h>
+#include <_WHEA_EVENT_LOG_ENTRY_FLAGS.h>
+
 //0x20 bytes (sizeof)
 struct _WHEA_EVENT_LOG_ENTRY_HEADER
 {

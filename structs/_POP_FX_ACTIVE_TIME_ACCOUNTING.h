@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x60 bytes (sizeof)
 struct _POP_FX_ACTIVE_TIME_ACCOUNTING
 {

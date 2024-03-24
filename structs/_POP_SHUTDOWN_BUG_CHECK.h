@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETHREAD.h>
+#include <_EPROCESS.h>
+
 //0x48 bytes (sizeof)
 struct _POP_SHUTDOWN_BUG_CHECK
 {

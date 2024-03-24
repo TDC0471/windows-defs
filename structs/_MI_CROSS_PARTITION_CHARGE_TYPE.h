@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _MI_CROSS_PARTITION_CHARGE_TYPE
 {

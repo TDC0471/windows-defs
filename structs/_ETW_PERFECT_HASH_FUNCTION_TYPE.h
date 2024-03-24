@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum _ETW_PERFECT_HASH_FUNCTION_TYPE
 {

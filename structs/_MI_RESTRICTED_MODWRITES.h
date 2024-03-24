@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x3 bytes (sizeof)
 struct _MI_RESTRICTED_MODWRITES
 {

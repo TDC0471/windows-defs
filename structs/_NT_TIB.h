@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_EXCEPTION_REGISTRATION_RECORD.h>
+#include <_NT_TIB.h>
+
 //0x38 bytes (sizeof)
 struct _NT_TIB
 {

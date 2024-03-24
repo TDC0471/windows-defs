@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1e bytes (sizeof)
 struct _TOKEN_AUDIT_POLICY
 {

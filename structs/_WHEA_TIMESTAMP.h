@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x8 bytes (sizeof)
 union _WHEA_TIMESTAMP
 {

@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x20 bytes (sizeof)
 struct DEBUG_MEMORY_REQUIREMENTS
 {

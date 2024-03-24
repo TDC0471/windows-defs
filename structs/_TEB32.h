@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_NT_TIB32.h>
+#include <_CLIENT_ID32.h>
+#include <_ACTIVATION_CONTEXT_STACK32.h>
+#include <_GDI_TEB_BATCH32.h>
+#include <_CLIENT_ID32.h>
+#include <_STRING32.h>
+#include <LIST_ENTRY32.h>
+#include <_GUID.h>
+#include <_PROCESSOR_NUMBER.h>
+#include <_GUID.h>
+
 //0x1000 bytes (sizeof)
 struct _TEB32
 {

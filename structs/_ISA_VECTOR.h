@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0xa bytes (sizeof)
 struct _ISA_VECTOR
 {

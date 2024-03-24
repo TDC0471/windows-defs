@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_RTL_BALANCED_NODE.h>
+
 //0x10 bytes (sizeof)
 struct _RTL_RB_TREE
 {

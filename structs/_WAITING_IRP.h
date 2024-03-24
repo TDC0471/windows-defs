@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IRP.h>
+#include <_IRP.h>
+#include <_KEVENT.h>
+#include <_FILE_OBJECT.h>
+
 //0x40 bytes (sizeof)
 struct _WAITING_IRP
 {

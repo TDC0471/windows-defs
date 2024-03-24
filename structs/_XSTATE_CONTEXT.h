@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_XSAVE_AREA.h>
+
 //0x20 bytes (sizeof)
 struct _XSTATE_CONTEXT
 {

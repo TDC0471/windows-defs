@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETW_NOTIFICATION_TYPE.h>
+#include <_GUID.h>
+#include <_GUID.h>
+
 //0x48 bytes (sizeof)
 struct _ETWP_NOTIFICATION_HEADER
 {

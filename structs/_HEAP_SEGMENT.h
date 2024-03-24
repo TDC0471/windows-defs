@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_HEAP.h>
+#include <_HEAP_ENTRY.h>
+#include <_HEAP_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x70 bytes (sizeof)
 struct _HEAP_SEGMENT
 {

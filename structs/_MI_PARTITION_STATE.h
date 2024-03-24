@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_BITMAP.h>
+#include <_RTL_BITMAP.h>
+#include <_MI_PARTITION.h>
+#include <_MI_PARTITION.h>
+#include <_RTL_BITMAP_EX.h>
+#include <_MI_HUGE_PFN.h>
+
 //0xc0 bytes (sizeof)
 struct _MI_PARTITION_STATE
 {

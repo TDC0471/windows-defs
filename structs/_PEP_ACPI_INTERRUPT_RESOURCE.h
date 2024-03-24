@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_PEP_ACPI_RESOURCE_TYPE.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_KINTERRUPT_POLARITY.h>
+#include <_PEP_ACPI_RESOURCE_FLAGS.h>
+
 //0x20 bytes (sizeof)
 struct _PEP_ACPI_INTERRUPT_RESOURCE
 {

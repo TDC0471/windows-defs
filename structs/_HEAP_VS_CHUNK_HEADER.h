@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_HEAP_VS_CHUNK_HEADER_SIZE.h>
+
 //0x10 bytes (sizeof)
 struct _HEAP_VS_CHUNK_HEADER
 {

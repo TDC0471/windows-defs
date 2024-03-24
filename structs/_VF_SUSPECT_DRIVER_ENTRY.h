@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_UNICODE_STRING.h>
+
 //0x28 bytes (sizeof)
 struct _VF_SUSPECT_DRIVER_ENTRY
 {

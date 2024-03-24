@@ -1,7 +1,9 @@
 #pragma once
 /* ------------------ */
 
-#define IMAGE_NT_SIGNATURE 0x4550                                          //0x0
+#include <_IMAGE_FILE_HEADER.h>
+#include <_IMAGE_OPTIONAL_HEADER64.h>
+
 //0x108 bytes (sizeof)
 struct _IMAGE_NT_HEADERS64
 {

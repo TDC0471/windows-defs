@@ -1,6 +1,36 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROFILE_PARAMETER_BLOCK.h>
+#include <_HEADLESS_LOADER_BLOCK.h>
+#include <_SMBIOS3_TABLE_HEADER.h>
+#include <_NETWORK_LOADER_BLOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_LOADER_PERFORMANCE_DATA.h>
+#include <_LIST_ENTRY.h>
+#include <_GUID.h>
+#include <_LIST_ENTRY.h>
+#include <_BOOT_ENTROPY_LDR_RESULT.h>
+#include <_LOADER_PARAMETER_HYPERVISOR_EXTENSION.h>
+#include <_GUID.h>
+#include <_LIST_ENTRY.h>
+#include <_LARGE_INTEGER.h>
+#include <_LOADER_BUGCHECK_PARAMETERS.h>
+#include <_LIST_ENTRY.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_DEBUG_DEVICE_DESCRIPTOR.h>
+#include <_OFFLINE_CRASHDUMP_CONFIGURATION_TABLE_V2.h>
+#include <_UNICODE_STRING.h>
+#include <_LOADER_PARAMETER_CI_EXTENSION.h>
+#include <_LOADER_HIVE_RECOVERY_INFO.h>
+#include <_LEAP_SECOND_DATA.h>
+#include <_LOADER_RESET_REASON.h>
+#include <_VSM_PERFORMANCE_DATA.h>
+#include <_NUMA_MEMORY_RANGE.h>
+#include <_LOADER_FEATURE_CONFIGURATION_INFORMATION.h>
+
 //0xe38 bytes (sizeof)
 struct _LOADER_PARAMETER_EXTENSION
 {

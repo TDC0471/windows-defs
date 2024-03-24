@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_UNICODE_STRING.h>
+
 //0xa8 bytes (sizeof)
 struct _MM_DRIVER_VERIFIER_DATA
 {

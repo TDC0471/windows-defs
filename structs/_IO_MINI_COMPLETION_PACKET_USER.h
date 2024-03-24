@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_IO_MINI_COMPLETION_PACKET_USER.h>
+
 //0x50 bytes (sizeof)
 struct _IO_MINI_COMPLETION_PACKET_USER
 {

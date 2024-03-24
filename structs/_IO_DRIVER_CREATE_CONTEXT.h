@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_ECP_LIST.h>
+#include <_TXN_PARAMETER_BLOCK.h>
+#include <_EJOB.h>
+
 //0x28 bytes (sizeof)
 struct _IO_DRIVER_CREATE_CONTEXT
 {

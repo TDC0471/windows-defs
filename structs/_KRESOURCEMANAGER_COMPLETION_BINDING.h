@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_EPROCESS.h>
+
 //0x28 bytes (sizeof)
 struct _KRESOURCEMANAGER_COMPLETION_BINDING
 {

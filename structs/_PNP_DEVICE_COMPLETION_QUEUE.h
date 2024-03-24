@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KSEMAPHORE.h>
+
 //0x50 bytes (sizeof)
 struct _PNP_DEVICE_COMPLETION_QUEUE
 {

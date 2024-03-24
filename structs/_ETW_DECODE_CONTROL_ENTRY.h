@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_ETW_DECODE_CONTROL_ENTRY.h>
+#include <_GUID.h>
+#include <_GUID.h>
+
 //0x30 bytes (sizeof)
 struct _ETW_DECODE_CONTROL_ENTRY
 {

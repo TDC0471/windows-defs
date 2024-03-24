@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_KTHREAD.h>
+#include <_VI_DEADLOCK_NODE.h>
+#include <_VI_DEADLOCK_NODE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x38 bytes (sizeof)
 struct _VI_DEADLOCK_THREAD
 {

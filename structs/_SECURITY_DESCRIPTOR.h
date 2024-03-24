@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_ACL.h>
+#include <_ACL.h>
+
 //0x28 bytes (sizeof)
 struct _SECURITY_DESCRIPTOR
 {

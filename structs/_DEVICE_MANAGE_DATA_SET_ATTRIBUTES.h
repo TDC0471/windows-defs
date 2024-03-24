@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x1c bytes (sizeof)
 struct _DEVICE_MANAGE_DATA_SET_ATTRIBUTES
 {

@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BALANCED_NODE.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_MI_PROTOTYPE_PTES_NODE.h>
+#include <_SUBSECTION.h>
+#include <_MMPTE.h>
+
 //0x58 bytes (sizeof)
 struct _MI_PER_SESSION_PROTOS
 {

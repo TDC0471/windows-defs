@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_WHEAP_ERROR_RECORD_WRAPPER_FLAGS.h>
+#include <_WHEAP_ERROR_SOURCE.h>
+#include <_WHEA_ERROR_RECORD.h>
+
 //0xf0 bytes (sizeof)
 struct _WHEAP_ERROR_RECORD_WRAPPER
 {

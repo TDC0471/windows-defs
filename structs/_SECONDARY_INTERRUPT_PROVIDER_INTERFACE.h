@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_DRIVER_OBJECT.h>
+
 //0x58 bytes (sizeof)
 struct _SECONDARY_INTERRUPT_PROVIDER_INTERFACE
 {

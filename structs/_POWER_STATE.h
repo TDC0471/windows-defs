@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SYSTEM_POWER_STATE.h>
+#include <_DEVICE_POWER_STATE.h>
+
 //0x4 bytes (sizeof)
 union _POWER_STATE
 {

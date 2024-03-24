@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x4 bytes (sizeof)
 enum ETW_COMPRESSION_RESUMPTION_MODE
 {

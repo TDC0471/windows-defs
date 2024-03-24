@@ -1,6 +1,27 @@
 #pragma once
 /* ------------------ */
 
+#include <_GENERIC_MAPPING.h>
+#include <_POOL_TYPE.h>
+#include <_OBJECT_DUMP_CONTROL.h>
+#include <_OB_OPEN_REASON.h>
+#include <_EPROCESS.h>
+#include <_EPROCESS.h>
+#include <_ACCESS_STATE.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+#include <_ACCESS_STATE.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_SECURITY_QUALITY_OF_SERVICE.h>
+#include <_OB_EXTENDED_PARSE_PARAMETERS.h>
+#include <_SECURITY_OPERATION_CODE.h>
+#include <_POOL_TYPE.h>
+#include <_GENERIC_MAPPING.h>
+#include <_OBJECT_NAME_INFORMATION.h>
+#include <_EPROCESS.h>
+
 //0x78 bytes (sizeof)
 struct _OBJECT_TYPE_INITIALIZER
 {

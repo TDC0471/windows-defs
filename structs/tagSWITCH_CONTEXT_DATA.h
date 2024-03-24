@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+#include <_GUID.h>
+#include <_GUID.h>
+
 //0x340 bytes (sizeof)
 struct tagSWITCH_CONTEXT_DATA
 {

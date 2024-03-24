@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_PS_TRUSTLET_ATTRIBUTE_TYPE.h>
+
 //0x8 bytes (sizeof)
 struct _PS_TRUSTLET_ATTRIBUTE_HEADER
 {

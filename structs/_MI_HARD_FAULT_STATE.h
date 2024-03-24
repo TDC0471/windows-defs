@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPFN.h>
+#include <_MI_STORE_INPAGE_COMPLETE_FLAGS.h>
+
 //0x10 bytes (sizeof)
 struct _MI_HARD_FAULT_STATE
 {

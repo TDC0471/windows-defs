@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x218 bytes (sizeof)
 struct _POP_THERMAL_TELEMETRY_TRACKER
 {

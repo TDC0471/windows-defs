@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x80 bytes (sizeof)
 struct _OBJECT_REF_TRACE
 {

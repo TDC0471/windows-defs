@@ -1,6 +1,13 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_VF_ADDRESS_RANGE.h>
+#include <_LIST_ENTRY.h>
+#include <_VF_ADDRESS_RANGE.h>
+#include <_VI_DEADLOCK_NODE.h>
+#include <_KERNEL_STACK_LIMITS.h>
+
 //0x8180 bytes (sizeof)
 struct _VI_DEADLOCK_GLOBALS
 {

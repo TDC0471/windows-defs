@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <RTL_HP_ENV_HANDLE.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_RB_TREE.h>
+#include <_SINGLE_LIST_ENTRY.h>
+
 //0xc0 bytes (sizeof)
 struct _HEAP_SEG_CONTEXT
 {

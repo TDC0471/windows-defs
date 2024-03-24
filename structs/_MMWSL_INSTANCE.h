@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+#include <_MMPTE.h>
+
 //0x28 bytes (sizeof)
 struct _MMWSL_INSTANCE
 {

@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x80 bytes (sizeof)
 struct _POP_PER_PROCESSOR_CONTEXT
 {

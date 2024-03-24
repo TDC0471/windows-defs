@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_WHEAP_ERROR_SOURCE_TABLE.h>
+#include <_WHEAP_WORK_QUEUE.h>
+
 //0x18 bytes (sizeof)
 struct _WHEAP_INFO_BLOCK
 {

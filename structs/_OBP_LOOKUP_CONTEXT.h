@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_DIRECTORY.h>
+#include <_OBJECT_DIRECTORY_ENTRY.h>
+
 //0x28 bytes (sizeof)
 struct _OBP_LOOKUP_CONTEXT
 {

@@ -1,7 +1,69 @@
 #pragma once
 /* ------------------ */
 
-//0x550 bytes (sizeof)
+#include <_ETHREAD.h>
+#include <_ETW_BUFFER_QUEUE.h>
+#include <_ETW_BUFFER_QUEUE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_ETW_DECODE_CONTROL_ENTRY.h>
+#include <_WMI_BUFFER_HEADER.h>
+#include <_EX_FAST_REF.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_UNICODE_STRING.h>
+#include <_LARGE_INTEGER.h>
+#include <_GUID.h>
+#include <_POOL_TYPE.h>
+#include <_ETW_REF_CLOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_ETW_REALTIME_CONSUMER.h>
+#include <_UNICODE_STRING.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_ETW_REF_CLOCK.h>
+#include <_ETW_RT_EVENT_LOSS.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KTIMER.h>
+#include <_KDPC.h>
+#include <_KMUTANT.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_SECURITY_CLIENT_CONTEXT.h>
+#include <_TOKEN_ACCESS_INFORMATION.h>
+#include <_EX_FAST_REF.h>
+#include <_LARGE_INTEGER.h>
+#include <_ETW_STACK_TRACE_BLOCK.h>
+#include <_RTL_BITMAP.h>
+#include <_ETW_STACK_CACHE.h>
+#include <_ETW_PMC_SUPPORT.h>
+#include <_ETW_LBR_SUPPORT.h>
+#include <_ETW_IPT_SUPPORT.h>
+#include <_LIST_ENTRY.h>
+#include <_WMI_BUFFER_HEADER.h>
+#include <_DISALLOWED_GUIDS.h>
+#include <PERIODIC_CAPTURE_STATE_CONTEXT.h>
+#include <_ETW_SOFT_RESTART_CONTEXT.h>
+#include <_ETW_SILODRIVERSTATE.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_WMI_BUFFER_HEADER.h>
+#include <ETW_COMPRESSION_RESUMPTION_MODE.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_KDPC.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_ETW_EVENT_CALLBACK_CONTEXT.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_ETW_PARTITION_CONTEXT.h>
+#include <_MDL.h>
+
+//0x530 bytes (sizeof)
 struct _WMI_LOGGER_CONTEXT
 {
     ULONG LoggerId;                                                         //0x0
@@ -146,33 +208,30 @@ struct _WMI_LOGGER_CONTEXT
     struct _LIST_ENTRY BinaryTrackingList;                                  //0x400
     struct _WMI_BUFFER_HEADER** ScratchArray;                               //0x410
     struct _DISALLOWED_GUIDS DisallowedGuids;                               //0x418
-    LONGLONG RelativeTimerDueTime;                                          //0x428
-    struct _PERIODIC_CAPTURE_STATE_GUIDS PeriodicCaptureStateGuids;         //0x430
-    struct _EX_TIMER* PeriodicCaptureStateTimer;                            //0x440
-    enum _ETW_PERIODIC_TIMER_STATE PeriodicCaptureStateTimerState;          //0x448
-    struct _ETW_SOFT_RESTART_CONTEXT* SoftRestartContext;                   //0x450
-    struct _ETW_SILODRIVERSTATE* SiloState;                                 //0x458
-    struct _WORK_QUEUE_ITEM CompressionWorkItem;                            //0x460
-    LONG CompressionWorkItemState;                                          //0x480
-    struct _EX_PUSH_LOCK CompressionLock;                                   //0x488
-    struct _WMI_BUFFER_HEADER* CompressionTarget;                           //0x490
-    VOID* CompressionWorkspace;                                             //0x498
-    LONG CompressionOn;                                                     //0x4a0
-    ULONG CompressionRatioGuess;                                            //0x4a4
-    ULONG PartialBufferCompressionLevel;                                    //0x4a8
-    enum ETW_COMPRESSION_RESUMPTION_MODE CompressionResumptionMode;         //0x4ac
-    struct _SINGLE_LIST_ENTRY PlaceholderList;                              //0x4b0
-    struct _KDPC CompressionDpc;                                            //0x4b8
-    union _LARGE_INTEGER LastBufferSwitchTime;                              //0x4f8
-    union _LARGE_INTEGER BufferWriteDuration;                               //0x500
-    union _LARGE_INTEGER BufferCompressDuration;                            //0x508
-    LONGLONG ReferenceQpcDelta;                                             //0x510
-    struct _ETW_EVENT_CALLBACK_CONTEXT* CallbackContext;                    //0x518
-    union _LARGE_INTEGER* LastDroppedTime;                                  //0x520
-    union _LARGE_INTEGER* FlushingLastDroppedTime;                          //0x528
-    LONGLONG FlushingSequenceNumber;                                        //0x530
-    struct _ETW_PARTITION_CONTEXT PartitionContext;                         //0x538
-    struct _MDL* BufferMdl;                                                 //0x540
+    struct PERIODIC_CAPTURE_STATE_CONTEXT* PeriodicCaptureStateContext;     //0x428
+    struct _ETW_SOFT_RESTART_CONTEXT* SoftRestartContext;                   //0x430
+    struct _ETW_SILODRIVERSTATE* SiloState;                                 //0x438
+    struct _WORK_QUEUE_ITEM CompressionWorkItem;                            //0x440
+    LONG CompressionWorkItemState;                                          //0x460
+    struct _EX_PUSH_LOCK CompressionLock;                                   //0x468
+    struct _WMI_BUFFER_HEADER* CompressionTarget;                           //0x470
+    VOID* CompressionWorkspace;                                             //0x478
+    LONG CompressionOn;                                                     //0x480
+    ULONG CompressionRatioGuess;                                            //0x484
+    ULONG PartialBufferCompressionLevel;                                    //0x488
+    enum ETW_COMPRESSION_RESUMPTION_MODE CompressionResumptionMode;         //0x48c
+    struct _SINGLE_LIST_ENTRY PlaceholderList;                              //0x490
+    struct _KDPC CompressionDpc;                                            //0x498
+    union _LARGE_INTEGER LastBufferSwitchTime;                              //0x4d8
+    union _LARGE_INTEGER BufferWriteDuration;                               //0x4e0
+    union _LARGE_INTEGER BufferCompressDuration;                            //0x4e8
+    LONGLONG ReferenceQpcDelta;                                             //0x4f0
+    struct _ETW_EVENT_CALLBACK_CONTEXT* CallbackContext;                    //0x4f8
+    union _LARGE_INTEGER* LastDroppedTime;                                  //0x500
+    union _LARGE_INTEGER* FlushingLastDroppedTime;                          //0x508
+    LONGLONG FlushingSequenceNumber;                                        //0x510
+    struct _ETW_PARTITION_CONTEXT PartitionContext;                         //0x518
+    struct _MDL* BufferMdl;                                                 //0x520
 };
 /* Used in */
 // _ETW_SILODRIVERSTATE

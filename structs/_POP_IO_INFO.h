@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_MDL.h>
+#include <_POP_IO_STATUS.h>
+#include <_LARGE_INTEGER.h>
+
 //0x70 bytes (sizeof)
 struct _POP_IO_INFO
 {

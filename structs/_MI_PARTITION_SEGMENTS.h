@@ -1,6 +1,28 @@
 #pragma once
 /* ------------------ */
 
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_MMPAGE_FILE_EXPANSION.h>
+#include <_MMDEREFERENCE_SEGMENT_HEADER.h>
+#include <_LIST_ENTRY.h>
+#include <_KTIMER.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_MI_PTE_CHAIN_HEAD.h>
+#include <_KEVENT.h>
+#include <_SLIST_HEADER.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_KEVENT.h>
+#include <_MI_CROSS_PARTITION_CHARGES.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_EX_RUNDOWN_REF_CACHE_AWARE.h>
+
 //0x340 bytes (sizeof)
 struct _MI_PARTITION_SEGMENTS
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+
 //0x1c bytes (sizeof)
 struct _RSDS
 {

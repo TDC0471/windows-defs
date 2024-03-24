@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK_AUTO_EXPAND_STATE.h>
+
 //0x10 bytes (sizeof)
 struct _EX_PUSH_LOCK_AUTO_EXPAND
 {

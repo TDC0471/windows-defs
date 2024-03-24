@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_OBJECT_FOOTER.h>
+
 //0x10 bytes (sizeof)
 struct _OBJECT_HEADER_EXTENDED_INFO
 {

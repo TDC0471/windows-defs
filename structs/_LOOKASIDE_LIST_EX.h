@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_GENERAL_LOOKASIDE_POOL.h>
+
 //0x60 bytes (sizeof)
 struct _LOOKASIDE_LIST_EX
 {

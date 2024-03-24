@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_PEP_ACPI_RESOURCE_TYPE.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x20 bytes (sizeof)
 struct _PEP_ACPI_IO_MEMORY_RESOURCE
 {

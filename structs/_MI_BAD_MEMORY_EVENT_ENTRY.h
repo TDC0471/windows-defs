@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_WORK_QUEUE_ITEM.h>
+
 //0x38 bytes (sizeof)
 struct _MI_BAD_MEMORY_EVENT_ENTRY
 {

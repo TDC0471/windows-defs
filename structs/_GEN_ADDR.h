@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0xc bytes (sizeof)
 struct _GEN_ADDR
 {

@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_DMA_REQUEST_LINE_BINDING_DESCRIPTION.h>
+#include <_DMA_SCATTER_GATHER_LIST.h>
+#include <_LARGE_INTEGER.h>
+#include <_DMA_INTERRUPT_TYPE.h>
+#include <_LARGE_INTEGER.h>
+
 //0x50 bytes (sizeof)
 struct _DMA_FUNCTION_TABLE
 {

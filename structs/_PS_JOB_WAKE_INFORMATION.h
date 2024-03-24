@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x48 bytes (sizeof)
 struct _PS_JOB_WAKE_INFORMATION
 {

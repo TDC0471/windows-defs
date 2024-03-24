@@ -1,6 +1,14 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_POP_RW_LOCK.h>
+#include <_DEVICE_OBJECT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_THERMAL_COOLING_INTERFACE.h>
+
 //0x90 bytes (sizeof)
 struct _POP_COOLING_EXTENSION
 {

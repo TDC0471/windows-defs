@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_GUID.h>
+
 //0x40 bytes (sizeof)
 struct _HEADLESS_LOADER_BLOCK
 {

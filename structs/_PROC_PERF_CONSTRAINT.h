@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_PROC_PERF_CHECK_CONTEXT.h>
+#include <_PROCESSOR_PRESENCE.h>
+#include <_PERF_CONTROL_STATE_SELECTION.h>
+
 //0x88 bytes (sizeof)
 struct _PROC_PERF_CONSTRAINT
 {

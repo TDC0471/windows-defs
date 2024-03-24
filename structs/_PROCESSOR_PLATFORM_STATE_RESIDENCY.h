@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _PROCESSOR_PLATFORM_STATE_RESIDENCY
 {

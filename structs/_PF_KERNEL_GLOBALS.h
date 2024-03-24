@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_RUNDOWN_REF.h>
+#include <_KEVENT.h>
+#include <_SLIST_HEADER.h>
+
 //0x60 bytes (sizeof)
 struct _PF_KERNEL_GLOBALS
 {

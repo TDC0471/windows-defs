@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KDESCRIPTOR.h>
+#include <_KDESCRIPTOR.h>
+
 //0xf0 bytes (sizeof)
 struct _KSPECIAL_REGISTERS
 {

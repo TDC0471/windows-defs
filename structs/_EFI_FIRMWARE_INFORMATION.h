@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_VIRTUAL_EFI_RUNTIME_SERVICES.h>
+#include <_LIST_ENTRY.h>
+
 //0x38 bytes (sizeof)
 struct _EFI_FIRMWARE_INFORMATION
 {

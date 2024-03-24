@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_ERESOURCE.h>
+#include <_ERESOURCE.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+#include <_FAST_MUTEX.h>
+#include <_LIST_ENTRY.h>
+#include <_EX_PUSH_LOCK.h>
+
 //0x68 bytes (sizeof)
 struct _FSRTL_ADVANCED_FCB_HEADER
 {

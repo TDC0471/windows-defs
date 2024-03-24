@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BITMAP_EX.h>
+#include <_MMPTE.h>
+#include <_MI_SYSTEM_VA_TYPE.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_MI_CACHED_PTES.h>
+
 //0x60 bytes (sizeof)
 struct _MI_SYSTEM_PTE_TYPE
 {

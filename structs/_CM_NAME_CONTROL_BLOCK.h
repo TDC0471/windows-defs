@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_CM_NAME_HASH.h>
+#include <_CM_COMPONENT_HASH.h>
+#include <_CM_KEY_HASH.h>
+
 //0x20 bytes (sizeof)
 struct _CM_NAME_CONTROL_BLOCK
 {

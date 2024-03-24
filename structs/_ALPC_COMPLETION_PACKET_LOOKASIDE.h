@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SINGLE_LIST_ENTRY.h>
+#include <_ALPC_COMPLETION_PACKET_LOOKASIDE_ENTRY.h>
+
 //0x50 bytes (sizeof)
 struct _ALPC_COMPLETION_PACKET_LOOKASIDE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_ALIGNED_SLIST.h>
+
 //0x200 bytes (sizeof)
 struct _MI_ULTRA_MDL_NODE
 {

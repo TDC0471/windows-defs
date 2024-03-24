@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BITMAP_EX.h>
+
 //0x40 bytes (sizeof)
 struct _MI_ULTRA_VA_CONTEXT
 {

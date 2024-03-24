@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_SECURITY_IMPERSONATION_LEVEL.h>
+
 //0x20 bytes (sizeof)
 struct _SECURITY_SUBJECT_CONTEXT
 {

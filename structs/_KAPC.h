@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_KTHREAD.h>
+#include <_LIST_ENTRY.h>
+#include <_KAPC.h>
+#include <_KAPC.h>
+
 //0x58 bytes (sizeof)
 struct _KAPC
 {
@@ -11,7 +16,16 @@ struct _KAPC
     ULONG SpareLong0;                                                       //0x4
     struct _KTHREAD* Thread;                                                //0x8
     struct _LIST_ENTRY ApcListEntry;                                        //0x10
-    VOID* Reserved[3];                                                      //0x20
+    union
+    {
+        struct
+        {
+            VOID (*KernelRoutine)(struct _KAPC* arg1, VOID (**arg2)(VOID* arg1, VOID* arg2, VOID* arg3), VOID** arg3, VOID** arg4, VOID** arg5); //0x20
+            VOID (*RundownRoutine)(struct _KAPC* arg1);                     //0x28
+            VOID (*NormalRoutine)(VOID* arg1, VOID* arg2, VOID* arg3);      //0x30
+        };
+        VOID* Reserved[3];                                                  //0x20
+    };
     VOID* NormalContext;                                                    //0x38
     VOID* SystemArgument1;                                                  //0x40
     VOID* SystemArgument2;                                                  //0x48

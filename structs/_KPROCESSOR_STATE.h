@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_KSPECIAL_REGISTERS.h>
+#include <_CONTEXT.h>
+
 //0x5c0 bytes (sizeof)
 struct _KPROCESSOR_STATE
 {

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_CLIENT_ID.h>
+
 //0xa0 bytes (sizeof)
 struct _HANDLE_TRACE_DB_ENTRY
 {

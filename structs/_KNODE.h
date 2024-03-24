@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_GROUP_AFFINITY.h>
+#include <_flags.h>
+#include <_KHETERO_PROCESSOR_SET.h>
+#include <_KQOS_GROUPING_SETS.h>
+
 //0x180 bytes (sizeof)
 struct _KNODE
 {

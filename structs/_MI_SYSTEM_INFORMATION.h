@@ -1,6 +1,30 @@
 #pragma once
 /* ------------------ */
 
+#include <_MI_POOL_STATE.h>
+#include <_MI_SECTION_STATE.h>
+#include <_MI_SYSTEM_IMAGE_STATE.h>
+#include <_MI_SESSION_STATE.h>
+#include <_MI_PROCESS_STATE.h>
+#include <_MI_HARDWARE_STATE.h>
+#include <_MI_SYSTEM_VA_STATE.h>
+#include <_MI_COMBINE_STATE.h>
+#include <_MI_PAGELIST_STATE.h>
+#include <_MI_PARTITION_STATE.h>
+#include <_MI_SHUTDOWN_STATE.h>
+#include <_MI_ERROR_STATE.h>
+#include <_MI_ACCESS_LOG_STATE.h>
+#include <_MI_DEBUGGER_STATE.h>
+#include <_MI_STANDBY_STATE.h>
+#include <_MI_SYSTEM_PTE_STATE.h>
+#include <_MI_IO_PAGE_STATE.h>
+#include <_MI_PAGING_IO_STATE.h>
+#include <_MI_COMMON_PAGE_STATE.h>
+#include <_MI_SYSTEM_TRIM_STATE.h>
+#include <_MI_ENCLAVE_STATE.h>
+#include <_tlgProvider_t.h>
+#include <_MI_VISIBLE_STATE.h>
+
 //0x32c0 bytes (sizeof)
 struct _MI_SYSTEM_INFORMATION
 {

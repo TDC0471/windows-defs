@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x30 bytes (sizeof)
 struct _LOADER_RESET_REASON
 {

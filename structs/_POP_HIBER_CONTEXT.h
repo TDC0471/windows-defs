@@ -1,6 +1,22 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_BITMAP.h>
+#include <_RTL_BITMAP.h>
+#include <_RTL_BITMAP.h>
+#include <_LIST_ENTRY.h>
+#include <_RTL_BITMAP.h>
+#include <_LIST_ENTRY.h>
+#include <_MDL.h>
+#include <_MDL.h>
+#include <_DUMP_STACK_CONTEXT.h>
+#include <_KPROCESSOR_STATE.h>
+#include <PO_MEMORY_IMAGE.h>
+#include <_MDL.h>
+#include <_MDL.h>
+#include <_POP_PER_PROCESSOR_CONTEXT.h>
+#include <_POP_IO_INFO.h>
+
 //0x1c8 bytes (sizeof)
 struct _POP_HIBER_CONTEXT
 {

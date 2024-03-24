@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x18 bytes (sizeof)
 struct _SHARED_CACHE_MAP_LIST_CURSOR
 {

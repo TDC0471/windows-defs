@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_RTL_AVL_TREE.h>
+#include <_RTL_AVL_TREE.h>
+#include <_MMPFN.h>
+#include <_MMPFN.h>
+
 //0x88 bytes (sizeof)
 struct _MI_PAGELIST_STATE
 {

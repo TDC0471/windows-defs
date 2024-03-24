@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_PNP_REPLACE_PROCESSOR_LIST.h>
+#include <_PNP_REPLACE_PROCESSOR_LIST.h>
+
 //0x18 bytes (sizeof)
 struct _HAL_DP_REPLACE_PARAMETERS
 {

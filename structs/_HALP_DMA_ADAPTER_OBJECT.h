@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_DMA_ADAPTER.h>
+#include <_RTL_BITMAP.h>
+#include <_HALP_DMA_TRANSLATION_ENTRY.h>
+#include <_HALP_DMA_TRANSLATION_BUFFER.h>
+#include <_HALP_DMA_TRANSLATION_BUFFER.h>
+#include <_HALP_DMA_TRANSLATION_BUFFER_POSITION.h>
+#include <_HALP_DMA_TRANSLATION_BUFFER_POSITION.h>
+#include <_HALP_DMA_TRANSLATION_BUFFER_POSITION.h>
+#include <_HALP_DMA_TRANSLATION_BUFFER_POSITION.h>
+#include <_LARGE_INTEGER.h>
+
 //0x98 bytes (sizeof)
 struct _HALP_DMA_ADAPTER_OBJECT
 {

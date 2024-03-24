@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_PEP_ACPI_RESOURCE_TYPE.h>
+#include <_PEP_ACPI_RESOURCE_FLAGS.h>
+#include <_UNICODE_STRING.h>
+
 //0x28 bytes (sizeof)
 struct _PEP_ACPI_SPB_RESOURCE
 {

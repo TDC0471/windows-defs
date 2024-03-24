@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_CMHIVE.h>
+#include <_CMHIVE.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_KEVENT.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_EX_PUSH_LOCK.h>
+#include <_LIST_ENTRY.h>
+#include <_WORK_QUEUE_ITEM.h>
+#include <_UNICODE_STRING.h>
+
 //0xc8 bytes (sizeof)
 struct _HIVE_LIST_ENTRY
 {

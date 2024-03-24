@@ -1,6 +1,17 @@
 #pragma once
 /* ------------------ */
 
+#include <_DMA_ADAPTER.h>
+#include <_DEVICE_OBJECT.h>
+#include <DMA_COMPLETION_STATUS.h>
+#include <_ADAPTER_OBJECT.h>
+#include <_DMA_INTERRUPT_TYPE.h>
+#include <_KDPC.h>
+#include <_KINTERRUPT_POLARITY.h>
+#include <_KINTERRUPT_MODE.h>
+#include <_LARGE_INTEGER.h>
+#include <_LIST_ENTRY.h>
+
 //0xa0 bytes (sizeof)
 struct _HALP_DMA_CHANNEL
 {

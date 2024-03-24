@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_FILE_OBJECT.h>
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_CC_PARTITION.h>
+#include <_LARGE_INTEGER.h>
+
 //0x60 bytes (sizeof)
 struct _DEFERRED_WRITE
 {

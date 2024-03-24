@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <POWER_ACTION.h>
+
 //0xc bytes (sizeof)
 struct POWER_ACTION_POLICY
 {

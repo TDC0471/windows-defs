@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+
 //0x10 bytes (sizeof)
 struct _MMWORKING_SET_EXPANSION_HEAD
 {

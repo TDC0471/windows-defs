@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x8 bytes (sizeof)
 union _JOBOBJECT_ENERGY_TRACKING_STATE
 {

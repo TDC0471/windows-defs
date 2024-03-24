@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x28 bytes (sizeof)
 struct _HIDDEN_PROCESSOR_POWER_INTERFACE
 {

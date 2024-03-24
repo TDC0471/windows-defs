@@ -1,6 +1,15 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_KEVENT.h>
+#include <_PNP_VETO_TYPE.h>
+#include <_UNICODE_STRING.h>
+#include <_PNP_DEVICE_EVENT_ENTRY.h>
+#include <_GUID.h>
+#include <_PNP_WATCHDOG.h>
+#include <_PLUGPLAY_EVENT_BLOCK.h>
+
 //0xc0 bytes (sizeof)
 struct _PNP_DEVICE_EVENT_ENTRY
 {

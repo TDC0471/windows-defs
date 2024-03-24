@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_TIME_FIELDS.h>
+#include <_TIME_FIELDS.h>
+
 //0xac bytes (sizeof)
 struct _RTL_TIME_ZONE_INFORMATION
 {

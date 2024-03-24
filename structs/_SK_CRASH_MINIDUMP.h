@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SK_CRASH_MODULE.h>
+#include <_SK_CRASH_STACK_FRAME.h>
+
 //0x1000 bytes (sizeof)
 struct _SK_CRASH_MINIDUMP
 {

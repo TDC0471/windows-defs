@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_SEGMENT_HEAP.h>
+#include <_RTL_DYNAMIC_LOOKASIDE.h>
+
 //0x20c0 bytes (sizeof)
 struct _EX_HEAP_POOL_NODE
 {

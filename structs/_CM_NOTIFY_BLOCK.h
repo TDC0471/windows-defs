@@ -1,6 +1,12 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_CM_KEY_CONTROL_BLOCK.h>
+#include <_CM_KEY_BODY.h>
+#include <_SECURITY_SUBJECT_CONTEXT.h>
+
 //0x58 bytes (sizeof)
 struct _CM_NOTIFY_BLOCK
 {

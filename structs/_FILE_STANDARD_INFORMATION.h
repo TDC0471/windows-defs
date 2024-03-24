@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+#include <_LARGE_INTEGER.h>
+
 //0x18 bytes (sizeof)
 struct _FILE_STANDARD_INFORMATION
 {

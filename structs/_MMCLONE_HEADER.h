@@ -1,6 +1,9 @@
 #pragma once
 /* ------------------ */
 
+#include <_MMCLONE_BLOCK.h>
+#include <_MI_PARTITION.h>
+
 //0x20 bytes (sizeof)
 struct _MMCLONE_HEADER
 {

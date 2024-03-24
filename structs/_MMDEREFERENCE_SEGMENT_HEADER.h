@@ -1,6 +1,11 @@
 #pragma once
 /* ------------------ */
 
+#include <_KSEMAPHORE.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+#include <_LIST_ENTRY.h>
+
 //0x50 bytes (sizeof)
 struct _MMDEREFERENCE_SEGMENT_HEADER
 {

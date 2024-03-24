@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_MM_PAGE_ACCESS_INFO_FLAGS.h>
+
 //0x8 bytes (sizeof)
 struct _MM_PAGE_ACCESS_INFO
 {

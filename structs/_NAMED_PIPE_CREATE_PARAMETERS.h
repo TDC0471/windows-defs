@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_LARGE_INTEGER.h>
+
 //0x28 bytes (sizeof)
 struct _NAMED_PIPE_CREATE_PARAMETERS
 {

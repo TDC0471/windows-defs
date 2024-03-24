@@ -1,6 +1,7 @@
 #pragma once
 /* ------------------ */
 
+
 //0x10 bytes (sizeof)
 struct _POP_FX_DEVICE_DIRECTED_TRANSITION_STATE
 {

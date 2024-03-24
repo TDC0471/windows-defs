@@ -1,13 +1,28 @@
 #pragma once
 /* ------------------ */
 
+#include <_MDL.h>
+#include <_IRP.h>
+#include <_LIST_ENTRY.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_KEVENT.h>
+#include <_IO_STATUS_BLOCK.h>
+#include <_LARGE_INTEGER.h>
+#include <_DEVICE_OBJECT.h>
+#include <_IRP.h>
+#include <_KDEVICE_QUEUE_ENTRY.h>
+#include <_ETHREAD.h>
+#include <_LIST_ENTRY.h>
+#include <_IO_STACK_LOCATION.h>
+#include <_FILE_OBJECT.h>
+#include <_KAPC.h>
+
 //0xd0 bytes (sizeof)
 struct _IRP
 {
     SHORT Type;                                                             //0x0
     USHORT Size;                                                            //0x2
-    USHORT AllocationProcessorNumber;                                       //0x4
-    USHORT Reserved;                                                        //0x6
     struct _MDL* MdlAddress;                                                //0x8
     ULONG Flags;                                                            //0x10
     union
@@ -61,7 +76,6 @@ struct _IRP
                 ULONG PacketType;                                           //0xb8
             };
             struct _FILE_OBJECT* OriginalFileObject;                        //0xc0
-            VOID* IrpExtension;                                             //0xc8
         } Overlay;                                                          //0x78
         struct _KAPC Apc;                                                   //0x78
         VOID* CompletionKey;                                                //0x78

@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_WORK_QUEUE_ITEM.h>
+
 //0x28 bytes (sizeof)
 struct _MI_COMBINE_WORKITEM
 {

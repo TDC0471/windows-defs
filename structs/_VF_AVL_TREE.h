@@ -1,6 +1,8 @@
 #pragma once
 /* ------------------ */
 
+#include <_VF_AVL_TABLE.h>
+
 //0x28 bytes (sizeof)
 struct _VF_AVL_TREE
 {

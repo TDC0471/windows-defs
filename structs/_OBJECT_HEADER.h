@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_EX_PUSH_LOCK.h>
+#include <_OBJECT_CREATE_INFORMATION.h>
+#include <_QUAD.h>
+
 //0x38 bytes (sizeof)
 struct _OBJECT_HEADER
 {

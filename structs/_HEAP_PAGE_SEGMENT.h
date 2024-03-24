@@ -1,6 +1,10 @@
 #pragma once
 /* ------------------ */
 
+#include <_LIST_ENTRY.h>
+#include <_HEAP_SEGMENT_MGR_COMMIT_STATE.h>
+#include <_HEAP_PAGE_RANGE_DESCRIPTOR.h>
+
 //0x2000 bytes (sizeof)
 union _HEAP_PAGE_SEGMENT
 {
