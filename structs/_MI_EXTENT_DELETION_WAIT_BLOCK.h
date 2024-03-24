@@ -1,0 +1,13 @@
+#pragma once
+/* ------------------ */
+
+//0x20 bytes (sizeof)
+struct _MI_EXTENT_DELETION_WAIT_BLOCK
+{
+    struct _MI_EXTENT_DELETION_WAIT_BLOCK* Next;                            //0x0
+    struct _KGATE Gate;                                                     //0x8
+};
+/* Used in */
+// _MI_EXTENT_DELETION_WAIT_BLOCK
+// _MI_SECTION_STATE
+

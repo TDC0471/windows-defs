@@ -1,0 +1,13 @@
+#pragma once
+/* ------------------ */
+
+//0x10 bytes (sizeof)
+struct _POP_RW_LOCK
+{
+    struct _EX_PUSH_LOCK Lock;                                              //0x0
+    struct _KTHREAD* Thread;                                                //0x8
+};
+/* Used in */
+// _POP_COOLING_EXTENSION
+// _POP_THERMAL_ZONE
+

@@ -1,0 +1,12 @@
+#pragma once
+/* ------------------ */
+
+//0x50 bytes (sizeof)
+struct _CELL_DATA
+{
+    union _u u;                                                             //0x0
+};
+/* Used in */
+// _HHIVE
+// _HIVE_LOAD_FAILURE
+
